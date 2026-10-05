@@ -1,0 +1,43 @@
+{
+  "title": "Another Simple Money Bond",
+  "filename": "ANOTHER-SIMPLE-MONEY-BOND.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for another simple money bond",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "field_value",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

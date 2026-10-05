@@ -1,0 +1,75 @@
+{
+  "title": "Power Of Attorney By A Company To Its Branch Manager",
+  "filename": "Power-Of-Attorney-By-A-Company-To-Its-Branch-Manager.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Business Related",
+  "description": "Legal template for power of attorney by a company to its branch manager",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "age",
+    "age_2",
+    "field_value",
+    "age_3",
+    "witness_name",
+    "date",
+    "place_2"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Gift Revocation Gift Deed",
+  "filename": "Gift-Revocation-Gift-Deed.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "Legal template for gift revocation gift deed",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "field_value",
+    "address",
+    "field_value_2",
+    "witness_name",
+    "party_name",
+    "party_name_2",
+    "signatory_name"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Proforma Of A Complaint Under Section 138 By A Firm",
+  "filename": "Proforma-of-a-complaint-under-section-138-by-a-firm.docx",
+  "category": "NI Drafts",
+  "subcategory": "Complaints",
+  "description": "Legal template for proforma of a complaint under section 138 by a firm",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

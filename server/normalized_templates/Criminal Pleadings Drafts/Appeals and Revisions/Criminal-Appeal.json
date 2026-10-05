@@ -1,0 +1,184 @@
+{
+  "title": "Criminal Appeal",
+  "filename": "Criminal-Appeal.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Appeals and Revisions",
+  "description": "A criminal appeal used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "criminal_appeal_no",
+      "type": "text",
+      "label": "Criminal Appeal No",
+      "required": true,
+      "placeholder": "Enter criminal appeal no here",
+      "description": "Enter criminal appeal no"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "through_parokar",
+      "type": "text",
+      "label": "Through Parokar",
+      "required": true,
+      "placeholder": "Enter through parokar here",
+      "description": "Enter through parokar"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "party_name_2",
+    "place",
+    "date",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "witness_name",
+    "amount",
+    "party_name_6",
+    "party_name_7",
+    "signatory_name",
+    "criminal_appeal_no",
+    "placecity",
+    "fathers_name",
+    "through_parokar"
+  ],
+  "description_hi": "Criminal Appeal — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 21 आवश्यक विवरण भरने होंगे।"
+}

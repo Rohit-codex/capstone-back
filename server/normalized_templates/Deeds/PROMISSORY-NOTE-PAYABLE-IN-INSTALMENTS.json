@@ -1,0 +1,46 @@
+{
+  "title": "Promissory Note Payable In Instalments",
+  "filename": "PROMISSORY-NOTE-PAYABLE-IN-INSTALMENTS.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A promissory note payable in instalments used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Date, Signatory Name, Field 1 of 1, Field 2 of 1.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_1",
+      "type": "text",
+      "label": "Field 1 of 1",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 1"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "signatory_name",
+    "field_1_of_1",
+    "field_2_of_1"
+  ],
+  "description_hi": "Promissory Note Payable In Instalments — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

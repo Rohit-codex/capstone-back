@@ -1,0 +1,107 @@
+{
+  "title": "Application For An Order Of Reference Under Section 21 Of The Arbitration Act 1940",
+  "filename": "APPLICATION-FOR-AN-ORDER-OF-REFERENCE-UNDER-SECTION-21-OF-THE-ARBITRATION-ACT-1940.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "Legal template for application for an order of reference under section 21 of the arbitration act 1940",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number_3",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number_4",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "case_number",
+    "case_number_2",
+    "field_value",
+    "case_number_3",
+    "case_number_4",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "date",
+    "date_2",
+    "place",
+    "field_value_5"
+  ]
+}

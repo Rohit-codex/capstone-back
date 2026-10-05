@@ -1,0 +1,107 @@
+{
+  "title": "Notice To Pay Mortgage Money",
+  "filename": "Notice-To-Pay-Mortgage-Money.docx",
+  "category": "Legal Notice",
+  "subcategory": "Mortgage",
+  "description": "Legal template for notice to pay mortgage money",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter property address"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "field_value",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "property_address"
+  ]
+}

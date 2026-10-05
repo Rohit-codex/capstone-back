@@ -1,0 +1,196 @@
+{
+  "title": "Notice By Landlord To Tenant For Demand Of Possession Of House After Expiry Of Lease Period",
+  "filename": "Notice-By-Landlord-To-Tenant-For-Demand-Of-Possession-Of-House-After-Expiry-Of-Lease-Period.docx",
+  "category": "Legal Notice",
+  "subcategory": "Tenant",
+  "description": "A notice by landlord to tenant for demand of possession of house after expiry of lease period used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Date (First Party), Name (First Party), Name (Second Party), Name (Third Party), Name (Fourth Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Wife of) (First Party)",
+      "key": "name_wife_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (wife of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Wife of) (Second Party)",
+      "key": "name_wife_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (wife of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (First Party)",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter First Party  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Second Party)",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  property address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Third Party)",
+      "key": "property_address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  property address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "key": "field_1_of_14",
+      "type": "text",
+      "label": "Field 1 of 14",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 14"
+    },
+    {
+      "key": "field_2_of_14",
+      "type": "text",
+      "label": "Field 2 of 14",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 14"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "shri",
+      "type": "text",
+      "label": "Shri",
+      "required": true,
+      "placeholder": "Enter shri here",
+      "description": "Enter shri"
+    },
+    {
+      "key": "field_5_of_14",
+      "type": "text",
+      "label": "Field 5 of 14",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 14"
+    },
+    {
+      "key": "husbands_name",
+      "type": "text",
+      "label": "Husband's Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Ramesh Sharma",
+      "description": "पति का नाम"
+    },
+    {
+      "key": "husbands_name_2",
+      "type": "text",
+      "label": "Husband's Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Ramesh Sharma",
+      "description": "पति का नाम"
+    },
+    {
+      "key": "husbands_name_3",
+      "type": "text",
+      "label": "Husband's Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Ramesh Sharma",
+      "description": "पति का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "name_wife_of",
+    "name_wife_of_2",
+    "address",
+    "date_2",
+    "property_address",
+    "property_address_2",
+    "date_3",
+    "property_address_3",
+    "date_4",
+    "field_1_of_14",
+    "field_2_of_14",
+    "placecity",
+    "shri",
+    "field_5_of_14",
+    "husbands_name",
+    "husbands_name_2",
+    "husbands_name_3"
+  ],
+  "description_hi": "Notice By Landlord To Tenant For Demand Of Possession Of House After Expiry Of Lease Period — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 22 आवश्यक विवरण भरने होंगे।"
+}

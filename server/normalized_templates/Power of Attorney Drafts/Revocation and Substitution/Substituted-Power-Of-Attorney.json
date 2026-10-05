@@ -1,0 +1,116 @@
+{
+  "title": "Substituted Power Of Attorney",
+  "filename": "Substituted-Power-Of-Attorney.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Revocation and Substitution",
+  "description": "A substituted power of attorney used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address, Details (First Party), Details (Second Party), Details (Third Party), Details (Fourth Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "witness_name",
+    "field_value_5",
+    "party_name",
+    "witness_name_2",
+    "witness_name_3",
+    "date",
+    "party_name_2",
+    "signatory_name"
+  ],
+  "description_hi": "Substituted Power Of Attorney — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

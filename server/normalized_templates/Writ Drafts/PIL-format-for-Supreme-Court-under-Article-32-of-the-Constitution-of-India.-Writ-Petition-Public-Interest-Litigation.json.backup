@@ -1,0 +1,227 @@
+{
+  "title": "Pil Format For Supreme Court Under Article 32 Of The Constitution Of India. Writ Petition Public Interest Litigation",
+  "filename": "PIL-format-for-Supreme-Court-under-Article-32-of-the-Constitution-of-India.-Writ-Petition-Public-Interest-Litigation.docx",
+  "category": "Writ Drafts",
+  "subcategory": null,
+  "description": "Legal template for pil format for supreme court under article 32 of the constitution of india. writ petition public interest litigation",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_7",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_8",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_9",
+      "required": true,
+      "placeholder": "Enter place"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "place",
+    "place_2",
+    "field_value_2",
+    "legal_section",
+    "field_value_3",
+    "amount",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "place_3",
+    "field_value_7",
+    "field_value_8",
+    "place_4",
+    "place_5",
+    "place_6",
+    "place_7",
+    "field_value_9",
+    "field_value_10",
+    "place_8",
+    "place_9"
+  ]
+}

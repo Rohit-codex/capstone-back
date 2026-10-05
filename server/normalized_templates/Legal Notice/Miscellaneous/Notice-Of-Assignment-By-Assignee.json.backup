@@ -1,0 +1,115 @@
+{
+  "title": "Notice Of Assignment By Assignee",
+  "filename": "Notice-Of-Assignment-By-Assignee.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for notice of assignment by assignee",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "field_value_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "field_value_3",
+    "signatory_name"
+  ]
+}

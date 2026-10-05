@@ -1,0 +1,99 @@
+{
+  "title": "Application For Exemption From Filing Officially Translated Documents With Supreme Court Of India",
+  "filename": "Application-for-exemption-from-filing-officially-translated-documents-with-Supreme-Court-of-India.docx",
+  "category": "SLP Formats",
+  "subcategory": null,
+  "description": "Legal template for application for exemption from filing officially translated documents with supreme court of india",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "age",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8"
+  ]
+}

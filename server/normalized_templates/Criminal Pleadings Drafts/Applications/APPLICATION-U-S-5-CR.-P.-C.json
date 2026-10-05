@@ -1,0 +1,119 @@
+{
+  "title": "Application U S 5 Cr. P. C",
+  "filename": "APPLICATION-U-S-5-CR.-P.-C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "A application u s 5 cr. p. c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Court Name/Place (First Party), Court Name/Place (Second Party), Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Third Party)",
+      "key": "court_place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_2",
+      "type": "text",
+      "label": "Court Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "place",
+    "court_place_3",
+    "party_name_6",
+    "court_name",
+    "court_name_2",
+    "placecity"
+  ],
+  "description_hi": "Application U S 5 Cr. P. C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

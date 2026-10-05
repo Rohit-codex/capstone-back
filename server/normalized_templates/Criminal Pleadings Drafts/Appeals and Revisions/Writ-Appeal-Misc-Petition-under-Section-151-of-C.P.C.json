@@ -1,0 +1,21 @@
+{
+  "title": "Writ Appeal Misc Petition Under Section 151 Of C.P.C",
+  "filename": "Writ-Appeal-Misc-Petition-under-Section-151-of-C.P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Appeals and Revisions",
+  "description": "A writ appeal misc petition under section 151 of c.p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Field 1 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0"
+  ],
+  "description_hi": "Writ Appeal Misc Petition Under Section 151 Of C.P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

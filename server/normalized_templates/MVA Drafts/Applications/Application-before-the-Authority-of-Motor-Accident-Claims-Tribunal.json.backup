@@ -1,0 +1,83 @@
+{
+  "title": "Application Before The Authority Of Motor Accident Claims Tribunal",
+  "filename": "Application-before-the-Authority-of-Motor-Accident-Claims-Tribunal.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Applications",
+  "description": "Legal template for application before the authority of motor accident claims tribunal",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "field_value",
+    "field_value_2",
+    "party_name",
+    "party_name_2",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "party_name_3"
+  ]
+}

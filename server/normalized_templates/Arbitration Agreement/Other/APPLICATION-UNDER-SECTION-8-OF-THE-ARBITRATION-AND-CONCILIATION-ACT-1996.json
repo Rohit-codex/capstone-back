@@ -1,0 +1,21 @@
+{
+  "title": "Application Under Section 8 Of The Arbitration And Conciliation Act 1996",
+  "filename": "APPLICATION-UNDER-SECTION-8-OF-THE-ARBITRATION-AND-CONCILIATION-ACT-1996.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "A application under section 8 of the arbitration and conciliation act 1996 used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Field 1 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0"
+  ],
+  "description_hi": "Application Under Section 8 Of The Arbitration And Conciliation Act 1996 — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

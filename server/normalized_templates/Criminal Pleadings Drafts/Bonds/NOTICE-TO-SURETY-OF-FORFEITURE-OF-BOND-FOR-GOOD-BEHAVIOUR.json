@@ -1,0 +1,179 @@
+{
+  "title": "Notice To Surety Of Forfeiture Of Bond For Good Behaviour",
+  "filename": "NOTICE-TO-SURETY-OF-FORFEITURE-OF-BOND-FOR-GOOD-BEHAVIOUR.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bonds",
+  "description": "A notice to surety of forfeiture of bond for good behaviour used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Date (Fourth Party), Name (First Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_11",
+      "type": "text",
+      "label": "Field 1 of 11",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 11"
+    },
+    {
+      "key": "field_2_of_11",
+      "type": "text",
+      "label": "Field 2 of 11",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 11"
+    },
+    {
+      "key": "date_9",
+      "type": "text",
+      "label": "Date (9)",
+      "required": true,
+      "placeholder": "Enter 9 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "amount_2",
+      "type": "text",
+      "label": "Amount (₹)",
+      "required": true,
+      "placeholder": "e.g., 50,000",
+      "description": "राशि (₹)"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "party_name",
+    "place",
+    "party_name_2",
+    "amount",
+    "date_5",
+    "date_6",
+    "date_7",
+    "date_8",
+    "signatory_name",
+    "field_1_of_11",
+    "field_2_of_11",
+    "date_9",
+    "placecity",
+    "placecity_2",
+    "placecity_3",
+    "amount_2"
+  ],
+  "description_hi": "Notice To Surety Of Forfeiture Of Bond For Good Behaviour — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 20 आवश्यक विवरण भरने होंगे।"
+}

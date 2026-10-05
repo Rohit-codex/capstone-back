@@ -1,0 +1,44 @@
+{
+  "title": "Documentary Letter Of Credit",
+  "filename": "DOCUMENTARY-LETTER-OF-CREDIT.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A documentary letter of credit used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Date (First Party), Date (Second Party), Details (First Party), Details (Second Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "field_value",
+    "field_value_2"
+  ],
+  "description_hi": "Documentary Letter Of Credit — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

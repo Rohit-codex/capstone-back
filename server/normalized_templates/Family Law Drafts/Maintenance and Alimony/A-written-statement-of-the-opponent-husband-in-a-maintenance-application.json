@@ -1,0 +1,20 @@
+{
+  "title": "A Written Statement Of The Opponent Husband In A Maintenance Application",
+  "filename": "A-written-statement-of-the-opponent-husband-in-a-maintenance-application.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A a written statement of the opponent husband in a maintenance application used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name"
+  ],
+  "description_hi": "A Written Statement Of The Opponent Husband In A Maintenance Application — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

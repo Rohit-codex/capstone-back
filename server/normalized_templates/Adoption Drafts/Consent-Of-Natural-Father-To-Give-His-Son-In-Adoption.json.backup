@@ -1,0 +1,67 @@
+{
+  "title": "Consent Of Natural Father To Give His Son In Adoption",
+  "filename": "Consent-Of-Natural-Father-To-Give-His-Son-In-Adoption.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "Legal template for consent of natural father to give his son in adoption",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "Enter wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "address",
+    "address_2",
+    "field_value",
+    "wife_name",
+    "witness_name"
+  ]
+}

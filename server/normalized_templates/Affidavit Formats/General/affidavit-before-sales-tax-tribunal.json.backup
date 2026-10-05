@@ -1,0 +1,115 @@
+{
+  "title": "Affidavit Before Sales Tax Tribunal",
+  "filename": "affidavit-before-sales-tax-tribunal.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "Legal template for affidavit before sales tax tribunal",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "field_value",
+    "name_son_of",
+    "name_son_of_2",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "amount_4",
+    "amount_5",
+    "amount_6",
+    "date",
+    "amount_7",
+    "party_name"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "title": "Notice Of Dishonour Of Bill Of Exchange To Indorser",
+  "filename": "Notice-Of-Dishonour-Of-Bill-Of-Exchange-To-Indorser.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "A notice of dishonour of bill of exchange to indorser used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Date (First Party), Date (Second Party), Details (First Party), Details (Second Party), Date (Third Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "field_value",
+    "field_value_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "amount",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "date_6"
+  ],
+  "description_hi": "Notice Of Dishonour Of Bill Of Exchange To Indorser — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

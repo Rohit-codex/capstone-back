@@ -1,0 +1,203 @@
+{
+  "title": "Power Of Attorney For Execution And Presentation",
+  "filename": "Power-Of-Attorney-For-Execution-And-Presentation.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "Legal template for power of attorney for execution and presentation",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details_2",
+      "required": true,
+      "placeholder": "Enter document details"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details_3",
+      "required": true,
+      "placeholder": "Enter document details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "party_name",
+    "address",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "field_value",
+    "document_details",
+    "document_details_2",
+    "document_details_3",
+    "field_value_2",
+    "party_name_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "address_2",
+    "place",
+    "address_3",
+    "field_value_3",
+    "witness_name",
+    "date",
+    "date_2",
+    "witness_name_2",
+    "signatory_name"
+  ]
+}

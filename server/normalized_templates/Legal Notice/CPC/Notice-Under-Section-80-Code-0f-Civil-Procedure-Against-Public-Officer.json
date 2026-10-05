@@ -1,0 +1,276 @@
+{
+  "title": "Notice Under Section 80 Code 0F Civil Procedure Against Public Officer",
+  "filename": "Notice-Under-Section-80-Code-0f-Civil-Procedure-Against-Public-Officer.docx",
+  "category": "Legal Notice",
+  "subcategory": "CPC",
+  "description": "A notice under section 80 code 0f civil procedure against public officer used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Details (First Party), Date (First Party), Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details (11)",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter 11  details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "field_value_2",
+    "legal_section",
+    "party_name_4",
+    "party_name_5",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "party_name_6",
+    "party_name_7",
+    "field_value_6",
+    "party_name_8",
+    "party_name_9",
+    "party_name_10",
+    "field_value_7",
+    "field_value_8",
+    "place",
+    "place_2",
+    "field_value_9",
+    "field_value_10",
+    "party_name_11",
+    "amount",
+    "age",
+    "age_2",
+    "amount_2",
+    "amount_3",
+    "date_2",
+    "age_3",
+    "field_value_11"
+  ],
+  "description_hi": "Notice Under Section 80 Code 0F Civil Procedure Against Public Officer — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 33 आवश्यक विवरण भरने होंगे।"
+}

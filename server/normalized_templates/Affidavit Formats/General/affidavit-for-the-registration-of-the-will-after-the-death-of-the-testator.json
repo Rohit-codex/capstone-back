@@ -1,0 +1,180 @@
+{
+  "title": "Affidavit For The Registration Of The Will After The Death Of The Testator",
+  "filename": "affidavit-for-the-registration-of-the-will-after-the-death-of-the-testator.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit for the registration of the will after the death of the testator used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Place (First Party), Name (Son of) (First Party), Name (Son of) (Second Party), Address, Name (Son of) (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Sixth)",
+      "key": "name_son_of_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Seventh)",
+      "key": "name_son_of_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Eighth)",
+      "key": "name_son_of_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "name_son_of",
+    "name_son_of_2",
+    "address",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "name_son_of_6",
+    "name_son_of_7",
+    "name_son_of_8",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "place_2",
+    "place_3",
+    "date",
+    "date_2",
+    "date_3",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Affidavit For The Registration Of The Will After The Death Of The Testator — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 19 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

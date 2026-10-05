@@ -1,0 +1,284 @@
+{
+  "title": "Order Of Reference Under Sections 204 And 231 Of Arbitration Act 1940",
+  "filename": "ORDER-OF-REFERENCE-UNDER-SECTIONS-204-AND-231-OF-ARBITRATION-ACT-1940.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "A order of reference under sections 204 and 231 of arbitration act 1940 used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Date (First Party), Name (First Party), Name (Second Party), Place, Case Number.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "e.g., CS/123/2025"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (15)",
+      "key": "date_15",
+      "required": true,
+      "placeholder": "Enter 15  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (16)",
+      "key": "date_16",
+      "required": true,
+      "placeholder": "Enter 16  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (17)",
+      "key": "date_17",
+      "required": true,
+      "placeholder": "Enter 17  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (18)",
+      "key": "date_18",
+      "required": true,
+      "placeholder": "Enter 18  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (19)",
+      "key": "date_19",
+      "required": true,
+      "placeholder": "Enter 19  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (20)",
+      "key": "date_20",
+      "required": true,
+      "placeholder": "Enter 20  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (21)",
+      "key": "date_21",
+      "required": true,
+      "placeholder": "Enter 21  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (22)",
+      "key": "date_22",
+      "required": true,
+      "placeholder": "Enter 22  date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "party_name",
+    "party_name_2",
+    "place",
+    "case_number",
+    "field_value",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "date_10",
+    "date_11",
+    "date_12",
+    "date_13",
+    "date_14",
+    "date_15",
+    "date_16",
+    "date_17",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "date_18",
+    "date_19",
+    "date_20",
+    "date_21",
+    "date_22",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Order Of Reference Under Sections 204 And 231 Of Arbitration Act 1940 — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 32 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

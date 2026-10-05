@@ -1,0 +1,131 @@
+{
+  "title": "Reply Communicating Willingness To Purchase The Property",
+  "filename": "Reply-Communicating-Willingness-To-Purchase-The-Property.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for reply communicating willingness to purchase the property",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address_3",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address_4",
+      "required": true,
+      "placeholder": "Enter property address"
+    }
+  ],
+  "placeholder_order": [
+    "property_address",
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "field_value",
+    "date_2",
+    "property_address_2",
+    "property_address_3",
+    "address",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "property_address_4"
+  ]
+}

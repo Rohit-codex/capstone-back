@@ -1,0 +1,147 @@
+{
+  "title": "Application Under Order 6 Rule 17 Read With Section 151 Cpc",
+  "filename": "Application-under-Order-6-Rule-17-Read-With-Section-151-CPC.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Other",
+  "description": "Legal template for application under order 6 rule 17 read with section 151 cpc",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "legal_section",
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "court_place",
+    "party_name",
+    "date",
+    "court_place_2",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "address",
+    "address_2",
+    "date_2",
+    "date_3",
+    "date_4",
+    "signatory_name"
+  ]
+}

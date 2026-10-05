@@ -1,0 +1,96 @@
+{
+  "title": "Warrant Of Imprisonment On Breach Of A Bond To Keep The Peace",
+  "filename": "WARRANT-OF-IMPRISONMENT-ON-BREACH-OF-A-BOND-TO-KEEP-THE-PEACE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant of imprisonment on breach of a bond to keep the peace used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Place, Name, Date (First Party), Date (Second Party), Date (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "amount",
+      "type": "text",
+      "label": "Amount (₹)",
+      "required": true,
+      "placeholder": "e.g., 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "party_name",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name",
+    "placecity",
+    "amount",
+    "placecity_2",
+    "placecity_3"
+  ],
+  "description_hi": "Warrant Of Imprisonment On Breach Of A Bond To Keep The Peace — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 10 आवश्यक विवरण भरने होंगे।"
+}

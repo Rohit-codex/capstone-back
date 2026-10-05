@@ -1,0 +1,28 @@
+{
+  "title": "Proforma Of A Complaint Under Section 138 By A Firm",
+  "filename": "Proforma-of-a-complaint-under-section-138-by-a-firm.docx",
+  "category": "NI Drafts",
+  "subcategory": "Complaints",
+  "description": "A proforma of a complaint under section 138 by a firm used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. ",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Proforma Of A Complaint Under Section 138 By A Firm — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 0 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

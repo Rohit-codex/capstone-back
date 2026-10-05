@@ -1,0 +1,363 @@
+{
+  "title": "Declaration By Owner Of A Motor Vehicle Under Section 13",
+  "filename": "Declaration-by-owner-of-a-Motor-Vehicle-under-Section-13.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Other",
+  "description": "Legal template for declaration by owner of a motor vehicle under section 13",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_12",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_13",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_14",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "field_value",
+    "amount",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "place",
+    "field_value_8",
+    "field_value_9",
+    "field_value_10",
+    "name_son_of",
+    "name_son_of_2",
+    "amount_2",
+    "party_name_4",
+    "place_2",
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "amount_3",
+    "field_value_11",
+    "field_value_12",
+    "field_value_13",
+    "date_5",
+    "date_6",
+    "party_name_5",
+    "date_7",
+    "date_8",
+    "place_3",
+    "place_4",
+    "party_name_6",
+    "party_name_7",
+    "address_3",
+    "date_9",
+    "date_10",
+    "field_value_14",
+    "signatory_name"
+  ]
+}

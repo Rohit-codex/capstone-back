@@ -1,0 +1,147 @@
+{
+  "title": "Notice To The Assessing Officer",
+  "filename": "Notice-To-The-Assessing-Officer.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for notice to the assessing officer",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "field_value_3",
+    "field_value_4",
+    "amount",
+    "amount_2",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "date",
+    "occupation",
+    "address",
+    "address_2",
+    "signatory_name"
+  ]
+}

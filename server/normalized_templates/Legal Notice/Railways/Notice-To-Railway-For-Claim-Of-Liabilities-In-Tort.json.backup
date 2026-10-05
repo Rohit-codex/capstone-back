@@ -1,0 +1,251 @@
+{
+  "title": "Notice To Railway For Claim Of Liabilities In Tort",
+  "filename": "Notice-To-Railway-For-Claim-Of-Liabilities-In-Tort.docx",
+  "category": "Legal Notice",
+  "subcategory": "Railways",
+  "description": "Legal template for notice to railway for claim of liabilities in tort",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_12",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    }
+  ],
+  "placeholder_order": [
+    "document_details",
+    "date",
+    "date_2",
+    "date_3",
+    "age",
+    "legal_section",
+    "date_4",
+    "date_5",
+    "date_6",
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "place",
+    "place_2",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "field_value_8",
+    "amount",
+    "field_value_9",
+    "date_7",
+    "field_value_10",
+    "field_value_11",
+    "amount_2",
+    "amount_3",
+    "field_value_12",
+    "amount_4",
+    "amount_5",
+    "amount_6"
+  ]
+}

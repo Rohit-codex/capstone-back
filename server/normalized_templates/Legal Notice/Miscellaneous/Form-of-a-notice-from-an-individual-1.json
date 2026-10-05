@@ -1,0 +1,39 @@
+{
+  "title": "Form Of A Notice From An Individual 1",
+  "filename": "Form-of-a-notice-from-an-individual-1.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A form of a notice from an individual 1 used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Field 1 of 0, Field 2 of 0, Field 3 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0"
+  ],
+  "description_hi": "Form Of A Notice From An Individual 1 — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

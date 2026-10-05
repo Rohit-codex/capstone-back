@@ -1,0 +1,43 @@
+{
+  "title": "Application For Anticipatory Bail Before Sessions Judge",
+  "filename": "APPLICATION-FOR-ANTICIPATORY-BAIL-BEFORE-SESSIONS-JUDGE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "Legal template for application for anticipatory bail before sessions judge",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    }
+  ],
+  "placeholder_order": [
+    "case_number",
+    "field_value",
+    "party_name",
+    "party_name_2"
+  ]
+}

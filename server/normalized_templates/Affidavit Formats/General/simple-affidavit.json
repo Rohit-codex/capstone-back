@@ -1,0 +1,84 @@
+{
+  "title": "Simple Affidavit",
+  "filename": "simple-affidavit.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A simple affidavit used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Court Name/Place (First Party), Court Name/Place (Second Party), Name (First Party), Name (Second Party), Name (Son of).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "verification_month",
+      "type": "text",
+      "label": "Verification Month",
+      "required": true,
+      "placeholder": "e.g., January"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "party_name",
+    "party_name_2",
+    "name_son_of",
+    "date",
+    "date_2",
+    "date_3",
+    "verification_month"
+  ],
+  "description_hi": "Simple Affidavit — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 9 आवश्यक विवरण भरने होंगे।"
+}

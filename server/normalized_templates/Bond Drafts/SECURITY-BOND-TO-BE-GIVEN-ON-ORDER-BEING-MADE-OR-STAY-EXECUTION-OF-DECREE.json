@@ -1,0 +1,90 @@
+{
+  "title": "Security Bond To Be Given On Order Being Made Or Stay Execution Of Decree",
+  "filename": "SECURITY-BOND-TO-BE-GIVEN-ON-ORDER-BEING-MADE-OR-STAY-EXECUTION-OF-DECREE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A security bond to be given on order being made or stay execution of decree used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Court Name/Place, Witness Name, Signatory Name, Court Name, Date.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name",
+      "required": true,
+      "placeholder": "e.g., District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "date",
+      "type": "text",
+      "label": "Date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "field_3_of_2",
+      "type": "text",
+      "label": "Field 3 of 2",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 2"
+    },
+    {
+      "key": "field_4_of_2",
+      "type": "text",
+      "label": "Field 4 of 2",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 2"
+    },
+    {
+      "key": "field_5_of_2",
+      "type": "text",
+      "label": "Field 5 of 2",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 2"
+    },
+    {
+      "key": "field_6_of_2",
+      "type": "text",
+      "label": "Field 6 of 2",
+      "required": true,
+      "placeholder": "Fill in field 6",
+      "description": "फील्ड 6 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "witness_name",
+    "signatory_name",
+    "court_name",
+    "date",
+    "field_3_of_2",
+    "field_4_of_2",
+    "field_5_of_2",
+    "field_6_of_2"
+  ],
+  "description_hi": "Security Bond To Be Given On Order Being Made Or Stay Execution Of Decree — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 9 आवश्यक विवरण भरने होंगे।"
+}

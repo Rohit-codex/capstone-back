@@ -1,0 +1,35 @@
+{
+  "title": "Application Form For Licence By A Co Operative Society To Commence Banking Business As A Primary Co Operative Bank",
+  "filename": "APPLICATION-FORM-FOR-LICENCE-BY-A-CO-OPERATIVE-SOCIETY-TO-COMMENCE-BANKING-BUSINESS-AS-A-PRIMARY-CO-OPERATIVE-BANK.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "Legal template for application form for licence by a co operative society to commence banking business as a primary co operative bank",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "occupation",
+    "signatory_name"
+  ]
+}

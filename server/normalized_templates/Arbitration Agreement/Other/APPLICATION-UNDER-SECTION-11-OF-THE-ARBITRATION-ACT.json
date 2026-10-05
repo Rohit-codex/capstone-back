@@ -1,0 +1,209 @@
+{
+  "title": "Application Under Section 11 Of The Arbitration Act",
+  "filename": "APPLICATION-UNDER-SECTION-11-OF-THE-ARBITRATION-ACT.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "A application under section 11 of the arbitration act used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Court Name/Place, Case Number (First Party), Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter First Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter Second Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name",
+      "required": true,
+      "placeholder": "e.g., District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "case_number_3",
+      "type": "text",
+      "label": "Case Number (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "petitioner_name",
+      "type": "text",
+      "label": "Petitioner Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    },
+    {
+      "key": "respondent_name",
+      "type": "text",
+      "label": "Respondent Name",
+      "required": true,
+      "placeholder": "e.g., State of Delhi",
+      "description": "प्रतिवादी का नाम"
+    },
+    {
+      "key": "petitioner_name_2",
+      "type": "text",
+      "label": "Petitioner Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "case_number",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "date",
+    "place",
+    "party_name_4",
+    "party_name_5",
+    "case_number_2",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "address",
+    "place_2",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "court_name",
+    "case_number_3",
+    "petitioner_name",
+    "respondent_name",
+    "petitioner_name_2"
+  ],
+  "description_hi": "Application Under Section 11 Of The Arbitration Act — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 24 आवश्यक विवरण भरने होंगे।"
+}

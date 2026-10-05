@@ -1,0 +1,100 @@
+{
+  "title": "Security Bond By A Surety",
+  "filename": "SECURITY-BOND-BY-A-SURETY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A security bond by a surety used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Address (First Party), Address (Second Party), Date, Name, Amount (Rs.) (First Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "date",
+    "party_name",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "amount_4",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Security Bond By A Surety — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 9 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

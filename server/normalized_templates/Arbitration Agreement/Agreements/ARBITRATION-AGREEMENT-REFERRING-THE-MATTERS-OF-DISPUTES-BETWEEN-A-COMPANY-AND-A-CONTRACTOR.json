@@ -1,0 +1,52 @@
+{
+  "title": "Arbitration Agreement Referring The Matters Of Disputes Between A Company And A Contractor",
+  "filename": "ARBITRATION-AGREEMENT-REFERRING-THE-MATTERS-OF-DISPUTES-BETWEEN-A-COMPANY-AND-A-CONTRACTOR.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "A arbitration agreement referring the matters of disputes between a company and a contractor used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Name, Date, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "date",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Arbitration Agreement Referring The Matters Of Disputes Between A Company And A Contractor — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 3 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Affidavit Required By The Sub Registrar",
+  "filename": "affidavit-required-by-the-sub-registrar.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit required by the sub registrar used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Details (First Party), Details (Second Party), Details (Third Party), Details (Fourth Party), Details (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (First Party)",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter First Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details here"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Second Party)",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Third Party)",
+      "key": "property_address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (11)",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter 11  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fourth Party)",
+      "key": "property_address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fifth)",
+      "key": "property_address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (12)",
+      "key": "field_value_12",
+      "required": true,
+      "placeholder": "Enter 12  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "property_address",
+    "document_details",
+    "date",
+    "property_address_2",
+    "property_address_3",
+    "party_name",
+    "party_name_2",
+    "field_value_6",
+    "field_value_7",
+    "field_value_8",
+    "field_value_9",
+    "field_value_10",
+    "field_value_11",
+    "property_address_4",
+    "property_address_5",
+    "party_name_3",
+    "party_name_4",
+    "field_value_12",
+    "signatory_name"
+  ],
+  "description_hi": "Affidavit Required By The Sub Registrar — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 24 आवश्यक विवरण भरने होंगे।"
+}

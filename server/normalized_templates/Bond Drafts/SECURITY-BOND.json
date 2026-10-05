@@ -1,0 +1,103 @@
+{
+  "title": "Security Bond",
+  "filename": "SECURITY-BOND.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A security bond used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Age (in years) (First Party), Amount (Rs.), Witness Name, Age (in years) (Second Party), Property Address.",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "amount",
+    "witness_name",
+    "age_2",
+    "property_address",
+    "address",
+    "age_3",
+    "signatory_name",
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0"
+  ],
+  "description_hi": "Security Bond — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 11 आवश्यक विवरण भरने होंगे।"
+}

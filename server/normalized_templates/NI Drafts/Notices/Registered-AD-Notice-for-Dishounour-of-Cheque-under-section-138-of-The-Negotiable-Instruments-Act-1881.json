@@ -1,0 +1,92 @@
+{
+  "title": "Registered Ad Notice For Dishounour Of Cheque Under Section 138 Of The Negotiable Instruments Act 1881",
+  "filename": "Registered-AD-Notice-for-Dishounour-of-Cheque-under-section-138-of-The-Negotiable-Instruments-Act-1881.docx",
+  "category": "NI Drafts",
+  "subcategory": "Notices",
+  "description": "A registered ad notice for dishounour of cheque under section 138 of the negotiable instruments act 1881 used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. Key details required: Details (First Party), Address (First Party), Address (Second Party), Details (Second Party), Date (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "address",
+    "address_2",
+    "field_value_2",
+    "date",
+    "date_2",
+    "date_3",
+    "amount",
+    "amount_2",
+    "date_4"
+  ],
+  "description_hi": "Registered Ad Notice For Dishounour Of Cheque Under Section 138 Of The Negotiable Instruments Act 1881 — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 10 आवश्यक विवरण भरने होंगे।"
+}

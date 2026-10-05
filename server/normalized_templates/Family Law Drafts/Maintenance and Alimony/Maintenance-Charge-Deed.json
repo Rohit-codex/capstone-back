@@ -1,0 +1,36 @@
+{
+  "title": "Maintenance Charge Deed",
+  "filename": "Maintenance-Charge-Deed.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A maintenance charge deed used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Maintenance Charge Deed — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

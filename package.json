@@ -1,0 +1,43 @@
+{
+  "name": "law_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@reduxjs/toolkit": "^2.8.1",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "docx": "^9.5.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.18.1",
+    "ioredis": "^5.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.11.0",
+    "marked": "^18.0.0",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "node-cron": "^4.6.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^4.0.2",
+    "razorpay": "^2.9.6",
+    "react-redux": "^9.2.0",
+    "react-syntax-highlighter": "^16.1.1",
+    "sharp": "^0.35.3",
+    "tesseract.js": "^7.0.0",
+    "ua-parser-js": "^2.0.3"
+  }
+}

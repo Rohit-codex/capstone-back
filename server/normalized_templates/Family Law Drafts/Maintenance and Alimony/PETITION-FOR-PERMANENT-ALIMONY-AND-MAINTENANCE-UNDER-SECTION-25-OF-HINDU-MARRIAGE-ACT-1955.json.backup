@@ -1,0 +1,267 @@
+{
+  "title": "Petition For Permanent Alimony And Maintenance Under Section 25 Of Hindu Marriage Act 1955",
+  "filename": "PETITION-FOR-PERMANENT-ALIMONY-AND-MAINTENANCE-UNDER-SECTION-25-OF-HINDU-MARRIAGE-ACT-1955.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "Legal template for petition for permanent alimony and maintenance under section 25 of hindu marriage act 1955",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Husband's Name",
+      "key": "husband_name",
+      "required": true,
+      "placeholder": "Enter husband's name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_3",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_4",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "amount",
+    "amount_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "age",
+    "husband_name",
+    "party_name_4",
+    "party_name_5",
+    "place",
+    "place_2",
+    "place_3",
+    "place_4",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "amount_3",
+    "court_place_3",
+    "court_place_4",
+    "party_name_9",
+    "party_name_10",
+    "place_5",
+    "field_value",
+    "place_6",
+    "field_value_2",
+    "party_name_11",
+    "party_name_12",
+    "party_name_13",
+    "party_name_14",
+    "signatory_name"
+  ]
+}

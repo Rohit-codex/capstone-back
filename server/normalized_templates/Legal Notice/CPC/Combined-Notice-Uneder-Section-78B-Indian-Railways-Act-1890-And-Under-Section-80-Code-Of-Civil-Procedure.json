@@ -1,0 +1,220 @@
+{
+  "title": "Combined Notice Uneder Section 78B Indian Railways Act 1890 And Under Section 80 Code Of Civil Procedure",
+  "filename": "Combined-Notice-Uneder-Section-78B-Indian-Railways-Act-1890-And-Under-Section-80-Code-Of-Civil-Procedure.docx",
+  "category": "Legal Notice",
+  "subcategory": "CPC",
+  "description": "A combined notice uneder section 78b indian railways act 1890 and under section 80 code of civil procedure used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Document Details, Date (First Party), Date (Second Party), Date (Third Party), Age (in years) (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fourth Party)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fifth)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter Fifth  age (in years)"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fifth)",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter Fifth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Sixth)",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter Sixth  place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    }
+  ],
+  "placeholder_order": [
+    "document_details",
+    "date",
+    "date_2",
+    "date_3",
+    "age",
+    "age_2",
+    "field_value",
+    "age_3",
+    "field_value_2",
+    "place",
+    "place_2",
+    "place_3",
+    "age_4",
+    "age_5",
+    "date_4",
+    "date_5",
+    "place_4",
+    "place_5",
+    "place_6",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "field_value_3"
+  ],
+  "description_hi": "Combined Notice Uneder Section 78B Indian Railways Act 1890 And Under Section 80 Code Of Civil Procedure — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 26 आवश्यक विवरण भरने होंगे।"
+}

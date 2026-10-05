@@ -1,0 +1,70 @@
+{
+  "title": "Power Of Attorney For Execution And Presentation Before Sub Registrar",
+  "filename": "Power-Of-Attorney-For-Execution-And-Presentation-Before-Sub-Registrar.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "A power of attorney for execution and presentation before sub registrar used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Name (Son of), Document Details, Witness Name (First Party), Witness Name (Second Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details here"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "document_details",
+    "witness_name",
+    "witness_name_2",
+    "signatory_name",
+    "fathers_name",
+    "placecity"
+  ],
+  "description_hi": "Power Of Attorney For Execution And Presentation Before Sub Registrar — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

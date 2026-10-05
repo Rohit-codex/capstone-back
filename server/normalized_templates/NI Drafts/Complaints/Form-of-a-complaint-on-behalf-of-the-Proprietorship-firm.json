@@ -1,0 +1,36 @@
+{
+  "title": "Form Of A Complaint On Behalf Of The Proprietorship Firm",
+  "filename": "Form-of-a-complaint-on-behalf-of-the-Proprietorship-firm.docx",
+  "category": "NI Drafts",
+  "subcategory": "Complaints",
+  "description": "A form of a complaint on behalf of the proprietorship firm used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. Key details required: Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Form Of A Complaint On Behalf Of The Proprietorship Firm — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

@@ -1,0 +1,1 @@
+टेम्पलेट: Simple Affidavit। श्रेणी: Affidavit Formats. उप-श्रेणी: General. आवश्यक फ़ील्ड: Court Name/Place, Court Name/Place, Name, Name, Name (Son of), Date, +2 और। आवश्यक विवरण भरकर इस टेम्पलेट से दस्तावेज़ तुरंत तैयार करें।

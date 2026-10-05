@@ -1,0 +1,36 @@
+{
+  "title": "Gift Another Form Of Gift Deed For Love And Affection",
+  "filename": "Gift-Another-Form-Of-Gift-Deed-For-Love-And-Affection.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift another form of gift deed for love and affection used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Gift Another Form Of Gift Deed For Love And Affection — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

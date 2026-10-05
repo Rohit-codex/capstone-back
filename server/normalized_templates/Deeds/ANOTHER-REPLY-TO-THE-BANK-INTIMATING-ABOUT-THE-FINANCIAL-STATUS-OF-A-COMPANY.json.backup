@@ -1,0 +1,43 @@
+{
+  "title": "Another Reply To The Bank Intimating About The Financial Status Of A Company",
+  "filename": "ANOTHER-REPLY-TO-THE-BANK-INTIMATING-ABOUT-THE-FINANCIAL-STATUS-OF-A-COMPANY.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "Legal template for another reply to the bank intimating about the financial status of a company",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "age",
+    "field_value"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Application Form For Licence By A Co Operative Society To Commence Banking Business As A Primary Co Operative Bank",
+  "filename": "APPLICATION-FORM-FOR-LICENCE-BY-A-CO-OPERATIVE-SOCIETY-TO-COMMENCE-BANKING-BUSINESS-AS-A-PRIMARY-CO-OPERATIVE-BANK.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A application form for licence by a co operative society to commence banking business as a primary co operative bank used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Details, Occupation, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "e.g., Businessman"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "occupation",
+    "signatory_name"
+  ],
+  "description_hi": "Application Form For Licence By A Co Operative Society To Commence Banking Business As A Primary Co Operative Bank — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

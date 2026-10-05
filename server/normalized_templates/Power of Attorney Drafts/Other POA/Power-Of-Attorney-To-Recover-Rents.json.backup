@@ -1,0 +1,67 @@
+{
+  "title": "Power Of Attorney To Recover Rents",
+  "filename": "Power-Of-Attorney-To-Recover-Rents.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "Legal template for power of attorney to recover rents",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "age",
+    "witness_name",
+    "age_2",
+    "witness_name_2",
+    "witness_name_3",
+    "signatory_name"
+  ]
+}

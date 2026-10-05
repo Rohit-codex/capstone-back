@@ -1,0 +1,29 @@
+{
+  "title": "Appeal Under Section 173 Of Motor Vehicles Act 1988",
+  "filename": "Appeal-under-Section-173-of-Motor-Vehicles-Act-1988.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Other",
+  "description": "A appeal under section 173 of motor vehicles act 1988 used for motor vehicle accident claims, compensation petitions, or insurance disputes. Suitable for accident victims, insurance companies, or motor accident claims tribunals. Key details required: Name, Field 1 of 0.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "field_1_of_0"
+  ],
+  "description_hi": "Appeal Under Section 173 Of Motor Vehicles Act 1988 — मोटर वाहन दुर्घटना दावे, मुआवज़ा याचिकाएं, या बीमा विवाद के लिए उपयोग किया जाने वाला कानूनी प्रारूप। दुर्घटना पीड़ित, बीमा कंपनियां, या मोटर दुर्घटना दावा अधिकरण के लिए उपयुक्त। 2 आवश्यक विवरण भरने होंगे।"
+}

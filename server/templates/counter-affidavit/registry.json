@@ -1,0 +1,23 @@
+{
+  "defaultDesignId": "writ-petition-counter",
+  "designs": [
+    {
+      "id": "india-formal-affidavit",
+      "label": "India — formal counter affidavit",
+      "description": "Single court-style layout for all counters. Per–document-type designs can be added later via registry + new folders.",
+      "path": "india-formal-affidavit"
+    },
+    {
+      "id": "writ-petition-counter",
+      "label": "India — writ petition counter (para-wise)",
+      "description": "Formal caption with para-wise reply section (typical writ/criminal writ responses).",
+      "path": "writ-petition-counter"
+    },
+    {
+      "id": "mjc-show-cause-counter",
+      "label": "Patna HC — MJC show cause (INDEX + annexures)",
+      "description": "Miscellaneous Jurisdiction Case show cause: INDEX, OP No., Opp. Parties caption, photostat annexures.",
+      "path": "mjc-show-cause-counter"
+    }
+  ]
+}

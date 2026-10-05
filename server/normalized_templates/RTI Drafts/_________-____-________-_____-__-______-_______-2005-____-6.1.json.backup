@@ -1,0 +1,75 @@
+{
+  "title": "                                                2005      6.1",
+  "filename": "_________-____-________-_____-__-______-_______-2005-____-6.1.docx",
+  "category": "RTI Drafts",
+  "subcategory": null,
+  "description": "Legal template for _________ ____ ________ _____ __ ______ _______ 2005 ____ 6.1",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "field_value_8"
+  ]
+}

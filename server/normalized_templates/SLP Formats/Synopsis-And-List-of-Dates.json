@@ -1,0 +1,364 @@
+{
+  "title": "Synopsis And List Of Dates",
+  "filename": "Synopsis-And-List-of-Dates.docx",
+  "category": "SLP Formats",
+  "subcategory": null,
+  "description": "A synopsis and list of dates used for Special Leave Petitions filed before the Supreme Court of India. Suitable for litigants appealing High Court orders before the Supreme Court. Key details required: Date (First Party), Details (First Party), Details (Second Party), Details (Third Party), Details (Fourth Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fourth Party)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fifth)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter Fifth  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Sixth)",
+      "key": "age_6",
+      "required": true,
+      "placeholder": "Enter Sixth  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (11)",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter 11  details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details (12)",
+      "key": "field_value_12",
+      "required": true,
+      "placeholder": "Enter 12  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (13)",
+      "key": "field_value_13",
+      "required": true,
+      "placeholder": "Enter 13  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (14)",
+      "key": "field_value_14",
+      "required": true,
+      "placeholder": "Enter 14  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (15)",
+      "key": "field_value_15",
+      "required": true,
+      "placeholder": "Enter 15  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (16)",
+      "key": "field_value_16",
+      "required": true,
+      "placeholder": "Enter 16  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (17)",
+      "key": "field_value_17",
+      "required": true,
+      "placeholder": "Enter 17  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fifth)",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter Fifth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Sixth)",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter Sixth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Seventh)",
+      "key": "place_7",
+      "required": true,
+      "placeholder": "Enter Seventh  place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Place (Eighth)",
+      "key": "place_8",
+      "required": true,
+      "placeholder": "Enter Eighth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (9)",
+      "key": "place_9",
+      "required": true,
+      "placeholder": "Enter 9  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (10)",
+      "key": "place_10",
+      "required": true,
+      "placeholder": "Enter 10  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (11)",
+      "key": "place_11",
+      "required": true,
+      "placeholder": "Enter 11  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (12)",
+      "key": "place_12",
+      "required": true,
+      "placeholder": "Enter 12  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (18)",
+      "key": "field_value_18",
+      "required": true,
+      "placeholder": "Enter 18  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (19)",
+      "key": "field_value_19",
+      "required": true,
+      "placeholder": "Enter 19  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (20)",
+      "key": "field_value_20",
+      "required": true,
+      "placeholder": "Enter 20  details"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "age",
+    "age_2",
+    "age_3",
+    "place",
+    "field_value_5",
+    "field_value_6",
+    "place_2",
+    "age_4",
+    "age_5",
+    "age_6",
+    "field_value_7",
+    "field_value_8",
+    "date_2",
+    "field_value_9",
+    "field_value_10",
+    "field_value_11",
+    "party_name",
+    "field_value_12",
+    "field_value_13",
+    "field_value_14",
+    "field_value_15",
+    "field_value_16",
+    "field_value_17",
+    "place_3",
+    "place_4",
+    "place_5",
+    "place_6",
+    "place_7",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "place_8",
+    "place_9",
+    "place_10",
+    "place_11",
+    "place_12",
+    "field_value_18",
+    "field_value_19",
+    "field_value_20"
+  ],
+  "description_hi": "Synopsis And List Of Dates — भारत के सर्वोच्च न्यायालय में दायर विशेष अनुमति याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सर्वोच्च न्यायालय में उच्च न्यायालय के आदेशों के विरुद्ध अपील करने वाले वादी के लिए उपयुक्त। 44 आवश्यक विवरण भरने होंगे।"
+}

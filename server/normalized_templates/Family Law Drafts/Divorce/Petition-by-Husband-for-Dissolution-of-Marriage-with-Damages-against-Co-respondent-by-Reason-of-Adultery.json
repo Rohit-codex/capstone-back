@@ -1,0 +1,38 @@
+{
+  "title": "Petition By Husband For Dissolution Of Marriage With Damages Against Co Respondent By Reason Of Adultery",
+  "filename": "Petition-by-Husband-for-Dissolution-of-Marriage-with-Damages-against-Co-respondent-by-Reason-of-Adultery.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Divorce",
+  "description": "A petition by husband for dissolution of marriage with damages against co respondent by reason of adultery used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Signatory Name, Field 1 of 0, Field 2 of 0.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name",
+    "field_1_of_0",
+    "field_2_of_0"
+  ],
+  "description_hi": "Petition By Husband For Dissolution Of Marriage With Damages Against Co Respondent By Reason Of Adultery — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

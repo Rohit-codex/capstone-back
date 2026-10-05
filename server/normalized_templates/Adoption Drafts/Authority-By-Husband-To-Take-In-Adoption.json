@@ -1,0 +1,130 @@
+{
+  "title": "Authority By Husband To Take In Adoption",
+  "filename": "Authority-By-Husband-To-Take-In-Adoption.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A authority by husband to take in adoption used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party), Name (Son of) (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "name_first_party",
+      "required": true,
+      "placeholder": "Enter First Party name"
+    },
+    {
+      "type": "text",
+      "label": "Father Name (First Party)",
+      "key": "father_name_first_party",
+      "required": true,
+      "placeholder": "Enter Father name"
+    },
+    {
+      "type": "number",
+      "label": "Age Of First Party",
+      "key": "age_first_party",
+      "required": true,
+      "placeholder": "Enter age of first party"
+    },
+    {
+      "type": "textarea",
+      "label": "Address of First Party",
+      "key": "address_first_party",
+      "required": true,
+      "placeholder": "Enter address of first party"
+    },
+    {
+      "type": "text",
+      "label": "Name Of Wife",
+      "key": "name_of_wife",
+      "required": true,
+      "placeholder": "Enter name of wife"
+    },
+    {
+      "type": "text",
+      "label": "Name of Child",
+      "key": "name_of_child",
+      "required": true,
+      "placeholder": "Enter name of child"
+    },
+     {
+      "type": "text",
+      "label": "Father Name Of Child",
+      "key": "father_name_of_child",
+      "required": true,
+      "placeholder": "Enter Father name of child"
+    },
+    {
+      "type": "number",
+      "label": "Age Of Child",
+      "key": "age_of_child",
+      "required": true,
+      "placeholder": "Enter age of child"
+    },
+    {
+      "type": "textarea",
+      "label": "Address of Child",
+      "key": "address_of_child",
+      "required": true,
+      "placeholder": "Enter address of child"
+    },
+    {
+      "type": "date",
+      "label": "Date Of Authority",
+      "key": "date_of_authority",
+      "required": true,
+      "placeholder": "Enter date of authority"
+    },
+    {
+      "type": "text",
+      "label": "Place Of Authority",
+      "key": "place_of_authority",
+      "required": true,
+      "placeholder": "Enter place of authority"
+    },
+
+    {
+      "type": "text",
+      "label": "Witness 1",
+      "key": "witness 1",
+      "required": false,
+      "placeholder": "Enter witness 1 "
+    },
+    {
+      "type": "text",
+      "label": "Witness 2",
+      "key": "witness 2",
+      "required": false,
+      "placeholder": "Enter witness 2 name "
+    },
+    {
+        "type": "signature",
+        "label": "Signature Of Executant",
+        "key": "executant_signature",
+        "required": false,
+        "placeholder": "Enter executant signature here"
+    }
+  ],
+
+  "placeholder_order": [
+  "name_first_party",
+  "father_name_first_party",
+  "age_first_party",
+  "address_first_party",
+  "name_of_wife",
+  "name_of_child",
+  "father_name_of_child",
+  "age_of_child",
+  "address_of_child",
+
+
+  "date_of_authority",
+  "place_of_authority",
+
+
+  "witness 1",
+  "witness 2",
+  
+  "executant_signature"
+]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Gift Deed Of Gift Of Goodwill Of Business Trade Marks By A Father To Two Sons In Partnership",
+  "filename": "Gift-Deed-Of-Gift-Of-Goodwill-Of-Business-Trade-Marks-By-A-Father-To-Two-Sons-In-Partnership.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift deed of gift of goodwill of business trade marks by a father to two sons in partnership used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Name, Witness Name, Signatory Name, Place/City (First Party), Place/City (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "field_3_of_2",
+      "type": "text",
+      "label": "Field 3 of 2",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 2"
+    },
+    {
+      "key": "field_4_of_2",
+      "type": "text",
+      "label": "Field 4 of 2",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 2"
+    },
+    {
+      "key": "field_5_of_2",
+      "type": "text",
+      "label": "Field 5 of 2",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 2"
+    },
+    {
+      "key": "field_6_of_2",
+      "type": "text",
+      "label": "Field 6 of 2",
+      "required": true,
+      "placeholder": "Fill in field 6",
+      "description": "फील्ड 6 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "witness_name",
+    "signatory_name",
+    "placecity",
+    "placecity_2",
+    "field_3_of_2",
+    "field_4_of_2",
+    "field_5_of_2",
+    "field_6_of_2"
+  ],
+  "description_hi": "Gift Deed Of Gift Of Goodwill Of Business Trade Marks By A Father To Two Sons In Partnership — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 9 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Security Bond On Behalf Of Defendant For The Production Of Property",
+  "filename": "SECURITY-BOND-ON-BEHALF-OF-DEFENDANT-FOR-THE-PRODUCTION-OF-PROPERTY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A security bond on behalf of defendant for the production of property used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. ",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Security Bond On Behalf Of Defendant For The Production Of Property — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 0 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Money Bond With A Surety",
+  "filename": "MONEY-BOND-WITH-A-SURETY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A money bond with a surety used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Address.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Money Bond With A Surety — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 1 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

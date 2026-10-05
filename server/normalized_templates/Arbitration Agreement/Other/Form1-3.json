@@ -1,0 +1,364 @@
+{
+  "title": "Form1 3",
+  "filename": "Form1-3.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "A form1 3 used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Court Name/Place (First Party), Court Name/Place (Second Party), Case Number (First Party), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter First Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Document Details (First Party)",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter First Party  document details"
+    },
+    {
+      "type": "text",
+      "label": "Document Details (Second Party)",
+      "key": "document_details_2",
+      "required": true,
+      "placeholder": "Enter Second Party  document details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Third Party)",
+      "key": "court_place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter Second Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Third Party)",
+      "key": "case_number_3",
+      "required": true,
+      "placeholder": "Enter Third Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (16)",
+      "key": "party_name_16",
+      "required": true,
+      "placeholder": "Enter 16  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (17)",
+      "key": "party_name_17",
+      "required": true,
+      "placeholder": "Enter 17  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (18)",
+      "key": "party_name_18",
+      "required": true,
+      "placeholder": "Enter 18  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "case_number",
+    "party_name",
+    "party_name_2",
+    "date",
+    "party_name_3",
+    "party_name_4",
+    "document_details",
+    "document_details_2",
+    "date_2",
+    "date_3",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "amount",
+    "amount_2",
+    "party_name_9",
+    "place",
+    "place_2",
+    "field_value",
+    "field_value_2",
+    "date_4",
+    "date_5",
+    "party_name_10",
+    "party_name_11",
+    "court_place_3",
+    "case_number_2",
+    "party_name_12",
+    "party_name_13",
+    "party_name_14",
+    "party_name_15",
+    "date_6",
+    "date_7",
+    "case_number_3",
+    "party_name_16",
+    "party_name_17",
+    "party_name_18",
+    "address",
+    "place_3",
+    "date_8",
+    "date_9",
+    "date_10"
+  ],
+  "description_hi": "Form1 3 — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 44 आवश्यक विवरण भरने होंगे।"
+}

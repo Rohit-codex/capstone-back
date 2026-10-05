@@ -1,0 +1,203 @@
+{
+  "title": "Notice To The Registrar Of Firms Under Section 63 Indian Partnership Act 1932",
+  "filename": "Notice-To-The-Registrar-Of-Firms-Under-Section-63-Indian-Partnership-Act-1932.docx",
+  "category": "Legal Notice",
+  "subcategory": "Partnership",
+  "description": "Legal template for notice to the registrar of firms under section 63 indian partnership act 1932",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section_2",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_6",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_7",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    }
+  ],
+  "placeholder_order": [
+    "legal_section",
+    "date",
+    "date_2",
+    "field_value",
+    "field_value_2",
+    "name_son_of",
+    "address",
+    "date_3",
+    "party_name",
+    "party_name_2",
+    "date_4",
+    "date_5",
+    "date_6",
+    "document_details",
+    "date_7",
+    "legal_section_2",
+    "field_value_3",
+    "field_value_4",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "name_son_of_6",
+    "name_son_of_7"
+  ]
+}

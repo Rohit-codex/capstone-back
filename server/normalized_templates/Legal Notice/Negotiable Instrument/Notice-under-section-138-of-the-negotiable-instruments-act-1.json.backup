@@ -1,0 +1,51 @@
+{
+  "title": "Notice Under Section 138 Of The Negotiable Instruments Act 1",
+  "filename": "Notice-under-section-138-of-the-negotiable-instruments-act-1.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "Legal template for notice under section 138 of the negotiable instruments act 1",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "amount",
+    "field_value"
+  ]
+}

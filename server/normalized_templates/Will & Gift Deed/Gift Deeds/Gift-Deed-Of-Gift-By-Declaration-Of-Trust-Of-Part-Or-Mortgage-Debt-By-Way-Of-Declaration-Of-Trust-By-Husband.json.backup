@@ -1,0 +1,179 @@
+{
+  "title": "Gift Deed Of Gift By Declaration Of Trust Of Part Or Mortgage Debt By Way Of Declaration Of Trust By Husband",
+  "filename": "Gift-Deed-Of-Gift-By-Declaration-Of-Trust-Of-Part-Or-Mortgage-Debt-By-Way-Of-Declaration-Of-Trust-By-Husband.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "Legal template for gift deed of gift by declaration of trust of part or mortgage debt by way of declaration of trust by husband",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "age",
+    "age_2",
+    "date_3",
+    "date_4",
+    "amount",
+    "date_5",
+    "date_6",
+    "age_3",
+    "age_4",
+    "date_7",
+    "date_8",
+    "age_5",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

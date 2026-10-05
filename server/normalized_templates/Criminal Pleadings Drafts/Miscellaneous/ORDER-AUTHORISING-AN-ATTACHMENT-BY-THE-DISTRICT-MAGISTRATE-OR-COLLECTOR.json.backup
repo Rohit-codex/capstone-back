@@ -1,0 +1,99 @@
+{
+  "title": "Order Authorising An Attachment By The District Magistrate Or Collector",
+  "filename": "ORDER-AUTHORISING-AN-ATTACHMENT-BY-THE-DISTRICT-MAGISTRATE-OR-COLLECTOR.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for order authorising an attachment by the district magistrate or collector",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section_2",
+      "required": true,
+      "placeholder": "Enter section/act"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "legal_section",
+    "legal_section_2",
+    "party_name",
+    "field_value",
+    "age",
+    "place_2",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ]
+}

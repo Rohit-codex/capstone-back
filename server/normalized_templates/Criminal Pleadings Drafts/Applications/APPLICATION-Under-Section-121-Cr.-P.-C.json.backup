@@ -1,0 +1,83 @@
+{
+  "title": "Application Under Section 121 Cr. P. C",
+  "filename": "APPLICATION-Under-Section-121-Cr.-P.-C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "Legal template for application under section 121 cr. p. c",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "field_value",
+    "party_name",
+    "party_name_2",
+    "date",
+    "date_2",
+    "case_number",
+    "field_value_2",
+    "court_place_2"
+  ]
+}

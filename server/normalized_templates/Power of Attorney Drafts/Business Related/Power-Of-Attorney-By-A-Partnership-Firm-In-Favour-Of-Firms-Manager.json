@@ -1,0 +1,132 @@
+{
+  "title": "Power Of Attorney By A Partnership Firm In Favour Of Firms Manager",
+  "filename": "Power-Of-Attorney-By-A-Partnership-Firm-In-Favour-Of-Firms-Manager.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Business Related",
+  "description": "A power of attorney by a partnership firm in favour of firms manager used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address (First Party), Address (Second Party), Address (Third Party), Address (Fourth Party), Details.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fifth)",
+      "key": "address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "address_3",
+    "address_4",
+    "field_value",
+    "party_name",
+    "name_son_of",
+    "name_son_of_2",
+    "address_5",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name_2",
+    "witness_name",
+    "signatory_name"
+  ],
+  "description_hi": "Power Of Attorney By A Partnership Firm In Favour Of Firms Manager — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 15 आवश्यक विवरण भरने होंगे।"
+}

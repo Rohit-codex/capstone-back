@@ -1,0 +1,43 @@
+{
+  "title": "Money Bond With A Surety For An Existing Liability",
+  "filename": "MONEY-BOND-WITH-A-SURETY-FOR-AN-EXISTING-LIABILITY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for money bond with a surety for an existing liability",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "date",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

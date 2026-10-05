@@ -1,0 +1,64 @@
+{
+  "title": "Application For The Withdrawal Of The Complaint Under Section 257 Cr.P.C",
+  "filename": "Application-for-the-withdrawal-of-the-Complaint-under-Section-257-Cr.P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Complaints",
+  "description": "A application for the withdrawal of the complaint under section 257 cr.p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Place, Name, Field 1 of 2, Defendant/Accused Name, Field 3 of 2.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_2",
+      "type": "text",
+      "label": "Field 1 of 2",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 2"
+    },
+    {
+      "key": "defendantaccused_name",
+      "type": "text",
+      "label": "Defendant/Accused Name",
+      "required": true,
+      "placeholder": "e.g., Mohan Lal",
+      "description": "प्रतिवादी/अभियुक्त का नाम"
+    },
+    {
+      "key": "field_3_of_2",
+      "type": "text",
+      "label": "Field 3 of 2",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 2"
+    },
+    {
+      "key": "field_4_of_2",
+      "type": "text",
+      "label": "Field 4 of 2",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "party_name",
+    "field_1_of_2",
+    "defendantaccused_name",
+    "field_3_of_2",
+    "field_4_of_2"
+  ],
+  "description_hi": "Application For The Withdrawal Of The Complaint Under Section 257 Cr.P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Gift Declaration Of Gift Of Money",
+  "filename": "Gift-Declaration-Of-Gift-Of-Money.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift declaration of gift of money used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Address (First Party), Address (Second Party), Details (First Party), Details (Second Party), Details (Third Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "amount",
+    "date",
+    "field_value_4",
+    "place",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5"
+  ],
+  "description_hi": "Gift Declaration Of Gift Of Money — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

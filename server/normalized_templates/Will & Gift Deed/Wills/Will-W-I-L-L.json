@@ -1,0 +1,140 @@
+{
+  "title": "Will W I L L",
+  "filename": "Will-W-I-L-L.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "A will w i l l used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name (First Party), Name (Second Party), Wife's Name (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name (First Party)",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "Enter First Party  wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name (Second Party)",
+      "key": "wife_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  wife's name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "party_name",
+    "party_name_2",
+    "wife_name",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "wife_name_2",
+    "date",
+    "date_2",
+    "party_name_7",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Will W I L L — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 14 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

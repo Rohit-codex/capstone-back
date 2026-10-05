@@ -1,0 +1,52 @@
+{
+  "title": "Bond Bv Heirs With Sureties For Payment Of Money Due From Government To Deceased Employee",
+  "filename": "BOND-BV-HEIRS-WITH-SURETIES-FOR-PAYMENT-OF-MONEY-DUE-FROM-GOVERNMENT-TO-DECEASED-EMPLOYEE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond bv heirs with sureties for payment of money due from government to deceased employee used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Witness Name, Address, Details (First Party), Details (Second Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "address",
+    "field_value",
+    "field_value_2",
+    "signatory_name"
+  ],
+  "description_hi": "Bond Bv Heirs With Sureties For Payment Of Money Due From Government To Deceased Employee — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

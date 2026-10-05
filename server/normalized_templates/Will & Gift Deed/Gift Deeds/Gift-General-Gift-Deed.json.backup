@@ -1,0 +1,115 @@
+{
+  "title": "Gift General Gift Deed",
+  "filename": "Gift-General-Gift-Deed.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "Legal template for gift general gift deed",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_4",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "field_value",
+    "place_2",
+    "date",
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "witness_name_4",
+    "field_value_2",
+    "signatory_name"
+  ]
+}

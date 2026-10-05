@@ -1,0 +1,164 @@
+{
+  "title": "Writ Petition Seeking Writ Of Certiorari In High Court Under Article 226 Of Constitution To Quash Order Of Respondent",
+  "filename": "Writ-Petition-seeking-Writ-of-Certiorari-in-High-Court-under-Article-226-of-Constitution-to-quash-order-of-Respondent.docx",
+  "category": "Writ Drafts",
+  "subcategory": null,
+  "description": "A writ petition seeking writ of certiorari in high court under article 226 of constitution to quash order of respondent used for writ petitions filed before High Courts for enforcement of fundamental rights. Suitable for petitioners challenging government or administrative actions. Key details required: Address (First Party), Address (Second Party), Address (Third Party), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "address_3",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "field_value",
+    "party_name_8",
+    "party_name_9",
+    "party_name_10",
+    "party_name_11",
+    "party_name_12",
+    "party_name_13",
+    "party_name_14",
+    "party_name_15"
+  ],
+  "description_hi": "Writ Petition Seeking Writ Of Certiorari In High Court Under Article 226 Of Constitution To Quash Order Of Respondent — मौलिक अधिकारों के प्रवर्तन के लिए उच्च न्यायालयों में दायर रिट याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सरकारी या प्रशासनिक कार्रवाइयों को चुनौती देने वाले याचिकाकर्ता के लिए उपयुक्त। 19 आवश्यक विवरण भरने होंगे।"
+}

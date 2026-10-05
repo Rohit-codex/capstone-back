@@ -1,0 +1,100 @@
+{
+  "title": "Application For Exemption From Filing Officially Translated Documents With Supreme Court Of India",
+  "filename": "Application-for-exemption-from-filing-officially-translated-documents-with-Supreme-Court-of-India.docx",
+  "category": "SLP Formats",
+  "subcategory": null,
+  "description": "A application for exemption from filing officially translated documents with supreme court of india used for Special Leave Petitions filed before the Supreme Court of India. Suitable for litigants appealing High Court orders before the Supreme Court. Key details required: Details (First Party), Details (Second Party), Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "age",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8"
+  ],
+  "description_hi": "Application For Exemption From Filing Officially Translated Documents With Supreme Court Of India — भारत के सर्वोच्च न्यायालय में दायर विशेष अनुमति याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सर्वोच्च न्यायालय में उच्च न्यायालय के आदेशों के विरुद्ध अपील करने वाले वादी के लिए उपयुक्त। 11 आवश्यक विवरण भरने होंगे।"
+}

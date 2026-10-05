@@ -1,0 +1,36 @@
+{
+  "title": "Bill Of Exchange Payable On Demand",
+  "filename": "BILL-OF-EXCHANGE-PAYABLE-ON-DEMAND.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A bill of exchange payable on demand used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Date, Details, Signatory Name.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "field_value",
+    "signatory_name"
+  ],
+  "description_hi": "Bill Of Exchange Payable On Demand — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

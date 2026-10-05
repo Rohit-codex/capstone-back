@@ -1,0 +1,45 @@
+{
+  "title": "Bail Petition Before A Magistrate In A Pending Case Under Section 437 Cr Pc",
+  "filename": "Bail-Petition-before-a-Magistrate-in-a-Pending-Case-under-section-437-Cr-PC.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "A bail petition before a magistrate in a pending case under section 437 cr pc used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Court Name/Place, Name (Son of), Address, Place/City.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "name_son_of",
+    "address",
+    "placecity"
+  ],
+  "description_hi": "Bail Petition Before A Magistrate In A Pending Case Under Section 437 Cr Pc — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

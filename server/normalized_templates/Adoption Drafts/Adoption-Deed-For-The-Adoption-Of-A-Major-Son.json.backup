@@ -1,0 +1,59 @@
+{
+  "title": "Adoption Deed For The Adoption Of A Major Son",
+  "filename": "Adoption-Deed-For-The-Adoption-Of-A-Major-Son.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "Legal template for adoption deed for the adoption of a major son",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "age",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Power Of Attorney By Landlords In Favour Of Developers",
+  "filename": "Power-Of-Attorney-By-Landlords-In-Favour-Of-Developers.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "A power of attorney by landlords in favour of developers used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address, Details, Property Address, Signatory Name.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "field_value",
+    "property_address",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Power Of Attorney By Landlords In Favour Of Developers — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 4 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

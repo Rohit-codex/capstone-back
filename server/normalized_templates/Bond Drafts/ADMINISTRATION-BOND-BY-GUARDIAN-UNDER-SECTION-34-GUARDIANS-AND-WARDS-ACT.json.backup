@@ -1,0 +1,83 @@
+{
+  "title": "Administration Bond By Guardian Under Section 34 Guardians And Wards Act",
+  "filename": "ADMINISTRATION-BOND-BY-GUARDIAN-UNDER-SECTION-34-GUARDIANS-AND-WARDS-ACT.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for administration bond by guardian under section 34 guardians and wards act",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "date",
+    "property_address",
+    "court_place",
+    "field_value",
+    "field_value_2",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

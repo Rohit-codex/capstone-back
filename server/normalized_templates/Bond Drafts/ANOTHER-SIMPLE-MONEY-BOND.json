@@ -1,0 +1,44 @@
+{
+  "title": "Another Simple Money Bond",
+  "filename": "ANOTHER-SIMPLE-MONEY-BOND.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A another simple money bond used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Name, Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "field_value",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Another Simple Money Bond — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 2 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

@@ -1,0 +1,121 @@
+{
+  "title": "Warrant Of Commitment On Failure To Find Security For Good Behaviour",
+  "filename": "WARRANT-OF-COMMITMENT-ON-FAILURE-TO-FIND-SECURITY-FOR-GOOD-BEHAVIOUR.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant of commitment on failure to find security for good behaviour used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Place, Amount (Rs.) (First Party), Amount (Rs.) (Second Party), Name, Date (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "district",
+      "type": "text",
+      "label": "District",
+      "required": true,
+      "placeholder": "e.g., South Delhi",
+      "description": "जिला"
+    },
+    {
+      "key": "amount_3",
+      "type": "text",
+      "label": "Amount (₹) (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "amount_4",
+      "type": "text",
+      "label": "Amount (₹) (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "amount_5",
+      "type": "text",
+      "label": "Amount (₹) (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "amount",
+    "amount_2",
+    "party_name",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name",
+    "district",
+    "amount_3",
+    "amount_4",
+    "amount_5",
+    "placecity"
+  ],
+  "description_hi": "Warrant Of Commitment On Failure To Find Security For Good Behaviour — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

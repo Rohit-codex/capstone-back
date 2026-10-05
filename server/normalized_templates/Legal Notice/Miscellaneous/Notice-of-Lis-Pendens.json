@@ -1,0 +1,44 @@
+{
+  "title": "Notice Of Lis Pendens",
+  "filename": "Notice-of-Lis-Pendens.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A notice of lis pendens used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Details, Name, Witness Name, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "party_name",
+    "witness_name",
+    "signatory_name"
+  ],
+  "description_hi": "Notice Of Lis Pendens — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Order Authorising An Attachment By The District Magistrate Or Collector",
+  "filename": "ORDER-AUTHORISING-AN-ATTACHMENT-BY-THE-DISTRICT-MAGISTRATE-OR-COLLECTOR.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A order authorising an attachment by the district magistrate or collector used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Place (First Party), Section/Act (First Party), Section/Act (Second Party), Name, Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act (First Party)",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter First Party  section/act"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act (Second Party)",
+      "key": "legal_section_2",
+      "required": true,
+      "placeholder": "Enter Second Party  section/act"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "legal_section",
+    "legal_section_2",
+    "party_name",
+    "field_value",
+    "age",
+    "place_2",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ],
+  "description_hi": "Order Authorising An Attachment By The District Magistrate Or Collector — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 11 आवश्यक विवरण भरने होंगे।"
+}

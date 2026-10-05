@@ -1,0 +1,30 @@
+{
+  "title": "Notice Under Section 138 Of The Negotiable Instruments Act And Section 420 Of Ipc",
+  "filename": "Notice-under-section-138-of-the-negotiable-instruments-act-and-section-420-of-IPC.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "A notice under section 138 of the negotiable instruments act and section 420 of ipc used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Field 1 of 0, Field 2 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0",
+    "field_2_of_0"
+  ],
+  "description_hi": "Notice Under Section 138 Of The Negotiable Instruments Act And Section 420 Of Ipc — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 2 आवश्यक विवरण भरने होंगे।"
+}

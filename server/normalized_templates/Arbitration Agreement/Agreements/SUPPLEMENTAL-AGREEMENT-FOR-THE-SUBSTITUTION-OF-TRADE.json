@@ -1,0 +1,148 @@
+{
+  "title": "Supplemental Agreement For The Substitution Of Trade",
+  "filename": "SUPPLEMENTAL-AGREEMENT-FOR-THE-SUBSTITUTION-OF-TRADE.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "A supplemental agreement for the substitution of trade used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Place (First Party), Name (Son of) (First Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "place",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "amount",
+    "field_value",
+    "field_value_2",
+    "place_2",
+    "place_3",
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "field_value_3",
+    "signatory_name"
+  ],
+  "description_hi": "Supplemental Agreement For The Substitution Of Trade — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 17 आवश्यक विवरण भरने होंगे।"
+}

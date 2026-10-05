@@ -1,0 +1,91 @@
+{
+  "title": "Order Of Attachment To Compel The Attendance Of A Witness",
+  "filename": "ORDER-OF-ATTACHMENT-TO-COMPEL-THE-ATTENDANCE-OF-A-WITNESS.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for order of attachment to compel the attendance of a witness",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter property address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "property_address",
+    "amount",
+    "property_address_2",
+    "date",
+    "date_2",
+    "date_3",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Warrant For Recovery Of Fine",
+  "filename": "WARRANT-FOR-RECOVERY-OF-FINE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant for recovery of fine used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Date (First Party), Date (Second Party), Date (Third Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "district",
+      "type": "text",
+      "label": "District",
+      "required": true,
+      "placeholder": "e.g., South Delhi",
+      "description": "जिला"
+    },
+    {
+      "key": "date_7",
+      "type": "text",
+      "label": "Date (Seventh)",
+      "required": true,
+      "placeholder": "Enter Seventh 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_8",
+      "type": "text",
+      "label": "Date (Eighth)",
+      "required": true,
+      "placeholder": "Enter Eighth 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_9",
+      "type": "text",
+      "label": "Date (9)",
+      "required": true,
+      "placeholder": "Enter 9 12th February 2026",
+      "description": "तारीख"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name_2",
+    "date_4",
+    "date_5",
+    "date_6",
+    "signatory_name",
+    "district",
+    "date_7",
+    "date_8",
+    "date_9"
+  ],
+  "description_hi": "Warrant For Recovery Of Fine — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Petition By Wife For Enforcing Maintenance Allowance Ordered By Court Under Section 128 Crpc",
+  "filename": "Petition-by-Wife-for-Enforcing-Maintenance-Allowance-Ordered-by-Court-under-section-128-CrPC.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A petition by wife for enforcing maintenance allowance ordered by court under section 128 crpc used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Field 1 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0"
+  ],
+  "description_hi": "Petition By Wife For Enforcing Maintenance Allowance Ordered By Court Under Section 128 Crpc — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Special Power Of Attorney To Present Document For Registration",
+  "filename": "Special-Power-Of-Attorney-To-Present-Document-For-Registration.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Special POA",
+  "description": "A special power of attorney to present document for registration used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Name (Son of), Witness Name (First Party), Witness Name (Second Party), Signatory Name, Place/City.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "witness_name",
+    "witness_name_2",
+    "signatory_name",
+    "placecity"
+  ],
+  "description_hi": "Special Power Of Attorney To Present Document For Registration — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

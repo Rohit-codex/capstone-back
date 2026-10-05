@@ -1,0 +1,60 @@
+{
+  "title": "Will Revocation Of Will",
+  "filename": "Will-Revocation-Of-Will.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "A will revocation of will used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Details, Witness Name (First Party), Witness Name (Second Party), Witness Name (Third Party), Witness Name (Fourth Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Fourth Party)",
+      "key": "witness_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Fifth)",
+      "key": "witness_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  witness name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "witness_name_4",
+    "witness_name_5"
+  ],
+  "description_hi": "Will Revocation Of Will — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

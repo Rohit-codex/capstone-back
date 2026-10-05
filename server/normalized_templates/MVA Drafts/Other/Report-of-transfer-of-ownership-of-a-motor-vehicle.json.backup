@@ -1,0 +1,195 @@
+{
+  "title": "Report Of Transfer Of Ownership Of A Motor Vehicle",
+  "filename": "Report-of-transfer-of-ownership-of-a-motor-vehicle.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Other",
+  "description": "Legal template for report of transfer of ownership of a motor vehicle",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter name (daughter of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "Enter wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter name (daughter of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "name_daughter_of",
+    "address",
+    "address_2",
+    "date",
+    "date_2",
+    "wife_name",
+    "name_daughter_of_2",
+    "address_3",
+    "address_4",
+    "date_3",
+    "date_4",
+    "date_5",
+    "party_name",
+    "party_name_2",
+    "field_value",
+    "party_name_3",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "date_10",
+    "date_11",
+    "signatory_name"
+  ]
+}

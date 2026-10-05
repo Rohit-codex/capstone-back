@@ -1,0 +1,108 @@
+{
+  "title": "Affidavit Format Kusum Sharma V Mahinder Kumar Sharma Download",
+  "filename": "affidavit-format-kusum-sharma-v-mahinder-kumar-sharma-download.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Other",
+  "description": "A affidavit format kusum sharma v mahinder kumar sharma download used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Court Name/Place, Case Number (First Party), Case Number (Second Party), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter First Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter Second Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (First Party)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Second Party)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Third Party)",
+      "key": "name_daughter_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (daughter of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "case_number",
+    "case_number_2",
+    "party_name",
+    "party_name_2",
+    "name_daughter_of",
+    "name_daughter_of_2",
+    "name_daughter_of_3",
+    "address",
+    "address_2",
+    "date",
+    "date_2"
+  ],
+  "description_hi": "Affidavit Format Kusum Sharma V Mahinder Kumar Sharma Download — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

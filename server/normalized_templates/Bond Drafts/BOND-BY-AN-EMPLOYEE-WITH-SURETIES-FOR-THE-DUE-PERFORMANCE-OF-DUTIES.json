@@ -1,0 +1,89 @@
+{
+  "title": "Bond By An Employee With Sureties For The Due Performance Of Duties",
+  "filename": "BOND-BY-AN-EMPLOYEE-WITH-SURETIES-FOR-THE-DUE-PERFORMANCE-OF-DUTIES.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond by an employee with sureties for the due performance of duties used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Name (Son of), Name, Witness Name, Signatory Name, Father's Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "pan_number",
+      "type": "text",
+      "label": "PAN Number",
+      "required": true,
+      "placeholder": "e.g., ABCDE1234F",
+      "description": "पैन नंबर"
+    },
+    {
+      "key": "field_3_of_3",
+      "type": "text",
+      "label": "Field 3 of 3",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 3"
+    },
+    {
+      "key": "field_4_of_3",
+      "type": "text",
+      "label": "Field 4 of 3",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 3"
+    },
+    {
+      "key": "field_5_of_3",
+      "type": "text",
+      "label": "Field 5 of 3",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 3"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "party_name",
+    "witness_name",
+    "signatory_name",
+    "fathers_name",
+    "pan_number",
+    "field_3_of_3",
+    "field_4_of_3",
+    "field_5_of_3"
+  ],
+  "description_hi": "Bond By An Employee With Sureties For The Due Performance Of Duties — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 9 आवश्यक विवरण भरने होंगे।"
+}

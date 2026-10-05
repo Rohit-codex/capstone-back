@@ -1,0 +1,54 @@
+{
+  "title": "Power Of Attorney Granting Additional Powers To An Attorney",
+  "filename": "Power-Of-Attorney-Granting-Additional-Powers-To-An-Attorney.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "A power of attorney granting additional powers to an attorney used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address, Witness Name, Signatory Name, Father's Name, Date.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "date",
+      "type": "text",
+      "label": "Date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026",
+      "description": "तारीख"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_name",
+    "signatory_name",
+    "fathers_name",
+    "date"
+  ],
+  "description_hi": "Power Of Attorney Granting Additional Powers To An Attorney — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Criminal Revision Before High Court Under Sections 397 And 401 Of Cr. P.C",
+  "filename": "Criminal-Revision-before-High-Court-under-Sections-397-and-401-of-Cr.-P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Appeals and Revisions",
+  "description": "A criminal revision before high court under sections 397 and 401 of cr. p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Field 1 of 0, Field 2 of 0, Field 3 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0"
+  ],
+  "description_hi": "Criminal Revision Before High Court Under Sections 397 And 401 Of Cr. P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

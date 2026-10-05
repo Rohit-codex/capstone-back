@@ -1,0 +1,59 @@
+{
+  "title": "Will Revocation Of Will",
+  "filename": "Will-Revocation-Of-Will.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "Legal template for will revocation of will",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_4",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_5",
+      "required": true,
+      "placeholder": "Enter witness name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "witness_name_4",
+    "witness_name_5"
+  ]
+}

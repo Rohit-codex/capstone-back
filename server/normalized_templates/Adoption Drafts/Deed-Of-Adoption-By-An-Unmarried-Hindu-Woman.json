@@ -1,0 +1,204 @@
+{
+  "title": "Deed Of Adoption By An Unmarried Hindu Woman",
+  "filename": "Deed-Of-Adoption-By-An-Unmarried-Hindu-Woman.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A deed of adoption by an unmarried hindu woman used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Date (First Party), Date (Second Party), Details (First Party), Details (Second Party), Name (Son of) (First Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Sixth)",
+      "key": "name_son_of_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Seventh)",
+      "key": "name_son_of_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "field_value",
+    "field_value_2",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "name_son_of_6",
+    "name_son_of_7",
+    "age",
+    "date_3",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "place",
+    "party_name",
+    "date_4",
+    "party_name_2",
+    "party_name_3",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Deed Of Adoption By An Unmarried Hindu Woman — बच्चे को गोद लेने, गोद लेने की सहमति या संबंधित पारिवारिक कार्यवाही के लिए उपयोग किया जाने वाला कानूनी प्रारूप। संभावित दत्तक माता-पिता, जैविक माता-पिता, या अभिभावकों के लिए उपयुक्त। 22 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

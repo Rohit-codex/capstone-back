@@ -1,0 +1,52 @@
+{
+  "title": "Security Bond To Be Given During The Pendency Of Appeal",
+  "filename": "SECURITY-BOND-TO-BE-GIVEN-DURING-THE-PENDENCY-OF-APPEAL.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A security bond to be given during the pendency of appeal used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Details, Witness Name (First Party), Witness Name (Second Party), Witness Name (Third Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "signatory_name"
+  ],
+  "description_hi": "Security Bond To Be Given During The Pendency Of Appeal — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

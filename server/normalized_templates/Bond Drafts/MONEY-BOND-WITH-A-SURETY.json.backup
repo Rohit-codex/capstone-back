@@ -1,0 +1,35 @@
+{
+  "title": "Money Bond With A Surety",
+  "filename": "MONEY-BOND-WITH-A-SURETY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for money bond with a surety",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

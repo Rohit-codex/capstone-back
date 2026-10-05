@@ -1,0 +1,28 @@
+{
+  "title": "Pro Forma Of A Complaint Under Section 138 By A Firm",
+  "filename": "Pro-forma-of-a-complaint-under-section-138-by-a-firm.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "A pro forma of a complaint under section 138 by a firm used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. ",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Pro Forma Of A Complaint Under Section 138 By A Firm — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 0 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

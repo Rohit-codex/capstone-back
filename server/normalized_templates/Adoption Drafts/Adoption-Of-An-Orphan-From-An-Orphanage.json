@@ -1,0 +1,187 @@
+{
+  "title": "Adoption Of An Orphan From An Orphanage",
+  "filename": "Adoption-Of-An-Orphan-From-An-Orphanage.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A adoption of an orphan from an orphanage used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Address (First Party), Address (Second Party), Address (Third Party), Date (First Party), Date (Second Party).",
+  "fields": [
+    {
+    "type": "text",
+    "label": "Adoptive Father Name",
+    "key": "adoptive_father_name",
+    "required": true,
+    "placeholder": "Enter name"
+  },
+  {
+    "type": "text",
+    "label": "Adoptive Father Father's Name",
+    "key": "adoptive_father_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Adoptive Father Age",
+    "key": "adoptive_father_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Adoptive Father Address",
+    "key": "adoptive_father_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+  "type": "number",
+  "label": "Number of Daughters",
+  "key": "number_of_daughters",
+  "required": true,
+  "placeholder": "Enter number of daughters"
+  },
+  {
+    "type": "text",
+    "label": "Adoptee Name",
+    "key": "adoptee_name",
+    "required": true,
+    "placeholder": "Enter adoptee name"
+  },
+  {
+    "type": "number",
+    "label": "Adoptee Age",
+    "key": "adoptee_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Orphanage Name",
+    "key": "orphanage_name",
+    "required": true,
+    "placeholder": "Enter orphanage name"
+  },
+  {
+    "type": "date",
+    "label": "Adoption Date",
+    "key": "adoption_date",
+    "required": true,
+    "placeholder": "Select adoption date"
+  },
+  {
+    "type": "textarea",
+    "label": "Court Name",
+    "key": "court_name",
+    "required": true,
+    "placeholder": "Enter court name"
+  },
+  {
+    "type": "date",
+    "label": "Court Permission Date",
+    "key": "court_permission_date",
+    "required": true,
+    "placeholder": "Select date"
+  },
+
+  {
+    "type": "date",
+    "label": "Ceremony Date",
+    "key": "ceremony_date",
+    "required": true,
+    "placeholder": "Select ceremony date"
+  },
+  {
+    "type": "textarea",
+    "label": "Ceremony Place",
+    "key": "ceremony_place",
+    "required": true,
+    "placeholder": "Enter ceremony place"
+  },
+ {
+    "type": "text",
+    "label": "Wife Name",
+    "key": "wife_name",
+    "required": true,
+    "placeholder": "Enter wife's name"
+  },
+  {
+    "type": "textarea",
+    "label": "Consent Place",
+    "key": "consent_place",
+    "required": true,
+    "placeholder": "Enter place"
+  },
+  {
+    "type": "date",
+    "label": "Consent Date",
+    "key": "consent_date",
+    "required": true,
+    "placeholder": "Select date"
+  },
+  {
+    "type": "text",
+    "label": "Wife Signature",
+    "key": "wife_signature",
+    "required": false,
+    "placeholder": "Enter name"
+  },
+  {
+    "type": "signature",
+    "label": "Witness 1 Signature",
+    "key": "witness1_signature",
+    "required": false,
+    "placeholder": "Enter witness signature"
+  },
+  {
+    "type": "signature",
+    "label": "Witness 2 Signature",
+    "key": "witness2_signature",
+    "required": false,
+    "placeholder": "Enter witness signature"
+  },
+  {
+    "type": "signature",
+    "label": "Adoptive Father Signature",
+    "key": "adoptive_father_signature",
+    "required": false,
+    "placeholder": "Enter adoptive father signature"
+  }
+  ],
+  "placeholder_order": [
+"adoptive_father_name",
+"adoptive_father_father_name",
+"adoptive_father_age",
+"adoptive_father_address",
+
+"number_of_daughters",
+
+"adoptee_name",
+"adoptee_age",
+"orphanage_name",
+"adoption_date",
+"adoptee_name",
+"court_name",
+"court_permission_date",
+
+"ceremony_date",
+"ceremony_place",
+
+"adoptee_name",
+"adoptee_age",
+
+
+"wife_name",
+"adoptive_father_name",
+"adoptee_name",
+
+"consent_place",
+"consent_date",
+"wife_signature",
+
+
+"witness1_signature",
+"witness2_signature",
+
+"adoptive_father_signature"
+  ]
+}

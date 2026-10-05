@@ -1,0 +1,51 @@
+{
+  "title": "Security For Costs Of Appeal",
+  "filename": "SECURITY-FOR-COSTS-OF-APPEAL.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security for costs of appeal",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "witness_name",
+    "party_name",
+    "field_value",
+    "signatory_name"
+  ]
+}

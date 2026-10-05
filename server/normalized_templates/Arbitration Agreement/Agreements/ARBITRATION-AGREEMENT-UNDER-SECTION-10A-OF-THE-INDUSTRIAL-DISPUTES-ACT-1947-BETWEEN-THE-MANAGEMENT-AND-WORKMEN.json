@@ -1,0 +1,92 @@
+{
+  "title": "Arbitration Agreement Under Section 10A Of The Industrial Disputes Act 1947 Between The Management And Workmen",
+  "filename": "ARBITRATION-AGREEMENT-UNDER-SECTION-10A-OF-THE-INDUSTRIAL-DISPUTES-ACT-1947-BETWEEN-THE-MANAGEMENT-AND-WORKMEN.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "A arbitration agreement under section 10a of the industrial disputes act 1947 between the management and workmen used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Address, Name, Details, Occupation (First Party), Occupation (Second Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (First Party)",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter First Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (Second Party)",
+      "key": "occupation_2",
+      "required": true,
+      "placeholder": "Enter Second Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "party_name",
+    "field_value",
+    "occupation",
+    "occupation_2",
+    "place",
+    "date",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Arbitration Agreement Under Section 10A Of The Industrial Disputes Act 1947 Between The Management And Workmen — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 8 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

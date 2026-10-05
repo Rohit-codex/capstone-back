@@ -1,0 +1,83 @@
+{
+  "title": "Draft Of Appointment Of Enquiry Officer",
+  "filename": "Draft-of-appointment-of-enquiry-officer.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for draft of appointment of enquiry officer",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "party_name",
+    "party_name_2",
+    "address",
+    "date",
+    "date_2",
+    "date_3"
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "title": "Bail Bond",
+  "filename": "BAIL-BOND.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "A bail bond used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Address (First Party), Address (Second Party), Police Station, Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Police Station",
+      "key": "police_station",
+      "required": true,
+      "placeholder": "Enter police station here"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (15)",
+      "key": "date_15",
+      "required": true,
+      "placeholder": "Enter 15  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (16)",
+      "key": "date_16",
+      "required": true,
+      "placeholder": "Enter 16  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Third Party)",
+      "key": "court_place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  court name/place"
+    },
+    {
+      "type": "date",
+      "label": "Date (17)",
+      "key": "date_17",
+      "required": true,
+      "placeholder": "Enter 17  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (18)",
+      "key": "date_18",
+      "required": true,
+      "placeholder": "Enter 18  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (19)",
+      "key": "date_19",
+      "required": true,
+      "placeholder": "Enter 19  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (20)",
+      "key": "date_20",
+      "required": true,
+      "placeholder": "Enter 20  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (21)",
+      "key": "date_21",
+      "required": true,
+      "placeholder": "Enter 21  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (22)",
+      "key": "date_22",
+      "required": true,
+      "placeholder": "Enter 22  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "address",
+    "address_2",
+    "police_station",
+    "field_value",
+    "date",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "date_2",
+    "date_3",
+    "date_4",
+    "party_name_6",
+    "place",
+    "party_name_7",
+    "court_place",
+    "date_5",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "party_name_8",
+    "date_10",
+    "date_11",
+    "date_12",
+    "date_13",
+    "date_14",
+    "date_15",
+    "date_16",
+    "party_name_9",
+    "court_place_2",
+    "court_place_3",
+    "date_17",
+    "date_18",
+    "date_19",
+    "date_20",
+    "date_21",
+    "date_22",
+    "signatory_name"
+  ],
+  "description_hi": "Bail Bond — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 44 आवश्यक विवरण भरने होंगे।"
+}

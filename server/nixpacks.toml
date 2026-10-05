@@ -1,0 +1,18 @@
+# Nixpacks configuration for Railway to support Puppeteer
+[phases.setup]
+nixPkgs = [
+    "nodejs",
+    "npm",
+    "chromium",
+    "nss",
+    "freetype",
+    "freetype.dev",
+    "expat",
+    "fontconfig",
+    "libuuid"
+]
+
+[phases.build]
+cmds = ["npm install"]
+
+

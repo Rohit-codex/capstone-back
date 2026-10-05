@@ -1,0 +1,137 @@
+{
+  "title": "Notice Of Termination Of Guarantee For Faithful Service Of Employee",
+  "filename": "Notice-Of-Termination-Of-Guarantee-For-Faithful-Service-Of-Employee.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A notice of termination of guarantee for faithful service of employee used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Date (Fourth Party), Place.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "key": "field_1_of_10",
+      "type": "text",
+      "label": "Field 1 of 10",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 10"
+    },
+    {
+      "key": "field_2_of_10",
+      "type": "text",
+      "label": "Field 2 of 10",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 10"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "field_4_of_10",
+      "type": "text",
+      "label": "Field 4 of 10",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 10"
+    },
+    {
+      "key": "field_5_of_10",
+      "type": "text",
+      "label": "Field 5 of 10",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 10"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "place",
+    "date_5",
+    "name_son_of",
+    "name_son_of_2",
+    "date_6",
+    "age",
+    "field_1_of_10",
+    "field_2_of_10",
+    "placecity",
+    "field_4_of_10",
+    "field_5_of_10"
+  ],
+  "description_hi": "Notice Of Termination Of Guarantee For Faithful Service Of Employee — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 15 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Written Statement Of The Defendant Tenant In An Eviction Suit In The Court Of The Small Causes Judge",
+  "filename": "Written-statement-of-the-defendant-tenant-in-an-eviction-suit-IN-THE-COURT-OF-THE-SMALL-CAUSES-JUDGE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A written statement of the defendant tenant in an eviction suit in the court of the small causes judge used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name"
+  ],
+  "description_hi": "Written Statement Of The Defendant Tenant In An Eviction Suit In The Court Of The Small Causes Judge — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

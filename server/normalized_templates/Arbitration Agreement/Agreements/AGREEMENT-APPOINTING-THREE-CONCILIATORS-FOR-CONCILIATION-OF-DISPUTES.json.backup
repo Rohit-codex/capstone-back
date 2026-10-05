@@ -1,0 +1,51 @@
+{
+  "title": "Agreement Appointing Three Conciliators For Conciliation Of Disputes",
+  "filename": "AGREEMENT-APPOINTING-THREE-CONCILIATORS-FOR-CONCILIATION-OF-DISPUTES.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "Legal template for agreement appointing three conciliators for conciliation of disputes",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

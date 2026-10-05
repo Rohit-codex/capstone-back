@@ -1,0 +1,588 @@
+{
+  "title": "Complaint Under Sections 138 And 142 Of The Negotiable Instruments Act",
+  "filename": "Complaint-Under-Sections-138-And-142-Of-The-Negotiable-Instruments-Act.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "A complaint under sections 138 and 142 of the negotiable instruments act used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party), Name (Son of) (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name (16)",
+      "key": "party_name_16",
+      "required": true,
+      "placeholder": "Enter 16  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (17)",
+      "key": "party_name_17",
+      "required": true,
+      "placeholder": "Enter 17  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (18)",
+      "key": "party_name_18",
+      "required": true,
+      "placeholder": "Enter 18  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (19)",
+      "key": "party_name_19",
+      "required": true,
+      "placeholder": "Enter 19  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (20)",
+      "key": "party_name_20",
+      "required": true,
+      "placeholder": "Enter 20  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (21)",
+      "key": "party_name_21",
+      "required": true,
+      "placeholder": "Enter 21  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fifth)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter Fifth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Sixth)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter Sixth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Seventh)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter Seventh  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Eighth)",
+      "key": "amount_8",
+      "required": true,
+      "placeholder": "Enter Eighth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (9)",
+      "key": "amount_9",
+      "required": true,
+      "placeholder": "Enter 9  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (10)",
+      "key": "amount_10",
+      "required": true,
+      "placeholder": "Enter 10  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (22)",
+      "key": "party_name_22",
+      "required": true,
+      "placeholder": "Enter 22  name"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (23)",
+      "key": "party_name_23",
+      "required": true,
+      "placeholder": "Enter 23  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (24)",
+      "key": "party_name_24",
+      "required": true,
+      "placeholder": "Enter 24  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (25)",
+      "key": "party_name_25",
+      "required": true,
+      "placeholder": "Enter 25  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (26)",
+      "key": "party_name_26",
+      "required": true,
+      "placeholder": "Enter 26  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (27)",
+      "key": "party_name_27",
+      "required": true,
+      "placeholder": "Enter 27  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (28)",
+      "key": "party_name_28",
+      "required": true,
+      "placeholder": "Enter 28  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (15)",
+      "key": "date_15",
+      "required": true,
+      "placeholder": "Enter 15  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Name (29)",
+      "key": "party_name_29",
+      "required": true,
+      "placeholder": "Enter 29  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (30)",
+      "key": "party_name_30",
+      "required": true,
+      "placeholder": "Enter 30  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (31)",
+      "key": "party_name_31",
+      "required": true,
+      "placeholder": "Enter 31  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (32)",
+      "key": "party_name_32",
+      "required": true,
+      "placeholder": "Enter 32  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (33)",
+      "key": "party_name_33",
+      "required": true,
+      "placeholder": "Enter 33  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (16)",
+      "key": "date_16",
+      "required": true,
+      "placeholder": "Enter 16  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "field_value",
+    "party_name_6",
+    "party_name_7",
+    "date",
+    "date_2",
+    "amount",
+    "party_name_8",
+    "party_name_9",
+    "party_name_10",
+    "party_name_11",
+    "amount_2",
+    "party_name_12",
+    "date_3",
+    "party_name_13",
+    "party_name_14",
+    "date_4",
+    "date_5",
+    "party_name_15",
+    "place",
+    "party_name_16",
+    "party_name_17",
+    "party_name_18",
+    "party_name_19",
+    "party_name_20",
+    "date_6",
+    "amount_3",
+    "amount_4",
+    "party_name_21",
+    "amount_5",
+    "amount_6",
+    "amount_7",
+    "amount_8",
+    "amount_9",
+    "amount_10",
+    "witness_name",
+    "date_7",
+    "date_8",
+    "party_name_22",
+    "court_place",
+    "field_value_2",
+    "party_name_23",
+    "party_name_24",
+    "party_name_25",
+    "date_9",
+    "date_10",
+    "date_11",
+    "date_12",
+    "date_13",
+    "party_name_26",
+    "party_name_27",
+    "party_name_28",
+    "date_14",
+    "date_15",
+    "address",
+    "address_2",
+    "party_name_29",
+    "party_name_30",
+    "party_name_31",
+    "party_name_32",
+    "party_name_33",
+    "date_16",
+    "signatory_name"
+  ],
+  "description_hi": "Complaint Under Sections 138 And 142 Of The Negotiable Instruments Act — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 72 आवश्यक विवरण भरने होंगे।"
+}

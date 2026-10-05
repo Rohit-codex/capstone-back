@@ -1,0 +1,60 @@
+{
+  "title": "                                                2005.1",
+  "filename": "_________-____-________-_____-__-______-_______-2005.1.docx",
+  "category": "RTI Drafts",
+  "subcategory": null,
+  "description": "A                                                 2005.1 used for applications under the Right to Information Act to obtain government information. Suitable for citizens seeking government information or transparency. Key details required: Details (First Party), Details (Second Party), Details (Third Party), Details (Fourth Party), Details (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6"
+  ],
+  "description_hi": "                                                2005.1 — सरकारी जानकारी प्राप्त करने के लिए सूचना का अधिकार अधिनियम के तहत आवेदन के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सरकारी जानकारी या पारदर्शिता चाहने वाले नागरिक के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

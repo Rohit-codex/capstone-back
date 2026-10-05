@@ -1,0 +1,13 @@
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+const filePath = 'uploads/files/f2e118b65a9ea705_Amod_Kumar_Jha_GP_17.docx';
+const dest = 'temp_docx_unzip';
+if (fs.existsSync(dest)) fs.rmSync(dest, { recursive: true, force: true });
+fs.mkdirSync(dest);
+execSync('powershell Expand-Archive -Path \\\'' + filePath + '\\\' -DestinationPath \\\'' + dest + '\\\'');
+const docXml = fs.readFileSync(path.join(dest, 'word', 'document.xml'), 'utf-8');
+console.log('document.xml length:', docXml.length);
+console.log('Includes Amod Kumar Jha?', docXml.includes('Amod'));
+console.log('Includes w:txbxContent?', docXml.includes('w:txbxContent'));
+console.log('Includes mc:AlternateContent?', docXml.includes('mc:AlternateContent'));

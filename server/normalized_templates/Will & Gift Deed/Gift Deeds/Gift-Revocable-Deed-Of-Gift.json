@@ -1,0 +1,108 @@
+{
+  "title": "Gift Revocable Deed Of Gift",
+  "filename": "Gift-Revocable-Deed-Of-Gift.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift revocable deed of gift used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Date, Address (First Party), Address (Second Party), Address (Third Party), Address (Fourth Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fifth)",
+      "key": "address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Sixth)",
+      "key": "address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  address"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "address",
+    "address_2",
+    "address_3",
+    "address_4",
+    "address_5",
+    "address_6",
+    "place",
+    "party_name",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ],
+  "description_hi": "Gift Revocable Deed Of Gift — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 10 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

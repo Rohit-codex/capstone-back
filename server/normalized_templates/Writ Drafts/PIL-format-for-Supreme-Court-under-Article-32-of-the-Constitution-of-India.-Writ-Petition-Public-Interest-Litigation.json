@@ -1,0 +1,228 @@
+{
+  "title": "Pil Format For Supreme Court Under Article 32 Of The Constitution Of India. Writ Petition Public Interest Litigation",
+  "filename": "PIL-format-for-Supreme-Court-under-Article-32-of-the-Constitution-of-India.-Writ-Petition-Public-Interest-Litigation.docx",
+  "category": "Writ Drafts",
+  "subcategory": null,
+  "description": "A pil format for supreme court under article 32 of the constitution of india. writ petition public interest litigation used for writ petitions filed before High Courts for enforcement of fundamental rights. Suitable for petitioners challenging government or administrative actions. Key details required: Details (First Party), Date, Place (First Party), Place (Second Party), Details (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act here"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fifth)",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter Fifth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Sixth)",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter Sixth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Seventh)",
+      "key": "place_7",
+      "required": true,
+      "placeholder": "Enter Seventh  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Eighth)",
+      "key": "place_8",
+      "required": true,
+      "placeholder": "Enter Eighth  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (9)",
+      "key": "place_9",
+      "required": true,
+      "placeholder": "Enter 9  place"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "place",
+    "place_2",
+    "field_value_2",
+    "legal_section",
+    "field_value_3",
+    "amount",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "place_3",
+    "field_value_7",
+    "field_value_8",
+    "place_4",
+    "place_5",
+    "place_6",
+    "place_7",
+    "field_value_9",
+    "field_value_10",
+    "place_8",
+    "place_9"
+  ],
+  "description_hi": "Pil Format For Supreme Court Under Article 32 Of The Constitution Of India. Writ Petition Public Interest Litigation — मौलिक अधिकारों के प्रवर्तन के लिए उच्च न्यायालयों में दायर रिट याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सरकारी या प्रशासनिक कार्रवाइयों को चुनौती देने वाले याचिकाकर्ता के लिए उपयुक्त। 27 आवश्यक विवरण भरने होंगे।"
+}

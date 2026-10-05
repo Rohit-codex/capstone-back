@@ -1,0 +1,51 @@
+{
+  "title": "Will Joint Will By Husband And Wife",
+  "filename": "Will-Joint-Will-By-Husband-And-Wife.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "Legal template for will joint will by husband and wife",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "address",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

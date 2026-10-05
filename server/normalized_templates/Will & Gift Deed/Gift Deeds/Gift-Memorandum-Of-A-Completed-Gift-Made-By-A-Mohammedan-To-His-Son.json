@@ -1,0 +1,36 @@
+{
+  "title": "Gift Memorandum Of A Completed Gift Made By A Mohammedan To His Son",
+  "filename": "Gift-Memorandum-Of-A-Completed-Gift-Made-By-A-Mohammedan-To-His-Son.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift memorandum of a completed gift made by a mohammedan to his son used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Name (Son of), Witness Name, Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "witness_name",
+    "field_value"
+  ],
+  "description_hi": "Gift Memorandum Of A Completed Gift Made By A Mohammedan To His Son — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

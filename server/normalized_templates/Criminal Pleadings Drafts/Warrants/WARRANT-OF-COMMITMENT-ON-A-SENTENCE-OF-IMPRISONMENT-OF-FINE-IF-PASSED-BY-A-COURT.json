@@ -1,0 +1,146 @@
+{
+  "title": "Warrant Of Commitment On A Sentence Of Imprisonment Of Fine If Passed By A Court",
+  "filename": "WARRANT-OF-COMMITMENT-ON-A-SENTENCE-OF-IMPRISONMENT-OF-FINE-IF-PASSED-BY-A-COURT.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant of commitment on a sentence of imprisonment of fine if passed by a court used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Name (Second Party), Case Number (First Party), Name (Third Party), Place (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter First Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "date_4",
+      "type": "text",
+      "label": "Date (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "case_number_2",
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "case_number_3",
+      "type": "text",
+      "label": "Case Number (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "case_number_4",
+      "type": "text",
+      "label": "Case Number (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "section_number",
+      "type": "text",
+      "label": "Section Number (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Section 420 IPC",
+      "description": "धारा संख्या"
+    },
+    {
+      "key": "section_number_2",
+      "type": "text",
+      "label": "Section Number (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Section 420 IPC",
+      "description": "धारा संख्या"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "case_number",
+    "party_name_3",
+    "place",
+    "place_2",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name",
+    "date_4",
+    "case_number_2",
+    "case_number_3",
+    "case_number_4",
+    "section_number",
+    "section_number_2"
+  ],
+  "description_hi": "Warrant Of Commitment On A Sentence Of Imprisonment Of Fine If Passed By A Court — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 16 आवश्यक विवरण भरने होंगे।"
+}

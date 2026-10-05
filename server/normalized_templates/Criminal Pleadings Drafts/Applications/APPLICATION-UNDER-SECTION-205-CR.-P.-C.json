@@ -1,0 +1,95 @@
+{
+  "title": "Application Under Section 205 Cr. P. C",
+  "filename": "APPLICATION-UNDER-SECTION-205-CR.-P.-C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "A application under section 205 cr. p. c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Name (Second Party), Name (Third Party), Name (Fourth Party), Name (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_2",
+      "type": "text",
+      "label": "Court Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "petitioner_name",
+      "type": "text",
+      "label": "Petitioner Name",
+      "required": true,
+      "placeholder": "e.g., Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "date",
+    "party_name_6",
+    "court_name",
+    "court_name_2",
+    "petitioner_name"
+  ],
+  "description_hi": "Application Under Section 205 Cr. P. C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 10 आवश्यक विवरण भरने होंगे।"
+}

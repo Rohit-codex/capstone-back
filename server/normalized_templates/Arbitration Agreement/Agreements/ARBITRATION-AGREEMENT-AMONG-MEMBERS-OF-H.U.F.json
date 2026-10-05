@@ -1,0 +1,157 @@
+{
+  "title": "Arbitration Agreement Among Members Of H.U.F",
+  "filename": "ARBITRATION-AGREEMENT-AMONG-MEMBERS-OF-H.U.F.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "A arbitration agreement among members of h.u.f used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Place, Age (in years), Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Sixth)",
+      "key": "name_son_of_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (First Party)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Second Party)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Seventh)",
+      "key": "name_son_of_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Eighth)",
+      "key": "name_son_of_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (9)",
+      "key": "name_son_of_9",
+      "required": true,
+      "placeholder": "Enter 9  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (10)",
+      "key": "name_son_of_10",
+      "required": true,
+      "placeholder": "Enter 10  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (11)",
+      "key": "name_son_of_11",
+      "required": true,
+      "placeholder": "Enter 11  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (12)",
+      "key": "name_son_of_12",
+      "required": true,
+      "placeholder": "Enter 12  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "age",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "name_son_of_6",
+    "name_daughter_of",
+    "name_daughter_of_2",
+    "name_son_of_7",
+    "name_son_of_8",
+    "name_son_of_9",
+    "name_son_of_10",
+    "name_son_of_11",
+    "name_son_of_12",
+    "witness_name",
+    "placecity"
+  ],
+  "description_hi": "Arbitration Agreement Among Members Of H.U.F — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 18 आवश्यक विवरण भरने होंगे।"
+}

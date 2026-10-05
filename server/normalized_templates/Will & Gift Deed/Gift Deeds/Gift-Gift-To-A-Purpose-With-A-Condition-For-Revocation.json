@@ -1,0 +1,153 @@
+{
+  "title": "Gift Gift To A Purpose With A Condition For Revocation",
+  "filename": "Gift-Gift-To-A-Purpose-With-A-Condition-For-Revocation.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift gift to a purpose with a condition for revocation used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Date (First Party), Address, Name (Son of), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_2",
+      "type": "text",
+      "label": "Father's Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_3",
+      "type": "text",
+      "label": "Father's Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_4",
+      "type": "text",
+      "label": "Father's Name (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "address",
+    "name_son_of",
+    "party_name",
+    "party_name_2",
+    "place",
+    "date_2",
+    "witness_name",
+    "party_name_3",
+    "party_name_4",
+    "witness_name_2",
+    "signatory_name",
+    "fathers_name",
+    "fathers_name_2",
+    "fathers_name_3",
+    "fathers_name_4",
+    "placecity"
+  ],
+  "description_hi": "Gift Gift To A Purpose With A Condition For Revocation — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 17 आवश्यक विवरण भरने होंगे।"
+}

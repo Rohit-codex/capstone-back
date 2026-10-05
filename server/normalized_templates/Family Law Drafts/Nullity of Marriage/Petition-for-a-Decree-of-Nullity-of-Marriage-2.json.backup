@@ -1,0 +1,155 @@
+{
+  "title": "Petition For A Decree Of Nullity Of Marriage 2",
+  "filename": "Petition-for-a-Decree-of-Nullity-of-Marriage-2.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Nullity of Marriage",
+  "description": "Legal template for petition for a decree of nullity of marriage 2",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter name"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "party_name",
+    "party_name_2",
+    "age_2",
+    "age_3",
+    "age_4",
+    "age_5",
+    "field_value",
+    "place",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name_7",
+    "party_name_8"
+  ]
+}

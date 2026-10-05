@@ -1,0 +1,132 @@
+{
+  "title": "Public Notice In Newspaper By The Advocate Of Purchaser Of Property",
+  "filename": "Public-Notice-In-Newspaper-By-The-Advocate-Of-Purchaser-Of-Property.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A public notice in newspaper by the advocate of purchaser of property used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Address (First Party), Address (Second Party), Address (Third Party), Address (Fourth Party), Address (Fifth).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fifth)",
+      "key": "address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Sixth)",
+      "key": "address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (First Party)",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter First Party  property address"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Second Party)",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "address_3",
+    "address_4",
+    "address_5",
+    "address_6",
+    "property_address",
+    "date",
+    "date_2",
+    "property_address_2",
+    "field_value",
+    "date_3",
+    "date_4",
+    "date_5",
+    "signatory_name"
+  ],
+  "description_hi": "Public Notice In Newspaper By The Advocate Of Purchaser Of Property — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 15 आवश्यक विवरण भरने होंगे।"
+}

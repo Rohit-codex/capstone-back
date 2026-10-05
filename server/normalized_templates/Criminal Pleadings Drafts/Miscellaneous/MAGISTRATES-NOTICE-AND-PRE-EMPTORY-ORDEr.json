@@ -1,0 +1,96 @@
+{
+  "title": "Magistrates Notice And Pre Emptory Order",
+  "filename": "MAGISTRATES-NOTICE-AND-PRE-EMPTORY-ORDEr.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A magistrates notice and pre emptory order used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Date (Fourth Party), Date (Fifth).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_4",
+      "type": "text",
+      "label": "Place/City (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "signatory_name",
+    "placecity",
+    "placecity_2",
+    "placecity_3",
+    "placecity_4"
+  ],
+  "description_hi": "Magistrates Notice And Pre Emptory Order — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 10 आवश्यक विवरण भरने होंगे।"
+}

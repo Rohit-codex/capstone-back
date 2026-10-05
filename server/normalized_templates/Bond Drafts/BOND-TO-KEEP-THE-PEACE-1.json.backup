@@ -1,0 +1,43 @@
+{
+  "title": "Bond To Keep The Peace 1",
+  "filename": "BOND-TO-KEEP-THE-PEACE-1.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond to keep the peace 1",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "field_value_2",
+    "signatory_name"
+  ]
+}

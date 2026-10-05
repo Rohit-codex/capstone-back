@@ -1,0 +1,76 @@
+{
+  "title": "Power Of Attorney By A Company To Its Branch Manager",
+  "filename": "Power-Of-Attorney-By-A-Company-To-Its-Branch-Manager.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Business Related",
+  "description": "A power of attorney by a company to its branch manager used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Place (First Party), Age (in years) (First Party), Age (in years) (Second Party), Details, Age (in years) (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "age",
+    "age_2",
+    "field_value",
+    "age_3",
+    "witness_name",
+    "date",
+    "place_2"
+  ],
+  "description_hi": "Power Of Attorney By A Company To Its Branch Manager — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

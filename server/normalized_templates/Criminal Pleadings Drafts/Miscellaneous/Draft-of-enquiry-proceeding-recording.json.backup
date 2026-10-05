@@ -1,0 +1,139 @@
+{
+  "title": "Draft Of Enquiry Proceeding Recording",
+  "filename": "Draft-of-enquiry-proceeding-recording.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for draft of enquiry proceeding recording",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_2",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_3",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_4",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "father_name",
+    "father_name_2",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "father_name_3",
+    "witness_name",
+    "field_value",
+    "field_value_2",
+    "witness_name_2",
+    "witness_name_3",
+    "witness_name_4",
+    "signatory_name"
+  ]
+}

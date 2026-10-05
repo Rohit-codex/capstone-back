@@ -1,0 +1,68 @@
+{
+  "title": "Bond And Bail Bond Under Criminal Procedure Code 1973 After Arrest Under A Warrant 1",
+  "filename": "BOND-AND-BAIL-BOND-UNDER-CRIMINAL-PROCEDURE-CODE-1973-AFTER-ARREST-UNDER-A-WARRANT-1.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond and bail bond under criminal procedure code 1973 after arrest under a warrant 1 used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Date (First Party), Date (Second Party), Details (First Party), Name, Date (Third Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "field_value",
+    "party_name",
+    "date_3",
+    "field_value_2",
+    "signatory_name"
+  ],
+  "description_hi": "Bond And Bail Bond Under Criminal Procedure Code 1973 After Arrest Under A Warrant 1 — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

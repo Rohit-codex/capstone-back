@@ -1,0 +1,20 @@
+{
+  "title": "Endorsement",
+  "filename": "ENDORSEMENT.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A endorsement used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name"
+  ],
+  "description_hi": "Endorsement — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,201 @@
+{
+  "title": "Offences Under Section 406 And Section 420 Read With Section 120B Of The Indian Penal Code",
+  "filename": "OFFENCES-UNDER-SECTION-406-AND-SECTION-420-READ-WITH-SECTION-120B-OF-THE-INDIAN-PENAL-CODE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A offences under section 406 and section 420 read with section 120b of the indian penal code used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Court Name/Place, Police Station (First Party), Police Station (Second Party), Section/Act, Date (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Police Station (First Party)",
+      "key": "police_station",
+      "required": true,
+      "placeholder": "Enter First Party  police station"
+    },
+    {
+      "type": "text",
+      "label": "Police Station (Second Party)",
+      "key": "police_station_2",
+      "required": true,
+      "placeholder": "Enter Second Party  police station"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter section/act here"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fifth)",
+      "key": "address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Sixth)",
+      "key": "address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  address"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name",
+      "required": true,
+      "placeholder": "e.g., District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "criminal_complaint_no",
+      "type": "text",
+      "label": "Criminal Complaint No",
+      "required": true,
+      "placeholder": "Enter criminal complaint no here",
+      "description": "Enter criminal complaint no"
+    },
+    {
+      "key": "fir_number",
+      "type": "text",
+      "label": "FIR Number",
+      "required": true,
+      "placeholder": "e.g., FIR No. 123/2025",
+      "description": "FIR संख्या"
+    },
+    {
+      "key": "police_station_3",
+      "type": "text",
+      "label": "Police Station (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Connaught Place PS",
+      "description": "थाना"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "police_station",
+    "police_station_2",
+    "legal_section",
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "address",
+    "address_2",
+    "address_3",
+    "place",
+    "address_4",
+    "date_2",
+    "address_5",
+    "address_6",
+    "place_2",
+    "party_name_4",
+    "court_name",
+    "criminal_complaint_no",
+    "fir_number",
+    "police_station_3",
+    "placecity"
+  ],
+  "description_hi": "Offences Under Section 406 And Section 420 Read With Section 120B Of The Indian Penal Code — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 23 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Arbitration Agreement Under Section 10A Of The Industrial Disputes Act 1947 Between The Management And Workmen",
+  "filename": "ARBITRATION-AGREEMENT-UNDER-SECTION-10A-OF-THE-INDUSTRIAL-DISPUTES-ACT-1947-BETWEEN-THE-MANAGEMENT-AND-WORKMEN.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "Legal template for arbitration agreement under section 10a of the industrial disputes act 1947 between the management and workmen",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation_2",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "party_name",
+    "field_value",
+    "occupation",
+    "occupation_2",
+    "place",
+    "date",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

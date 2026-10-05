@@ -1,0 +1,1568 @@
+import axios from 'axios';
+import mongoose from 'mongoose';
+import Chat from '../models/Chat.js';
+import User from '../models/User.js';
+import MessageCount from '../models/MessageCount.js';
+import redis from '../utils/redisClient.js';
+import { AppError } from '../utils/errors.js';
+import { LEGAL_ASSISTANT_SYSTEM_PROMPT, DRAFT_ENHANCEMENT_PROMPT } from '../utils/prompts.js';
+import { findBestTemplate, getDisplayTitleForRelPath, getAllTemplates } from '../utils/templateIndex.js';
+import { renderTemplateText } from '../utils/templateRender.js';
+import { writeDocxFromText } from '../utils/docxWriter.js';
+import { enhancePromptWithLegalContext } from '../utils/legalRAG.js';
+import { documentIngestion } from '../services/documentIngestion.js';
+
+// Streaming response handler
+async function handleStreamingResponse(req, res, { geminiModel, systemPrompt, conversationHistory, user, message, genConfig }) {
+  // Set SSE headers
+  res.writeHead(200, {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache',
+    'Connection': 'keep-alive',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Cache-Control'
+  });
+
+  const sendSSE = (data) => {
+    res.write(`data: ${JSON.stringify(data)}\n\n`);
+  };
+
+  try {
+    // Send initial message
+    sendSSE({ type: 'start', message: 'Starting response...' });
+
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/${encodeURIComponent(geminiModel)}:streamGenerateContent?key=${process.env.GEMINI_API_KEY}`;
+    
+    // Prepare contents with system instruction for gemini-2.0-flash
+    const contents = [
+      {
+        role: 'user',
+        parts: [{ text: systemPrompt }]
+      },
+      ...conversationHistory
+    ];
+
+    const response = await axios.post(
+      geminiUrl,
+      {
+        contents: contents,
+        generationConfig: genConfig || {
+          temperature: 0.4,
+          topK: 32,
+          topP: 0.95,
+          maxOutputTokens: 512,
+        },
+        safetySettings: [
+          { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' },
+          { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
+          { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
+          { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
+        ],
+      },
+      {
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        responseType: 'stream',
+        timeout: 30000
+      }
+    );
+
+    let fullResponse = '';
+    let buffer = '';
+
+    response.data.on('data', (chunk) => {
+      buffer += chunk.toString();
+      const lines = buffer.split('\n');
+      buffer = lines.pop() || ''; // Keep incomplete line in buffer
+
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          try {
+            const data = JSON.parse(line.slice(6));
+            if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
+              const text = data.candidates[0].content.parts[0].text;
+              fullResponse += text;
+              sendSSE({ type: 'chunk', text });
+            }
+          } catch (e) {
+            // Ignore malformed JSON
+          }
+        }
+      }
+    });
+
+    response.data.on('end', async () => {
+      try {
+        // Save to database
+        await Chat.findOneAndUpdate(
+          { userId: new mongoose.Types.ObjectId(req.user.id) },
+          { $push: { messages: { $each: [
+            { role: 'user', content: message },
+            { role: 'assistant', content: fullResponse }
+          ] } } },
+          { upsert: true }
+        );
+
+        // Increment message count for non-premium users
+        let remainingMessages = null;
+        if (user.subscriptionStatus !== 'premium') {
+          const today = new Date();
+          today.setHours(0, 0, 0, 0);
+          let mc = await MessageCount.findOne({
+            userId: new mongoose.Types.ObjectId(req.user.id),
+            date: today
+          });
+          if (!mc) {
+            mc = new MessageCount({ userId: new mongoose.Types.ObjectId(req.user.id), date: today, count: 0 });
+          }
+          mc.count += 1;
+          await mc.save();
+          remainingMessages = 5 - (mc?.count || 0);
+        }
+
+        // Clear cache
+        try { await redis.del(`chat:${req.user.id}`); } catch {}
+
+        sendSSE({ 
+          type: 'complete', 
+          remainingMessages, 
+          subscriptionStatus: user.subscriptionStatus 
+        });
+        res.write('data: [DONE]\n\n');
+        res.end();
+      } catch (error) {
+        sendSSE({ type: 'error', message: 'Error saving response' });
+        res.end();
+      }
+    });
+
+    response.data.on('error', (error) => {
+      sendSSE({ type: 'error', message: 'Streaming error occurred' });
+      res.end();
+    });
+
+  } catch (error) {
+    console.error('handleStreamingResponse error', { message: error?.message, stack: error?.stack });
+    sendSSE({ type: 'error', message: error.message || 'Error starting stream' });
+    res.end();
+  }
+}
+
+export const getChatHistory = async (req, res) => {
+  try {
+    // 1. Try Redis cache first
+    const cacheKey = `chat:${req.user.id}`;
+    let cached = null;
+    try {
+      cached = await redis.get(cacheKey);
+    } catch (e) {
+      console.warn('Redis get failed for chat history, proceeding without cache:', e?.message || e);
+    }
+    if (cached) {
+      return res.json(JSON.parse(cached));
+    }
+    // 2. If not cached, fetch from DB
+    const chat = await Chat.findOne({ userId: req.user.id })
+      .select('messages')
+      .lean();
+    const messages = chat?.messages || [];
+    // 3. Cache in Redis for 2 minutes
+    try {
+      await redis.set(cacheKey, JSON.stringify(messages), 'EX', 120);
+    } catch (e) {
+      console.warn('Redis set failed for chat history cache:', e?.message || e);
+    }
+    res.json(messages);
+  } catch (error) {
+    throw new AppError(error.message || 'Error fetching chat history', 500);
+  }
+};
+
+export const sendMessage = async (req, res) => {
+  try {
+    const { message } = req.body;
+    
+    if (!message || typeof message !== 'string' || message.trim().length === 0) {
+      throw new AppError('Message is required and must be a non-empty string', 400);
+    }
+
+    if (message.length > 1000) {
+      throw new AppError('Message is too long. Maximum length is 1000 characters', 400);
+    }
+
+    // Validate user ID format
+    if (!mongoose.Types.ObjectId.isValid(req.user.id)) {
+      throw new AppError('Invalid user ID format', 400);
+    }
+
+    // Get user and check subscription status
+    const user = await User.findById(new mongoose.Types.ObjectId(req.user.id))
+      .select('isActive subscriptionStatus remainingMessages')
+      .lean();
+    if (!user) {
+      throw new AppError('User not found', 404);
+    }
+
+    // Check if user is active
+    if (!user.isActive) {
+      throw new AppError('Account is inactive', 403);
+    }
+
+    // If user is not premium, check message limit but DO NOT increment yet (increment after successful response)
+    if (user.subscriptionStatus !== 'premium') {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      let messageCount = await MessageCount.findOne({
+        userId: new mongoose.Types.ObjectId(req.user.id),
+        date: today
+      });
+      if (!messageCount) {
+        messageCount = new MessageCount({
+          userId: new mongoose.Types.ObjectId(req.user.id),
+          date: today,
+          count: 0
+        });
+      }
+      if (messageCount.count >= 5) {
+        throw new AppError('Daily message limit reached. Please upgrade to premium for unlimited messages.', 403);
+      }
+    }
+    const systemPrompt = LEGAL_ASSISTANT_SYSTEM_PROMPT;
+
+    // Draft workflow state
+    const wfKey = `workflow:chat:${req.user.id}`;
+    let wfRaw = null;
+    try {
+      wfRaw = await redis.get(wfKey);
+    } catch (e) {
+      console.warn('Redis get failed for workflow state:', e?.message || e);
+    }
+    const wf = wfRaw ? JSON.parse(wfRaw) : null;
+
+    // User-selectable modes: chat (default), deep, draft, image
+    const modeKey = `mode:chat:${req.user.id}`;
+    let currentMode = 'chat';
+    try {
+      currentMode = (await redis.get(modeKey)) || 'chat';
+    } catch {}
+
+    // Mode switch commands
+    const lowerCmd = message.trim().toLowerCase();
+    const modeMap = {
+      'mode chat': 'chat',
+      'mode deep': 'deep',
+      'mode draft': 'draft',
+      'mode image': 'image'
+    };
+    if (modeMap[lowerCmd]) {
+      const nextMode = modeMap[lowerCmd];
+      try { await redis.set(modeKey, nextMode, 'EX', 86400); } catch {}
+      // Reset draft workflow when leaving/entering draft mode
+      if (nextMode !== 'draft' && wf) { try { await redis.del(wfKey); } catch {} }
+      if (nextMode === 'draft') {
+        return await replyAndReturn('Draft mode enabled. Tell me the document type (e.g., Sale Deed, Affidavit) or a brief (e.g., "I am seller").', { mode: 'draft' });
+      }
+      return await replyAndReturn(`Switched to ${nextMode} mode.`);
+    }
+
+    // Global commands to reset chat/session
+    const lowerGlobal = message.trim().toLowerCase();
+    const newChatCommands = ['new chat','/new','start new chat','reset','clear chat','/reset'];
+    if (newChatCommands.includes(lowerGlobal)) {
+      try { await redis.del(wfKey); } catch {}
+      try {
+        await Chat.findOneAndUpdate(
+          { userId: new mongoose.Types.ObjectId(req.user.id) },
+          { $set: { messages: [] } },
+          { upsert: true }
+        );
+      } catch {}
+      try { await redis.del(`chat:${req.user.id}`); } catch {}
+      return res.json({ response: 'Started a new chat. How can I help you today?', mode: 'reset' });
+    }
+
+    const replyAndReturn = async (assistantText, extra = {}) => {
+      await Chat.findOneAndUpdate(
+        { userId: new mongoose.Types.ObjectId(req.user.id) },
+        { $push: { messages: { $each: [
+          { role: 'user', content: message },
+          { role: 'assistant', content: assistantText }
+        ] } } },
+        { upsert: true }
+      );
+      try { await redis.del(`chat:${req.user.id}`); } catch {}
+      let remainingMessages = null;
+      if (user.subscriptionStatus !== 'premium') {
+        const today = new Date(); today.setHours(0,0,0,0);
+        // Increment AFTER success
+        let mc = await MessageCount.findOne({ userId: new mongoose.Types.ObjectId(req.user.id), date: today });
+        if (!mc) {
+          mc = new MessageCount({ userId: new mongoose.Types.ObjectId(req.user.id), date: today, count: 0 });
+        }
+        mc.count += 1;
+        await mc.save();
+        remainingMessages = 5 - (mc?.count || 0);
+      }
+      return res.json({ response: assistantText, remainingMessages, subscriptionStatus: user.subscriptionStatus, ...extra });
+    };
+
+    // Handle choosing among multiple templates
+    if (wf && wf.step === 'choose') {
+      const pick = message.trim();
+      const lowerPick = pick.toLowerCase();
+
+      // If user asks to start a new draft while choosing, reset and begin new flow
+      const newDraftCue = /(generate|create|prepare|make|write).*\b(draft|deed|agreement|notice|affidavit|lease|sale)\b|\bsale\s*deed\b|\badoption\b|\blease\b|\baffidavit\b|\blegal\s*notice\b|\bpower\s*of\s*attorney\b|\bwill\b/;
+      if (newDraftCue.test(lowerPick)) {
+        const classifyIntent = (text) => {
+          const t = String(text || '').toLowerCase();
+          if (/\bseller\b|\bbuyer\b/.test(t)) return 'sale';
+          if (/\blandlord\b|\btenant\b/.test(t)) return 'lease';
+          if (/\bprincipal\b|\battorney\b/.test(t)) return 'power';
+          if (/\btestator\b/.test(t)) return 'will';
+          if (/\badoption\b|\badopt\b/.test(t)) return 'adoption';
+          if (/\baffidavit\b/.test(t)) return 'affidavit';
+          if (/\blegal\s*notice\b|\bnotice\b/.test(t)) return 'notice';
+          if (/(sale\s*deed)|(\bsale\b.*\bdeed\b)|(\bdeed\b.*\bsale\b)|\bsale\b/.test(t)) return 'sale';
+          if (/\blease\b/.test(t)) return 'lease';
+          if (/\bpower\s*of\s*attorney\b|\bpoa\b|\battorney\b/.test(t)) return 'power';
+          if (/\bwill\b/.test(t)) return 'will';
+          if (/\bagreement\b|\bcontract\b/.test(t)) return 'agreement';
+          return 'general';
+        };
+        try { await redis.del(wfKey); } catch {}
+        const hint = classifyIntent(lowerPick);
+        const pre = { step: 'prebrief', intent: hint };
+        try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+        const ask = hint === 'adoption'
+          ? 'To tailor the adoption draft, briefly describe: adopting from orphanage/guardian/relative? child age? religion/law (e.g., HAMA)? place of adoption?'
+          : hint === 'affidavit'
+            ? 'Briefly describe the affidavit purpose, parties, and any annexures.'
+            : hint === 'notice'
+              ? 'Briefly describe the legal notice: subject, parties, and relief demanded.'
+          : hint === 'sale'
+            ? 'Briefly describe the sale deed: property details (address/area), parties (seller/buyer), consideration, possession date, and jurisdiction.'
+          : hint === 'lease'
+            ? 'Briefly describe the lease: property, landlord/tenant, term, rent, security deposit, and jurisdiction.'
+          : hint === 'agreement'
+            ? 'Briefly describe the agreement: parties, subject matter, key terms, consideration, and governing law.'
+          : hint === 'power'
+            ? 'Briefly describe the Power of Attorney: principal, attorney, scope of powers, duration, and place.'
+          : hint === 'will'
+            ? 'Briefly describe the Will: testator details, beneficiaries, assets, executors, and place.'
+              : 'Briefly describe the document type, parties, and purpose.';
+        return await replyAndReturn(`${ask}\n\nI will then recommend the best matching draft.`, { mode: 'draft' });
+      }
+
+      // quick-accept the top item
+      if (lowerPick === 'yes' || lowerPick === 'y' || lowerPick === 'ok' || lowerPick === 'okay') {
+        const page = wf.page || 0; const size = wf.pageSize || 5;
+        const pageOptions = (wf.optionsAll || []).slice(page * size, (page + 1) * size);
+        const chosen = pageOptions[0] || (wf.optionsAll || [])[0];
+        if (!chosen) {
+          // no options stored -> restart brief
+          const pre = { step: 'prebrief', intent: 'general' };
+          try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+          return await replyAndReturn('Please share a brief about the draft you need (parties, purpose).', { mode: 'draft' });
+        }
+        const all = await getAllTemplates();
+        const match = all.find(t => t.relPath === chosen.relPath);
+        if (!match) {
+          try { await redis.del(wfKey); } catch {}
+          return await replyAndReturn('I had trouble loading that template. Please describe the document again to retry.');
+        }
+        const wfState = {
+          step: 'confirm',
+          template: match.template,
+          schema: match.schema,
+          displayTitle: getDisplayTitleForRelPath(match.relPath),
+          relPath: match.relPath
+        };
+        try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+        return await replyAndReturn(`I found a suitable template: **${wfState.displayTitle}**\n\nThis template will help you create a professional legal document. Reply 'yes' to continue with this template, or 'change' to try a different approach.`, { mode: 'draft' });
+      }
+      // Name-based selection: allow typing the draft name/title
+      if (!/^\d+$/.test(pick) && typeof pick === 'string' && pick.length >= 3) {
+        const page = wf.page || 0; const size = wf.pageSize || 5;
+        const currentPage = (wf.optionsAll || []).slice(page * size, (page + 1) * size);
+        const allOptions = wf.optionsAll || [];
+        const nameMatch = (options) => options.find(o => (o.displayTitle || '').toLowerCase() === lowerPick || (o.displayTitle || '').toLowerCase().includes(lowerPick));
+        let chosen = nameMatch(currentPage) || nameMatch(allOptions);
+        if (chosen) {
+          const all = await getAllTemplates();
+          const match = all.find(t => t.relPath === chosen.relPath);
+          if (match) {
+            const wfState = {
+              step: 'confirm',
+              template: match.template,
+              schema: match.schema,
+              displayTitle: getDisplayTitleForRelPath(match.relPath),
+              relPath: match.relPath
+            };
+            try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+            return await replyAndReturn(`I found a suitable template: **${wfState.displayTitle}**\n\nThis template will help you create a professional legal document. Reply 'yes' to continue with this template, or 'change' to try a different approach.`, { mode: 'draft' });
+          }
+        }
+      }
+
+      // pagination and refinement
+      if (pick.toLowerCase() === 'more') {
+        const nextPage = (wf.page || 0) + 1;
+        const start = nextPage * (wf.pageSize || 5);
+        const end = start + (wf.pageSize || 5);
+        const pageOptions = (wf.optionsAll || []).slice(start, end);
+        if (pageOptions.length === 0) {
+          return await replyAndReturn('No more options. You can type a keyword to refine (e.g., "major son", "orphanage"), or pick a number from previous list.', { mode: 'draft' });
+        }
+        const nextState = { ...wf, page: nextPage };
+        try { await redis.set(wfKey, JSON.stringify(nextState), 'EX', 3600); } catch {}
+        const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief}`).join('\n');
+        return await replyAndReturn(`More options:\n\n${list}\n\nReply with 1-${pageOptions.length}, type 'more' again, or add a keyword to refine.`, { mode: 'draft' });
+      }
+
+      // Keyword refinement (re-rank within current pool)
+      if (!/^\d+$/.test(pick)) {
+        // guard: if we have no options cached, restart brief flow
+        if (!Array.isArray(wf.optionsAll) || wf.optionsAll.length === 0) {
+          const pre = { step: 'prebrief', intent: 'general' };
+          try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+          return await replyAndReturn('Please share a brief about the draft you need (parties, purpose).', { mode: 'draft' });
+        }
+        const kw = lowerPick;
+        if (!kw || kw.length < 3) {
+          const page = wf.page || 0; const size = wf.pageSize || 5;
+          const pageOptions = (wf.optionsAll || []).slice(page * size, (page + 1) * size);
+          const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief}`).join('\n');
+          return await replyAndReturn(`Please reply with a number from the list, 'more' to see more, or a keyword to refine (e.g., "major son").\n\n${list}`, { mode: 'draft' });
+        }
+        const refined = (wf.optionsAll || []).map(o => ({
+          o,
+          score: ((o.displayTitle || '').toLowerCase().includes(kw) ? 2 : 0) + ((o.brief || '').toLowerCase().includes(kw) ? 1 : 0)
+        })).sort((a,b) => b.score - a.score).map(x => x.o);
+        if (refined.length === 0) {
+          return await replyAndReturn('No matches for that keyword. Try something like "guardian", "orphanage", "major" or pick a number.', { mode: 'draft' });
+        }
+        const pageSize = wf.pageSize || 5; const page = 0;
+        const pageOptions = refined.slice(page * pageSize, (page + 1) * pageSize);
+        const nextState = { ...wf, optionsAll: refined, page };
+        try { await redis.set(wfKey, JSON.stringify(nextState), 'EX', 3600); } catch {}
+        const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief}`).join('\n');
+        const hasMore = refined.length > pageSize;
+        const extra = hasMore ? `\n\nReply 'more' to see more, or pick 1-${pageOptions.length}.` : '';
+        return await replyAndReturn(`Refined options:\n\n${list}${extra}`, { mode: 'draft' });
+      }
+      const idx = Number(pick);
+      const page = wf.page || 0; const size = wf.pageSize || 5;
+      const pageOptions = (wf.optionsAll || []).slice(page * size, (page + 1) * size);
+      const valid = Number.isInteger(idx) && idx >= 1 && idx <= pageOptions.length;
+      if (!valid) {
+        const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief || ''}`.trim()).join('\n');
+        return await replyAndReturn(`Please reply with a number from the list below:\n\n${list}`, { mode: 'draft' });
+      }
+      const chosen = pageOptions[idx - 1];
+      const all = await getAllTemplates();
+      const match = all.find(t => t.relPath === chosen.relPath);
+      if (!match) {
+        try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('I had trouble loading that template. Please describe the document again to retry.');
+      }
+      const wfState = {
+        step: 'confirm',
+        template: match.template,
+        schema: match.schema,
+        displayTitle: getDisplayTitleForRelPath(match.relPath),
+        relPath: match.relPath
+      };
+      try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+      return await replyAndReturn(`I found a suitable template: **${wfState.displayTitle}**\n\nThis template will help you create a professional legal document. Reply 'yes' to continue with this template, or 'change' to try a different approach.`, { mode: 'draft' });
+    }
+
+    // Handle draft confirm/collect/render
+    if (wf && wf.step === 'confirm') {
+      const lower = message.trim().toLowerCase();
+
+      // Start a new draft if user requests a different document
+      const newDraftCue = /(generate|create|prepare|make|write).*\b(draft|deed|agreement|notice|affidavit|lease|sale)\b|\bsale\s*deed\b|\badoption\b|\blease\b|\baffidavit\b|\blegal\s*notice\b|\bpower\s*of\s*attorney\b|\bwill\b/;
+      if (newDraftCue.test(lower)) {
+        const classifyIntent = (text) => {
+          const t = String(text || '').toLowerCase();
+          if (/\bseller\b|\bbuyer\b/.test(t)) return 'sale';
+          if (/\blandlord\b|\btenant\b/.test(t)) return 'lease';
+          if (/\bprincipal\b|\battorney\b/.test(t)) return 'power';
+          if (/\btestator\b/.test(t)) return 'will';
+          if (/\badoption\b|\badopt\b/.test(t)) return 'adoption';
+          if (/\baffidavit\b/.test(t)) return 'affidavit';
+          if (/\blegal\s*notice\b|\bnotice\b/.test(t)) return 'notice';
+          if (/(sale\s*deed)|(\bsale\b.*\bdeed\b)|(\bdeed\b.*\bsale\b)|\bsale\b/.test(t)) return 'sale';
+          if (/\blease\b/.test(t)) return 'lease';
+          if (/\bpower\s*of\s*attorney\b|\bpoa\b|\battorney\b/.test(t)) return 'power';
+          if (/\bwill\b/.test(t)) return 'will';
+          if (/\bagreement\b|\bcontract\b/.test(t)) return 'agreement';
+          return 'general';
+        };
+        try { await redis.del(wfKey); } catch {}
+        const hint = classifyIntent(lower);
+        const pre = { step: 'prebrief', intent: hint };
+        try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+        const ask = hint === 'adoption'
+          ? 'To tailor the adoption draft, briefly describe: adopting from orphanage/guardian/relative? child age? religion/law (e.g., HAMA)? place of adoption?'
+          : hint === 'affidavit'
+            ? 'Briefly describe the affidavit purpose, parties, and any annexures.'
+            : hint === 'notice'
+              ? 'Briefly describe the legal notice: subject, parties, and relief demanded.'
+          : hint === 'sale'
+            ? 'Briefly describe the sale deed: property details (address/area), parties (seller/buyer), consideration, possession date, and jurisdiction.'
+          : hint === 'lease'
+            ? 'Briefly describe the lease: property, landlord/tenant, term, rent, security deposit, and jurisdiction.'
+          : hint === 'agreement'
+            ? 'Briefly describe the agreement: parties, subject matter, key terms, consideration, and governing law.'
+          : hint === 'power'
+            ? 'Briefly describe the Power of Attorney: principal, attorney, scope of powers, duration, and place.'
+          : hint === 'will'
+            ? 'Briefly describe the Will: testator details, beneficiaries, assets, executors, and place.'
+              : 'Briefly describe the document type, parties, and purpose.';
+        return await replyAndReturn(`${ask}\n\nI will then recommend the best matching draft.`, { mode: 'draft' });
+      }
+
+      // Allow immediate exit from draft workflow
+      const quitCommands = ['quit','cancel','stop','exit','abort','end','quit draft making process'];
+      if (quitCommands.includes(lower)) {
+        try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('Okay, I have exited the draft workflow. Tell me your query or the type of help you need.');
+      }
+      
+      // Check if this is a BNS information query - if so, exit workflow and handle as information query
+      const legalInfoKeywords = [
+        'what is', 'explain', 'tell me about', 'information about', 'definition of', 'meaning of',
+        'which charges', 'what charges', 'what punishment', 'what penalty', 'according to',
+        'bns section', 'ipc section', 'crpc section', 'evidence act', 'legal advice',
+        'criminal law', 'penal code', 'procedure code', 'hello', 'hi', 'help'
+      ];
+      const isLegalInfoQuery = legalInfoKeywords.some(k => lower.includes(k));
+      
+      if (isLegalInfoQuery) {
+        // Exit workflow and handle as information query
+        try { await redis.del(wfKey); } catch {}
+        
+        if (lower.includes('bns')) {
+          // Handle BNS information query
+          try {
+            const { bnsKnowledgeService } = await import('../services/bnsKnowledgeService.js');
+            const bnsResponse = await bnsKnowledgeService.answerBNSQuery(message);
+            
+            if (bnsResponse.type !== 'no_results') {
+              return await replyAndReturn(bnsResponse.response);
+            } else {
+              // Fallback to template if knowledge service doesn't find relevant information
+              const best = await findBestTemplate(message);
+              if (best && best.relPath.toLowerCase().includes('bns')) {
+                return await replyAndReturn(`**${best.displayTitle}**\n\n${best.template}\n\n*This information is based on the Bharatiya Nyaya Sanhita (BNS) 2023. For specific legal advice, please consult with a qualified lawyer.*`);
+              }
+            }
+          } catch (error) {
+            console.error('Error in BNS knowledge processing:', error.message);
+            // Fallback to template system
+            const best = await findBestTemplate(message);
+            if (best && best.relPath.toLowerCase().includes('bns')) {
+              return await replyAndReturn(`**${best.displayTitle}**\n\n${best.template}\n\n*This information is based on the Bharatiya Nyaya Sanhita (BNS) 2023. For specific legal advice, please consult with a qualified lawyer.*`);
+            }
+          }
+        } else {
+          // Handle other information queries - continue to normal chat flow
+          // This will fall through to the regular chat processing below
+        }
+      }
+      
+      if (['yes','y'].includes(lower)) {
+        const next = { ...wf, step: 'collect', fields: {}, pending: (wf.schema || []).map(f => f.key) };
+        try { await redis.set(wfKey, JSON.stringify(next), 'EX', 3600); } catch {}
+        const firstField = wf.schema?.[0];
+        const firstLabel = firstField?.label || firstField?.key || 'First field';
+        const firstExample = firstField?.example ? ` (e.g., ${firstField.example})` : '';
+        return await replyAndReturn(`Perfect! Let's fill in the details for your ${wf.displayTitle}.\n\n**${firstLabel}**${firstExample}:`, { 
+          mode: 'draft',
+          progress: { done: 0, total: (wf.schema || []).length }
+        });
+      }
+      if (['change','changes','no','n','different','switch'].includes(lower)) {
+        // Check if user is clarifying their request rather than rejecting
+        const clarifyingKeywords = ['want', 'need', 'looking for', 'require', 'adoption', 'affidavit', 'notice', 'agreement', 'deed', 'will', 'power of attorney'];
+        const isClarifying = clarifyingKeywords.some(keyword => lower.includes(keyword));
+        
+        if (isClarifying) {
+          // User is clarifying their request, restart draft detection with new context
+        try { await redis.del(wfKey); } catch {}
+          const draftKeywords = [
+            'draft', 'generate', 'prepare', 'create', 'make', 'write', 'document',
+            'agreement', 'contract', 'deed', 'notice', 'affidavit', 'application',
+            'petition', 'complaint', 'reply', 'rejoinder', 'legal notice',
+            'power of attorney', 'will', 'adoption', 'lease', 'sale deed'
+          ];
+          const wantsDraft = draftKeywords.some(k => lower.includes(k));
+          
+          if (wantsDraft) {
+            // Build context from last 6 messages + current
+            let chatDoc = await Chat.findOne({ userId: new mongoose.Types.ObjectId(req.user.id) }).select('messages').lean();
+            const lastMessages = (chatDoc?.messages || []).slice(-6)
+              .filter(m => m && (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string' && m.content.trim().length > 0)
+              .map(m => m.content);
+            const contextText = [...lastMessages, message].join('\n');
+            
+            const best = await findBestTemplate(contextText);
+            if (best) {
+              const wfState = { 
+                step: 'confirm', 
+                template: best.template, 
+                schema: best.schema, 
+                displayTitle: getDisplayTitleForRelPath(best.relPath),
+                relPath: best.relPath
+              };
+              try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+              return await replyAndReturn(`I found a suitable template: **${wfState.displayTitle}**\n\nThis template will help you create a professional legal document. Reply 'yes' to continue with this template, or 'change' to try a different approach.`, { mode: 'draft' });
+            }
+          }
+        }
+        
+        try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('No problem! Please describe what type of legal document you need, and I\'ll help you find the right template.');
+      }
+      return await replyAndReturn("Please reply 'yes' to continue with this template, or 'change' to try a different approach.", { mode: 'draft' });
+    }
+
+    // Handle custom draft creation
+    if (wf && wf.step === 'custom_draft') {
+      const lower = message.trim().toLowerCase();
+      if (lower === 'templates') {
+        try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('Here are the available document templates:\n\n**Adoption Drafts:** Adoption deeds, consent forms\n**Affidavit Formats:** Various affidavit types\n**Legal Notices:** Demand notices, cease & desist\n**Power of Attorney:** General and specific POAs\n**Deeds:** Sale, lease, gift deeds\n**Family Law:** Marriage, divorce documents\n\nPlease specify which type you need, or describe your specific requirement.');
+      }
+      
+      // Use AI to generate custom draft
+      try {
+        const customPrompt = `Create a professional Indian legal document based on this request: "${message}"\n\nContext: "${wf.context}"\n\nGenerate a complete legal document with proper structure, headings, and clauses. Use formal legal language appropriate for Indian courts.`;
+        
+        const geminiModel = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+        const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/${encodeURIComponent(geminiModel)}:generateContent?key=${process.env.GEMINI_API_KEY}`;
+        
+        const response = await axios.post(
+          geminiUrl,
+          {
+            contents: [
+              { role: 'user', parts: [{ text: DRAFT_ENHANCEMENT_PROMPT }] },
+              { role: 'user', parts: [{ text: customPrompt }] }
+            ],
+            generationConfig: {
+              temperature: 0.3,
+              topK: 32,
+              topP: 0.95,
+              maxOutputTokens: 1024,
+            },
+            safetySettings: [
+              { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
+            ],
+          },
+          {
+            headers: { 'Content-Type': 'application/json' },
+            timeout: 20000
+          }
+        );
+
+        const draftText = response?.data?.candidates?.[0]?.content?.parts?.[0]?.text || 'Unable to generate draft at this time.';
+        const filePath = await writeDocxFromText(draftText, 'Custom Legal Document');
+        try { await redis.del(wfKey); } catch {}
+        
+        return await replyAndReturn('Your custom legal document has been generated!', { 
+          mode: 'draft_ready', 
+          preview: draftText, 
+          fileUrl: `/uploads/drafts/${filePath.split('/').pop()}`, 
+          displayTitle: 'Custom Legal Document' 
+        });
+      } catch (error) {
+        try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('I encountered an error generating the custom draft. Please try again with more specific details about the document you need.');
+      }
+    }
+
+    if (wf && wf.step === 'collect') {
+      const pending = wf.pending || [];
+      const currentKey = pending[0];
+      const valueRaw = message.trim();
+      // Allow user to start a new draft at any point in collection
+      const newDraftCue = /(generate|create|prepare|make|write).*\b(draft|deed|agreement|notice|affidavit|lease|sale)\b|\bsale\s*deed\b|\badoption\b|\blease\b|\baffidavit\b|\blegal\s*notice\b|\bpower\s*of\s*attorney\b|\bwill\b/;
+      if (newDraftCue.test(valueRaw.toLowerCase())) {
+        const classifyIntent = (text) => {
+          const t = String(text || '').toLowerCase();
+          if (/\bseller\b|\bbuyer\b/.test(t)) return 'sale';
+          if (/\blandlord\b|\btenant\b/.test(t)) return 'lease';
+          if (/\bprincipal\b|\battorney\b/.test(t)) return 'power';
+          if (/\btestator\b/.test(t)) return 'will';
+          if (/\badoption\b|\badopt\b/.test(t)) return 'adoption';
+          if (/\baffidavit\b/.test(t)) return 'affidavit';
+          if (/\blegal\s*notice\b|\bnotice\b/.test(t)) return 'notice';
+          if (/(sale\s*deed)|(\bsale\b.*\bdeed\b)|(\bdeed\b.*\bsale\b)|\bsale\b/.test(t)) return 'sale';
+          if (/\blease\b/.test(t)) return 'lease';
+          if (/\bpower\s*of\s*attorney\b|\bpoa\b|\battorney\b/.test(t)) return 'power';
+          if (/\bwill\b/.test(t)) return 'will';
+          if (/\bagreement\b|\bcontract\b/.test(t)) return 'agreement';
+          return 'general';
+        };
+        try { await redis.del(wfKey); } catch {}
+        const hint = classifyIntent(valueRaw);
+        const pre = { step: 'prebrief', intent: hint };
+        try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+        const ask = hint === 'adoption'
+          ? 'To tailor the adoption draft, briefly describe: adopting from orphanage/guardian/relative? child age? religion/law (e.g., HAMA)? place of adoption?'
+          : hint === 'affidavit'
+            ? 'Briefly describe the affidavit purpose, parties, and any annexures.'
+            : hint === 'notice'
+              ? 'Briefly describe the legal notice: subject, parties, and relief demanded.'
+          : hint === 'sale'
+            ? 'Briefly describe the sale deed: property details (address/area), parties (seller/buyer), consideration, possession date, and jurisdiction.'
+          : hint === 'lease'
+            ? 'Briefly describe the lease: property, landlord/tenant, term, rent, security deposit, and jurisdiction.'
+          : hint === 'agreement'
+            ? 'Briefly describe the agreement: parties, subject matter, key terms, consideration, and governing law.'
+          : hint === 'power'
+            ? 'Briefly describe the Power of Attorney: principal, attorney, scope of powers, duration, and place.'
+          : hint === 'will'
+            ? 'Briefly describe the Will: testator details, beneficiaries, assets, executors, and place.'
+              : 'Briefly describe the document type, parties, and purpose.';
+        return await replyAndReturn(`${ask}\n\nI will then recommend the best matching draft.`, { mode: 'draft' });
+      }
+      const rest = pending.slice(1);
+      let fields = { ...(wf.fields || {}) };
+      let currentSchema = (wf.schema || []).find(f => f.key === currentKey) || {};
+
+      // Human-friendly navigation and progress controls
+      const lowerValue = valueRaw.toLowerCase();
+      const totalFields = (wf.schema || []).length;
+      const doneCount = totalFields - pending.length;
+
+      // Restart the current draft
+      if (['restart', 'start over', 'start again', 'reset draft'].includes(lowerValue)) {
+        const allKeys = (wf.schema || []).map(f => f.key);
+        const reset = { ...wf, step: 'collect', fields: {}, pending: allKeys };
+        try { await redis.set(wfKey, JSON.stringify(reset), 'EX', 3600); } catch {}
+        const firstField = wf.schema?.[0];
+        const firstLabel = firstField?.label || firstField?.key || 'First field';
+        const firstExample = firstField?.example ? ` (e.g., ${firstField.example})` : '';
+        return await replyAndReturn(`No problem, let's start again.\n\n${firstLabel}${firstExample}:`, { mode: 'draft', progress: { done: 0, total: totalFields } });
+      }
+
+      // Provide a quick summary/progress
+      if (['summary', 'status', 'progress'].includes(lowerValue)) {
+        const filled = Object.entries(fields).map(([k, v]) => {
+          const label = (wf.schema.find(f => f.key === k)?.label) || k;
+          const val = Array.isArray(v) ? v.join(', ') : String(v);
+          return `- ${label}: ${val}`;
+        }).join('\n');
+        const remaining = pending.map(k => (wf.schema.find(f => f.key === k)?.label) || k).join(', ');
+        const summary = `Progress ${doneCount}/${totalFields}.\nFilled so far:\n${filled || '- none yet'}\n\nRemaining: ${remaining || 'none'}`;
+        const label = currentSchema.label || currentKey;
+        const example = currentSchema.example ? ` (e.g., ${currentSchema.example})` : '';
+        return await replyAndReturn(`${summary}\n\nNow, ${label}${example}:`, { mode: 'draft', progress: { done: doneCount, total: totalFields } });
+      }
+
+      // Go back to previous field
+      if (['back', 'previous'].includes(lowerValue)) {
+        const schema = wf.schema || [];
+        const currentIndex = Math.max(0, schema.findIndex(f => f.key === currentKey));
+        const prevCompleted = [...schema.slice(0, currentIndex)].reverse().find(f => fields[f.key] !== undefined);
+        if (!prevCompleted) {
+          const label = currentSchema.label || currentKey;
+          const example = currentSchema.example ? ` (e.g., ${currentSchema.example})` : '';
+          return await replyAndReturn(`You're already at the first field.\n\n${label}${example}:`, { mode: 'draft', progress: { done: doneCount, total: totalFields } });
+        }
+        const newFields = { ...fields };
+        delete newFields[prevCompleted.key];
+        const newPending = [prevCompleted.key, currentKey, ...rest];
+        const nextState = { ...wf, fields: newFields, pending: newPending };
+        try { await redis.set(wfKey, JSON.stringify(nextState), 'EX', 3600); } catch {}
+        const label = prevCompleted.label || prevCompleted.key;
+        const example = prevCompleted.example ? ` (e.g., ${prevCompleted.example})` : '';
+        const newDone = Math.max(0, Object.keys(newFields).length);
+        return await replyAndReturn(`Okay, let's revisit the previous detail.\n\n${label}${example}:`, { mode: 'draft', progress: { done: newDone, total: totalFields } });
+      }
+
+      // Skip current field (if optional)
+      if (['skip', 'next'].includes(lowerValue)) {
+        if ((wf.schema || []).find(f => f.key === currentKey)?.required) {
+          const label = currentSchema.label || currentKey;
+          return await replyAndReturn(`${label} is required and cannot be skipped. Please provide a value.`, { mode: 'draft', progress: { done: doneCount, total: totalFields } });
+        }
+      if (rest.length) {
+        const nextKey = rest[0];
+          const nextField = wf.schema.find(f => f.key === nextKey);
+          const label = nextField?.label || nextKey;
+          const example = nextField?.example ? ` (e.g., ${nextField.example})` : '';
+          const nextState = { ...wf, fields, pending: rest };
+          try { await redis.set(wfKey, JSON.stringify(nextState), 'EX', 3600); } catch {}
+          const progress = wf.schema.length - rest.length;
+          return await replyAndReturn(`Skipped. ${label}${example}:`, { mode: 'draft', progress: { done: progress, total: totalFields } });
+        }
+      }
+      
+      
+
+      // If user asks a clarification question about fields, explain and re-ask
+      const lowerMsgForHelp = valueRaw.toLowerCase();
+      const isQuestionLike = lowerMsgForHelp.endsWith('?') ||
+        lowerMsgForHelp.startsWith('what is') || lowerMsgForHelp.startsWith('who is') ||
+        lowerMsgForHelp.includes('what does') || lowerMsgForHelp.includes('mean') ||
+        lowerMsgForHelp.includes('explain') || lowerMsgForHelp === 'help';
+      if (isQuestionLike) {
+        const total = (wf.schema || []).length;
+        const done = total - (pending.length);
+        const label = (currentSchema.label || currentKey || '').toString();
+
+        // Prefer explicit schema description/help if provided
+        const helpTextFromSchema = currentSchema.description || currentSchema.help || '';
+
+        // Generic field knowledge for common legal drafting terms
+        const genericHints = [];
+        const llabel = label.toLowerCase();
+        if (llabel.includes('first party')) {
+          genericHints.push('"First Party" typically refers to the person or entity initiating the document or making the main declaration/claim.');
+        }
+        if (llabel.includes('second party')) {
+          genericHints.push('"Second Party" typically refers to the counterparty — the person or entity to whom the declaration/notice/obligation is addressed.');
+        }
+        if (llabel.includes('father name')) {
+          genericHints.push('"Father Name" is the legal father’s full name for identification in the document.');
+        }
+        if (llabel.includes('address')) {
+          genericHints.push('Provide the complete current residential or registered address, including city, state, and PIN.');
+        }
+        if (llabel.includes('date')) {
+          genericHints.push('Dates should be in YYYY-MM-DD format (for example, 2025-09-30).');
+        }
+
+        const explanation = helpTextFromSchema || (genericHints.length ? genericHints.join(' ') : `Please provide a clear value for ${label}.`);
+        const example = currentSchema.example ? ` (e.g., ${currentSchema.example})` : '';
+
+        return await replyAndReturn(`${explanation}\n\nNow, **${label}**${example}:`, {
+          mode: 'draft',
+          progress: { done, total }
+        });
+      }
+      // Validate current field by schema
+      const type = currentSchema.type || 'text';
+      const required = Boolean(currentSchema.required);
+      const isDate = type === 'date';
+      const isStringList = type === 'string_list' || type === 'list' || type === 'array';
+      let parsedValue = valueRaw;
+      if (isDate) {
+        const isoDate = /^\d{4}-\d{2}-\d{2}$/;
+        if (!isoDate.test(valueRaw)) {
+          const label = currentSchema.label || currentKey;
+          const total = (wf.schema || []).length;
+          const done = total - (pending.length);
+          return await replyAndReturn(`Please provide ${label} in YYYY-MM-DD format.`, { 
+            mode: 'draft', 
+            progress: { done, total }
+          });
+        }
+      } else if (isStringList) {
+        // Split by comma or newline into a list
+        parsedValue = valueRaw.split(/\n|,/).map(s => s.trim()).filter(Boolean);
+        if (required && parsedValue.length === 0) {
+          const label = currentSchema.label || currentKey;
+          const total = (wf.schema || []).length;
+          const done = total - (pending.length);
+          return await replyAndReturn(`Please provide at least one item for ${label}. You can separate items by commas.`, { 
+            mode: 'draft', 
+            progress: { done, total }
+          });
+        }
+      } else {
+        if (required && valueRaw.length === 0) {
+          const label = currentSchema.label || currentKey;
+          const total = (wf.schema || []).length;
+          const done = total - (pending.length);
+          return await replyAndReturn(`Please provide a value for ${label}.`, { 
+            mode: 'draft', 
+            progress: { done, total }
+          });
+        }
+      }
+      fields[currentKey] = parsedValue;
+      if (rest.length) {
+        const nextKey = rest[0];
+        const nextField = wf.schema.find(f => f.key === nextKey);
+        const label = nextField?.label || nextKey;
+        const example = nextField?.example ? ` (e.g., ${nextField.example})` : '';
+        const next = { ...wf, fields, pending: rest };
+        try { await redis.set(wfKey, JSON.stringify(next), 'EX', 3600); } catch {}
+        const progress = wf.schema.length - rest.length;
+        const total = wf.schema.length;
+        const justFilledLabel = currentSchema.label || currentKey;
+        const justFilledVal = Array.isArray(parsedValue) ? parsedValue.join(', ') : String(parsedValue);
+        const commandsHint = `You can say 'back', 'skip', 'summary', or 'restart'.`;
+        return await replyAndReturn(`Noted: ${justFilledLabel} — ${justFilledVal}.\nDraft progress: ${progress}/${total}.\n\n${label}${example}:\n(${commandsHint})`, { 
+          mode: 'draft', 
+          progress: { done: progress, total: total },
+          message: `Progress: ${progress}/${total} fields completed`
+        });
+      }
+      // Before render: ensure all required fields exist
+      const missingRequired = (wf.schema || [])
+        .filter(f => f.required)
+        .map(f => f.key)
+        .filter(k => fields[k] === undefined || fields[k] === null || String(fields[k]).trim().length === 0);
+      if (missingRequired.length > 0) {
+        const nextKey = missingRequired[0];
+        const label = (wf.schema.find(f => f.key === nextKey)?.label) || nextKey;
+        const next = { ...wf, fields, pending: missingRequired };
+        try { await redis.set(wfKey, JSON.stringify(next), 'EX', 3600); } catch {}
+        const total = (wf.schema || []).length;
+        const done = Object.entries(fields).filter(([k, v]) => {
+          const val = String(v ?? '').trim();
+          return val.length > 0 && (wf.schema || []).some(f => f.key === k);
+        }).length;
+        return await replyAndReturn(`I still need ${label}.`, { 
+          mode: 'draft', 
+          progress: { done, total }
+        });
+      }
+      // Render template with fields
+      let textOut = renderTemplateText(wf.template, fields);
+      // Safety: strip any accidental Markdown artifacts from earlier steps
+      // Convert common bold patterns to plain text
+      textOut = textOut.replaceAll('**', '');
+      
+      // Check unreplaced placeholders and re-ask
+      const unreplaced = Array.from(new Set((textOut.match(/\{\{(.*?)\}\}/g) || []).map(m => m.slice(2, -2))));
+      if (unreplaced.length > 0) {
+        const nextKey = unreplaced[0];
+        const label = (wf.schema.find(f => f.key === nextKey)?.label) || nextKey;
+        const next = { ...wf, fields, pending: unreplaced };
+        try { await redis.set(wfKey, JSON.stringify(next), 'EX', 3600); } catch {}
+        const total = (wf.schema || []).length;
+        const done = Object.entries(fields).filter(([k, v]) => {
+          const val = String(v ?? '').trim();
+          return val.length > 0 && (wf.schema || []).some(f => f.key === k);
+        }).length;
+        return await replyAndReturn(`Please provide ${label}.`, { 
+          mode: 'draft', 
+          progress: { done, total }
+        });
+      }
+
+      // Enhance the draft with AI for better legal language and structure
+      try {
+        const enhancementPrompt = `Review and enhance this legal document template. Make it more professional, legally accurate, and complete for Indian law. Important: Return plain text only (no markdown/bold/asterisks). Do not add new placeholders. Preserve given values. If optional info missing, do not invent it.\n\n${textOut}`;
+        
+        const geminiModel = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+        const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/${encodeURIComponent(geminiModel)}:generateContent?key=${process.env.GEMINI_API_KEY}`;
+        
+        const response = await axios.post(
+          geminiUrl,
+          {
+            contents: [
+              { role: 'user', parts: [{ text: DRAFT_ENHANCEMENT_PROMPT }] },
+              { role: 'user', parts: [{ text: enhancementPrompt }] }
+            ],
+            generationConfig: {
+              temperature: 0.2,
+              topK: 32,
+              topP: 0.95,
+              maxOutputTokens: 1024,
+            },
+            safetySettings: [
+              { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
+            ],
+          },
+          {
+            headers: { 'Content-Type': 'application/json' },
+            timeout: 20000
+          }
+        );
+
+        const enhancedText = response?.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (enhancedText && enhancedText.trim().length > 0) {
+          textOut = enhancedText;
+        }
+      } catch (error) {
+        console.warn('Draft enhancement failed, using original:', error.message);
+        // Continue with original text if enhancement fails
+      }
+
+      const filePath = await writeDocxFromText(textOut, wf.displayTitle);
+      // Enter review mode so user can request edits
+      const reviewState = {
+        step: 'review',
+        displayTitle: wf.displayTitle,
+        template: wf.template,
+        schema: wf.schema,
+        latestText: textOut
+      };
+      try { await redis.set(wfKey, JSON.stringify(reviewState), 'EX', 3600); } catch {}
+      return await replyAndReturn('🎉 Your professional legal document is ready! You can preview it below and download the Word document.', { 
+        mode: 'draft_ready', 
+        preview: textOut, 
+        fileUrl: `/uploads/drafts/${filePath.split('/').pop()}`, 
+        displayTitle: wf.displayTitle 
+      });
+    }
+
+    // Handle review mode (post-generation edits)
+    if (wf && wf.step === 'review') {
+      const lower = message.trim().toLowerCase();
+      const finishCommands = ['finish','done','looks good','finalize','no changes','export'];
+      if (finishCommands.includes(lower)) {
+      try { await redis.del(wfKey); } catch {}
+        return await replyAndReturn('Great. I have closed the review. If you need further changes, let me know.');
+      }
+
+      // Apply revision instructions using enhancement model with strict plain-text output
+      try {
+        const instruction = message.trim();
+        const revisionPrompt = `You are revising an already generated Indian legal document. Apply the user instructions strictly and produce the updated document text. Important rules: return PLAIN TEXT only (no markdown/bold/asterisks), do not add new placeholders, preserve all existing values unless explicitly changed.\n\nUser instructions:\n${instruction}\n\nCurrent document:\n${wf.latestText}`;
+
+        const geminiModel = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+        const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/${encodeURIComponent(geminiModel)}:generateContent?key=${process.env.GEMINI_API_KEY}`;
+        const response = await axios.post(
+          geminiUrl,
+          {
+            contents: [
+              { role: 'user', parts: [{ text: DRAFT_ENHANCEMENT_PROMPT }] },
+              { role: 'user', parts: [{ text: revisionPrompt }] }
+            ],
+            generationConfig: { temperature: 0.2, topK: 32, topP: 0.95, maxOutputTokens: 1024 },
+            safetySettings: [
+              { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
+            ],
+          },
+          { headers: { 'Content-Type': 'application/json' }, timeout: 20000 }
+        );
+
+        let revisedText = response?.data?.candidates?.[0]?.content?.parts?.[0]?.text || wf.latestText;
+        revisedText = revisedText.replaceAll('**', '');
+        const filePath = await writeDocxFromText(revisedText, wf.displayTitle);
+        const next = { ...wf, latestText: revisedText };
+        try { await redis.set(wfKey, JSON.stringify(next), 'EX', 3600); } catch {}
+        return await replyAndReturn('Here is the updated document as per your instructions.', {
+          mode: 'draft_ready',
+          preview: revisedText,
+          fileUrl: `/uploads/drafts/${filePath.split('/').pop()}`,
+          displayTitle: wf.displayTitle
+        });
+      } catch (error) {
+        return await replyAndReturn('I could not apply the changes due to an error. Please rephrase the revision instructions.');
+      }
+    }
+
+    // Enhanced draft intent detection
+    const lowerMsg = message.toLowerCase();
+
+    // Global helpers: intent classification and new-draft cue
+    const classifyIntent = (text) => {
+      const t = String(text || '').toLowerCase();
+      // Role cues → category locking
+      if (/\bseller\b|\bbuyer\b/.test(t)) return 'sale';
+      if (/\blandlord\b|\btenant\b/.test(t)) return 'lease';
+      if (/\bprincipal\b|\battorney\b/.test(t)) return 'power';
+      if (/\btestator\b/.test(t)) return 'will';
+      // Explicit category keywords
+      if (/\badoption\b|\badopt\b/.test(t)) return 'adoption';
+      if (/\baffidavit\b/.test(t)) return 'affidavit';
+      if (/\blegal\s*notice\b|\bnotice\b/.test(t)) return 'notice';
+      if (/(sale\s*deed)|(\bsale\b.*\bdeed\b)|(\bdeed\b.*\bsale\b)|\bsale\b|\bconveyance\b/.test(t)) return 'sale';
+      if (/\blease\b/.test(t)) return 'lease';
+      if (/\bpower\s*of\s*attorney\b|\bpoa\b|\battorney\b/.test(t)) return 'power';
+      if (/\bwill\b/.test(t)) return 'will';
+      if (/\bagreement\b|\bcontract\b|\bagreement\s*for\s*sale\b/.test(t)) return 'agreement';
+      return 'general';
+    };
+    const newDraftCueRe = /(generate|create|prepare|make|write).*\b(draft|deed|agreement|notice|affidavit|lease|sale)\b|\bsale\s*deed\b|\badoption\b|\blease\b|\baffidavit\b|\blegal\s*notice\b|\bpower\s*of\s*attorney\b|\bwill\b/;
+    
+    // Legal information queries (should NOT trigger draft workflow)
+    const legalInfoKeywords = [
+      'what is', 'explain', 'tell me about', 'information about', 'definition of', 'meaning of',
+      'which charges', 'what charges', 'what punishment', 'what penalty', 'according to',
+      'bns section', 'ipc section', 'crpc section', 'evidence act', 'legal advice',
+      'criminal law', 'penal code', 'procedure code'
+    ];
+    const isLegalInfoQuery = legalInfoKeywords.some(k => lowerMsg.includes(k));
+    
+    // Draft keywords (should trigger draft workflow)
+    const draftKeywords = [
+      'draft', 'generate', 'prepare', 'create', 'make', 'write', 'document',
+      'agreement', 'contract', 'deed', 'notice', 'affidavit', 'application',
+      'petition', 'complaint', 'reply', 'rejoinder', 'legal notice',
+      'power of attorney', 'will', 'adoption', 'lease', 'sale deed'
+    ];
+    const wantsDraft = draftKeywords.some(k => lowerMsg.includes(k)) && !isLegalInfoQuery;
+    
+    // Handle legal information queries (BNS, IPC, etc.) - use dedicated knowledge service
+    if (isLegalInfoQuery && lowerMsg.includes('bns')) {
+      try {
+        // Use dedicated BNS knowledge service
+        const { bnsKnowledgeService } = await import('../services/bnsKnowledgeService.js');
+        
+        // Get BNS knowledge response
+        const bnsResponse = await bnsKnowledgeService.answerBNSQuery(message);
+        
+        if (bnsResponse.type !== 'no_results') {
+          return await replyAndReturn(bnsResponse.response);
+        } else {
+          // Fallback to template if knowledge service doesn't find relevant information
+          const best = await findBestTemplate(message);
+          if (best && best.relPath.toLowerCase().includes('bns')) {
+            return await replyAndReturn(`**${best.displayTitle}**\n\n${best.template}\n\n*This information is based on the Bharatiya Nyaya Sanhita (BNS) 2023. For specific legal advice, please consult with a qualified lawyer.*`);
+          }
+        }
+      } catch (error) {
+        console.error('Error in BNS knowledge processing:', error.message);
+        // Fallback to template system
+        const best = await findBestTemplate(message);
+        if (best && best.relPath.toLowerCase().includes('bns')) {
+          return await replyAndReturn(`**${best.displayTitle}**\n\n${best.template}\n\n*This information is based on the Bharatiya Nyaya Sanhita (BNS) 2023. For specific legal advice, please consult with a qualified lawyer.*`);
+        }
+      }
+    }
+    
+    if (wantsDraft || currentMode === 'draft') {
+      // Determine intended category up-front
+      const categoryHint = classifyIntent(lowerMsg);
+
+      // If user explicitly asks for an adoption draft, ensure we start with a brief like affidavit flow
+      if (wf && wf.step !== 'prebrief' && categoryHint === 'adoption') {
+        const pre = { step: 'prebrief', intent: 'adoption' };
+        try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+        const askAdoption = 'To prepare the right adoption deed, share a one‑line brief: adopting from orphanage/guardian/relative? child age? religion/law (e.g., HAMA)? city/state.';
+        return await replyAndReturn(`${askAdoption}\n\nI will recommend the best matching draft and you can pick or say yes.`, { mode: 'draft' });
+      }
+
+      // Pre-brief step: if not already in a draft workflow, ask for a short brief
+      if (!wf) {
+        const pre = { step: 'prebrief', intent: categoryHint };
+        try { await redis.set(wfKey, JSON.stringify(pre), 'EX', 3600); } catch {}
+        const ask = categoryHint === 'adoption'
+          ? 'To prepare the right adoption deed, share a one‑line brief: adopting from orphanage/guardian/relative? child age? religion/law (e.g., HAMA)? city/state.'
+          : categoryHint === 'affidavit'
+            ? 'In one or two lines, what is the affidavit for, who are the parties, and any annexures?'
+            : categoryHint === 'notice'
+              ? 'Give me a short brief for the legal notice: subject, parties, and the relief/demand.'
+          : categoryHint === 'sale'
+            ? 'To draft the sale deed, share a brief: property address/area, seller/buyer, total consideration, possession date, and jurisdiction (city/state).'
+          : categoryHint === 'lease'
+            ? 'For the lease deed, a short brief helps: property, landlord/tenant, term, rent, deposit, and jurisdiction.'
+          : categoryHint === 'agreement'
+            ? 'Please share a short brief: agreement subject, parties, key terms, consideration, governing law.'
+          : categoryHint === 'power'
+            ? 'To set up the Power of Attorney, share a brief: principal, attorney, scope, duration, place.'
+          : categoryHint === 'will'
+            ? 'For the Will, share a short brief: testator, beneficiaries, major assets, executors, place.'
+              : 'Share a short brief: document type, parties involved, and purpose.';
+        return await replyAndReturn(`${ask}\n\nI will recommend the best matching draft and you can pick or say yes.`, { mode: 'draft' });
+      }
+
+      // If the workflow is waiting for the brief, use it to shortlist
+      if (wf && wf.step === 'prebrief') {
+        const userBrief = message.trim();
+        let chatDoc = await Chat.findOne({ userId: new mongoose.Types.ObjectId(req.user.id) }).select('messages').lean();
+        const lastMessages = (chatDoc?.messages || []).slice(-6)
+          .filter(m => m && (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string' && m.content.trim().length > 0)
+          .map(m => m.content);
+        const contextText = [...lastMessages, userBrief, message].join('\n');
+
+        const refinedIntent = (() => { const c = classifyIntent(userBrief); return c === 'general' ? wf.intent : c; })();
+        const all = await getAllTemplates();
+        let candidates = all;
+        const rel = (s) => s.relPath.toLowerCase();
+        if (refinedIntent === 'adoption') candidates = all.filter(t => rel(t).includes('adoption drafts'));
+        else if (refinedIntent === 'affidavit') candidates = all.filter(t => rel(t).includes('affidavit'));
+        else if (refinedIntent === 'notice') candidates = all.filter(t => rel(t).includes('legal notice'));
+        else if (refinedIntent === 'sale') candidates = all.filter(t => /sale/.test(rel(t)) && /deed/.test(rel(t)) && !/adoption/.test(rel(t)));
+        else if (refinedIntent === 'lease') candidates = all.filter(t => /lease/.test(rel(t)) && !/adoption/.test(rel(t)));
+        else if (refinedIntent === 'agreement') candidates = all.filter(t => /(agreement|contract)/.test(rel(t)) && !/adoption/.test(rel(t)));
+        else if (refinedIntent === 'power') candidates = all.filter(t => /(power\s*of\s*attorney|poa|attorney)/.test(rel(t)));
+        else if (refinedIntent === 'will') candidates = all.filter(t => /\bwill\b/.test(rel(t)));
+
+        const scored = await Promise.all(candidates.map(async (t) => {
+          const combined = `${contextText}\n${t.relPath}\n${t.template.slice(0, 600)}`;
+          const bestForThis = await findBestTemplate(combined);
+          const score = bestForThis && bestForThis.relPath === t.relPath ? 1 : 0;
+          return { t, score };
+        }));
+        const ranked = scored.sort((a,b) => b.score - a.score).map(s => s.t);
+
+        const makeBrief = (t) => {
+          const lower = `${t.relPath} ${t.template.slice(0, 600)}`.toLowerCase();
+          if (refinedIntent === 'adoption') {
+            if (lower.includes('major')) return 'Adoption of a major (age 18+).';
+            if (lower.includes('orphan')) return 'Adoption of an orphan via orphanage.';
+            if (lower.includes('guardian')) return 'Adoption from a legal guardian.';
+            return 'General adoption deed format.';
+          }
+          if (refinedIntent === 'sale') return 'Property sale deed format (parties, property, consideration).';
+          if (refinedIntent === 'lease') return 'Lease deed format (term, rent, deposit, clauses).';
+          if (refinedIntent === 'agreement') return 'Agreement/contract standard format with key terms.';
+          if (refinedIntent === 'notice') return 'Legal notice structure with demands and timeline.';
+          if (refinedIntent === 'affidavit') return 'Affidavit format with verification and annexures.';
+          if (refinedIntent === 'power') return 'Power of Attorney with scope and duration.';
+          if (refinedIntent === 'will') return 'Will format with beneficiaries and executors.';
+          return 'General format for this document type.';
+        };
+
+        const optionsAll = ranked.map(t => ({ relPath: t.relPath, displayTitle: getDisplayTitleForRelPath(t.relPath), brief: makeBrief(t) }));
+        const pageSize = 5; const page = 0;
+        const pageOptions = optionsAll.slice(page * pageSize, (page + 1) * pageSize);
+        const chooseState = { step: 'choose', optionsAll, page, pageSize, context: contextText, intent: refinedIntent };
+        try { await redis.set(wfKey, JSON.stringify(chooseState), 'EX', 3600); } catch {}
+        const topPick = pageOptions[0];
+        const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief}`).join('\n');
+        const hasMore = optionsAll.length > pageSize;
+        const extra = hasMore
+          ? `\n\nReply 'yes' to continue with: ${topPick.displayTitle}. Or reply 1-${pageOptions.length}. Type 'more' for more options or add a keyword (e.g., "major son").`
+          : `\n\nReply 'yes' to continue with: ${topPick.displayTitle}. Or reply 1-${pageOptions.length}. You can also add a keyword to refine (e.g., "guardian").`;
+        return await replyAndReturn(`Thanks. Based on your details, here are top recommendations:\n\n${list}${extra}`, { mode: 'draft' });
+      }
+
+      // Build context from last 6 messages + current
+      let chatDoc = await Chat.findOne({ userId: new mongoose.Types.ObjectId(req.user.id) }).select('messages').lean();
+      const lastMessages = (chatDoc?.messages || []).slice(-6)
+        .filter(m => m && (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string' && m.content.trim().length > 0)
+        .map(m => m.content);
+      const contextText = [...lastMessages, message].join('\n');
+
+      // Candidate shortlist by category intent
+      const text = message.toLowerCase();
+      const intent = classifyIntent(text);
+
+      const all = await getAllTemplates();
+      let candidates = all;
+      const rel = (s) => s.relPath.toLowerCase();
+      if (intent === 'adoption') candidates = all.filter(t => rel(t).includes('adoption drafts'));
+      else if (intent === 'affidavit') candidates = all.filter(t => rel(t).includes('affidavit'));
+      else if (intent === 'notice') candidates = all.filter(t => rel(t).includes('legal notice'));
+      else if (intent === 'sale') candidates = all.filter(t => /sale/.test(rel(t)) && /deed/.test(rel(t)) && !/adoption/.test(rel(t)));
+      else if (intent === 'lease') candidates = all.filter(t => /lease/.test(rel(t)) && !/adoption/.test(rel(t)));
+      else if (intent === 'agreement') candidates = all.filter(t => /(agreement|contract)/.test(rel(t)) && !/adoption/.test(rel(t)));
+      else if (intent === 'power') candidates = all.filter(t => /(power\s*of\s*attorney|poa|attorney)/.test(rel(t)));
+      else if (intent === 'will') candidates = all.filter(t => /\bwill\b/.test(rel(t)));
+
+      // Score candidates using existing scorer on combined context
+      const scored = await Promise.all(candidates.map(async (t) => {
+        const combined = `${contextText}\n${t.relPath}\n${t.template.slice(0, 600)}`;
+        const bestForThis = await findBestTemplate(combined);
+        const score = bestForThis && bestForThis.relPath === t.relPath ? 1 : 0; // crude tie-break
+        return { t, score };
+      }));
+      const ranked = scored.sort((a,b) => b.score - a.score).map(s => s.t);
+      const top = ranked.slice(0, 5);
+
+      if (top.length > 1) {
+        const makeBrief = (t) => {
+          const lower = `${t.relPath} ${t.template.slice(0, 600)}`.toLowerCase();
+          if (intent === 'adoption') {
+            if (lower.includes('major')) return 'Adoption of a major (age 18+).';
+            if (lower.includes('orphan')) return 'Adoption of an orphan via orphanage.';
+            if (lower.includes('guardian')) return 'Adoption from a legal guardian.';
+            return 'General adoption deed format.';
+          }
+          if (intent === 'sale') return 'Property sale deed format (parties, property, consideration).';
+          if (intent === 'lease') return 'Lease deed format (term, rent, deposit, clauses).';
+          if (intent === 'agreement') return 'Agreement/contract standard format with key terms.';
+          if (intent === 'notice') return 'Legal notice structure with demands and timeline.';
+          if (intent === 'affidavit') return 'Affidavit format with verification and annexures.';
+          if (intent === 'power') return 'Power of Attorney with scope and duration.';
+          if (intent === 'will') return 'Will format with beneficiaries and executors.';
+          return 'General format for this document type.';
+        };
+
+        const optionsAll = ranked.map(t => ({
+          relPath: t.relPath,
+          displayTitle: getDisplayTitleForRelPath(t.relPath),
+          brief: makeBrief(t)
+        }));
+        const pageSize = 5;
+        const page = 0;
+        const pageOptions = optionsAll.slice(page * pageSize, (page + 1) * pageSize);
+
+        const chooseState = {
+          step: 'choose',
+          optionsAll,
+          page,
+          pageSize,
+          context: contextText
+        };
+        try { await redis.set(wfKey, JSON.stringify(chooseState), 'EX', 3600); } catch {}
+        const list = pageOptions.map((o, i) => `${i+1}. ${o.displayTitle} — ${o.brief}`).join('\n');
+        const hasMore = optionsAll.length > pageSize;
+        const extra = hasMore ? `\n\nYou can also type a short detail to refine (e.g., "major son", "from orphanage"), or reply 'more' to see more options.` : `\n\nYou can also type a short detail to refine (e.g., "major son", "from orphanage").`;
+        return await replyAndReturn(`I found multiple relevant templates. Here are my top recommendations:\n\n${list}${extra}\n\nReply with 1-${pageOptions.length}.`, { mode: 'draft' });
+      }
+
+      const best = top[0] || await findBestTemplate(contextText);
+      if (best) {
+        const wfState = {
+          step: 'confirm',
+          template: best.template,
+          schema: best.schema,
+          displayTitle: getDisplayTitleForRelPath(best.relPath),
+          relPath: best.relPath
+        };
+        try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+        return await replyAndReturn(`I found a suitable template: **${wfState.displayTitle}**\n\nThis template will help you create a professional legal document. Reply 'yes' to continue with this template, or 'change' to try a different approach.`, { mode: 'draft' });
+      }
+
+      // If no template found, offer to create a custom draft
+      const wfState = {
+        step: 'custom_draft',
+        context: contextText,
+        userMessage: message
+      };
+      try { await redis.set(wfKey, JSON.stringify(wfState), 'EX', 3600); } catch {}
+      return await replyAndReturn(`I don't have a specific template for this type of document, but I can help you create a custom legal draft. Please provide more details:\n\n1. What type of legal document do you need?\n2. Who are the parties involved?\n3. What is the main purpose or issue?\n\nOr reply 'templates' to see available document types.`, { mode: 'draft' });
+    }
+
+    // Get existing chat history for context
+    let chatDoc = await Chat.findOne({ userId: new mongoose.Types.ObjectId(req.user.id) })
+      .select('messages')
+      .lean();
+    if (!chatDoc) {
+      chatDoc = { userId: new mongoose.Types.ObjectId(req.user.id), messages: [] };
+    }
+
+    // Limit to last 4 messages for context
+    const lastMessages = chatDoc.messages.slice(-6);
+
+    // Enhance system prompt with legal context if it's a legal query
+    let enhancedSystemPrompt = systemPrompt;
+    const legalKeywords = ['section', 'act', 'law', 'court', 'judge', 'criminal', 'civil', 'penalty', 'offence', 'bns', 'ipc', 'crpc', 'evidence'];
+    const isLegalQuery = legalKeywords.some(keyword => message.toLowerCase().includes(keyword));
+    
+    if (isLegalQuery) {
+      try {
+        const legalContext = await enhancePromptWithLegalContext(message);
+        if (legalContext) {
+          enhancedSystemPrompt += legalContext;
+          console.log('📚 Enhanced prompt with legal context');
+        }
+      } catch (error) {
+        console.error('Error enhancing with legal context:', error.message);
+      }
+    }
+
+    // Prepare conversation history for context, filter malformed, and map roles
+    const conversationHistory = lastMessages
+      .filter(msg =>
+        msg &&
+        (msg.role === 'user' || msg.role === 'assistant') &&
+        typeof msg.content === 'string' &&
+        msg.content.trim().length > 0
+      )
+      .map(msg => ({
+        role: msg.role === 'assistant' ? 'model' : msg.role, // Map 'assistant' to 'model'
+        parts: [{ text: msg.content }]
+      }));
+
+    // Add the current user message
+    conversationHistory.push({
+      role: 'user',
+      parts: [{ text: message }]
+    });
+
+    // Debug: Log the payload being sent to Gemini (commented out for production)
+    // console.log('Gemini API Payload:', JSON.stringify({
+    //   systemInstruction: {
+    //     parts: [{ text: systemPrompt }]
+    //   },
+    //   contents: conversationHistory
+    // }, null, 2));
+
+    // Optional: bypass Gemini in dev when GEMINI_DISABLE=true
+    const geminiDisabled = String(process.env.GEMINI_DISABLE || '').toLowerCase() === 'true';
+    if (geminiDisabled) {
+      const mock = 'This is a mock AI reply (Gemini disabled locally). Your message was received and processed.';
+      return await replyAndReturn(mock);
+    }
+
+    // Guard: API key must be present
+    if (!process.env.GEMINI_API_KEY || typeof process.env.GEMINI_API_KEY !== 'string') {
+      throw new AppError('AI service is not configured. Missing GEMINI_API_KEY.', 500);
+    }
+
+    // Check if client wants streaming response
+    const acceptHeader = req.headers.accept || '';
+    const wantsStreaming = acceptHeader.includes('text/event-stream') || req.query.stream === 'true';
+    
+    if (wantsStreaming) {
+      // Configure generation per mode
+      const genConfig = currentMode === 'draft'
+        ? { temperature: 0.2, topK: 32, topP: 0.9, maxOutputTokens: 768 }
+        : currentMode === 'deep'
+          ? { temperature: 0.3, topK: 40, topP: 0.9, maxOutputTokens: 1024 }
+          : { temperature: 0.5, topK: 40, topP: 0.95, maxOutputTokens: 512 };
+      return await handleStreamingResponse(req, res, {
+        geminiModel: process.env.GEMINI_MODEL || 'gemini-1.5-flash',
+        systemPrompt,
+        conversationHistory,
+        user,
+        message,
+        genConfig
+      });
+    }
+
+    // Call Gemini API with conversation history for context (with retries on 429/5xx)
+    const geminiModel = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1/models/${encodeURIComponent(geminiModel)}:generateContent?key=${process.env.GEMINI_API_KEY}`;
+    const maxAttempts = 3;
+    let attempt = 0;
+    let response;
+    while (true) {
+      try {
+        // Prepare contents with system instruction for gemini-2.0-flash
+        const contents = [
+          { role: 'user', parts: [{ text: systemPrompt }] },
+          ...conversationHistory
+        ];
+
+        response = await axios.post(
+          geminiUrl,
+          {
+            contents: contents,
+            generationConfig: (currentMode === 'draft')
+              ? { temperature: 0.2, topK: 32, topP: 0.9, maxOutputTokens: 768 }
+              : (currentMode === 'deep')
+                ? { temperature: 0.3, topK: 40, topP: 0.9, maxOutputTokens: 1024 }
+                : { temperature: 0.5, topK: 40, topP: 0.95, maxOutputTokens: 512 },
+            safetySettings: [
+              { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
+              { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
+            ],
+          },
+          {
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            timeout: 20000
+          }
+        );
+        break;
+      } catch (err) {
+        const status = err?.response?.status;
+        const isRetryable = status === 429 || (status >= 500 && status < 600) || err.code === 'ECONNRESET' || err.code === 'ETIMEDOUT';
+        // Log detailed error context for diagnostics
+        console.error('Gemini API error', {
+          status,
+          code: err?.code,
+          url: geminiUrl,
+          model: geminiModel,
+          data: err?.response?.data,
+        });
+        attempt += 1;
+        if (!isRetryable || attempt >= maxAttempts) {
+          const upstreamMessage = err?.response?.data?.error?.message || err?.response?.data?.message;
+          // Friendly message for quota errors
+          const isQuota = (status === 429) && (typeof upstreamMessage === 'string') && upstreamMessage.toLowerCase().includes('quota');
+          const message = isQuota
+            ? 'Our AI service is temporarily rate limited. Please wait a minute and try again.'
+            : (upstreamMessage || err.message || 'Error calling AI service');
+          const httpStatus = typeof status === 'number' ? status : 502;
+          throw new AppError(message, httpStatus);
+        }
+        const backoffMs = Math.min(1000 * Math.pow(2, attempt - 1), 4000);
+        await new Promise(r => setTimeout(r, backoffMs));
+      }
+    }
+    const candidates = response?.data?.candidates || [];
+    const first = candidates[0]?.content?.parts?.[0]?.text || '';
+    let aiResponse = first && typeof first === 'string' ? first : 'I could not generate a response at the moment. Please try again.';
+
+    // Suggest draft generation when appropriate (CTA) - REMOVED TO PREVENT UNWANTED TEXT
+    // The AI will only suggest document drafting when explicitly requested or clearly needed
+
+    // Save message to database with proper ObjectId
+    // chatDoc is already defined above, so we don't need to redeclare it
+
+    await Chat.findOneAndUpdate(
+      { userId: new mongoose.Types.ObjectId(req.user.id) },
+      { $push: { messages: { $each: [
+        { role: 'user', content: message },
+        { role: 'assistant', content: aiResponse }
+      ] } } },
+      { upsert: true }
+    );
+
+    // Limit chat history to last 50 messages
+    if (chatDoc.messages.length > 50) {
+      chatDoc.messages = chatDoc.messages.slice(-50);
+    }
+
+    const cacheKey = `chat:${req.user.id}`;
+    try { await redis.del(cacheKey); } catch {}
+
+    // For non-premium: increment AFTER success and compute remaining
+    let remainingMessages = null;
+    if (user.subscriptionStatus !== 'premium') {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      let mc = await MessageCount.findOne({
+        userId: new mongoose.Types.ObjectId(req.user.id),
+        date: today
+      });
+      if (!mc) {
+        mc = new MessageCount({ userId: new mongoose.Types.ObjectId(req.user.id), date: today, count: 0 });
+      }
+      mc.count += 1;
+      await mc.save();
+      remainingMessages = 5 - (mc?.count || 0);
+    }
+
+    res.json({ 
+      response: aiResponse,
+      remainingMessages,
+      subscriptionStatus: user.subscriptionStatus
+    });
+  } catch (error) {
+  if (error instanceof AppError) {
+    throw error;
+  }
+  const status = error?.response?.status;
+  const message = error?.response?.data?.error?.message || error.message || 'Error processing message';
+  console.error('sendMessage unexpected error', { status, message, data: error?.response?.data });
+  throw new AppError(message, typeof status === 'number' ? status : 500);
+  }
+};
+
+export const clearChatHistory = async (req, res) => {
+  try {
+    const wfKey = `workflow:chat:${req.user.id}`;
+    // Always clear workflow state to prevent being stuck in draft mode
+    try { await redis.del(wfKey); } catch {}
+
+    const soft = String(req.query.soft || '').toLowerCase() === 'true';
+    const cacheKey = `chat:${req.user.id}`;
+    try { await redis.del(cacheKey); } catch {}
+
+    if (soft) {
+      // Do not modify DB messages; just reset session state
+      return res.json({ message: 'Chat session reset (soft). Workflow cleared.' });
+    }
+
+    await Chat.findOneAndUpdate(
+      { userId: new mongoose.Types.ObjectId(req.user.id) },
+      { $set: { messages: [] } },
+      { new: true }
+    );
+    res.json({ message: 'Chat history cleared' });
+  } catch (error) {
+    throw new AppError(error.message || 'Error clearing chat history', 500);
+    //This comment is added to trigger a build
+  }
+};

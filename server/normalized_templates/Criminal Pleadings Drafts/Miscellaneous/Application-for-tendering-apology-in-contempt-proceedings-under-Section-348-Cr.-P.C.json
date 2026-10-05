@@ -1,0 +1,63 @@
+{
+  "title": "Application For Tendering Apology In Contempt Proceedings Under Section 348 Cr. P.C",
+  "filename": "Application-for-tendering-apology-in-contempt-proceedings-under-Section-348-Cr.-P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A application for tendering apology in contempt proceedings under section 348 cr. p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Name (Son of), Name (Second Party), Field 1 of 1, Field 2 of 1.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "key": "field_1_of_1",
+      "type": "text",
+      "label": "Field 1 of 1",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 1"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    },
+    {
+      "key": "field_3_of_1",
+      "type": "text",
+      "label": "Field 3 of 1",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "name_son_of",
+    "party_name_2",
+    "field_1_of_1",
+    "field_2_of_1",
+    "field_3_of_1"
+  ],
+  "description_hi": "Application For Tendering Apology In Contempt Proceedings Under Section 348 Cr. P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

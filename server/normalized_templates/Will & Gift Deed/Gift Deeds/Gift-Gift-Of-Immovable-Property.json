@@ -1,0 +1,64 @@
+{
+  "title": "Gift Gift Of Immovable Property",
+  "filename": "Gift-Gift-Of-Immovable-Property.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift gift of immovable property used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Witness Name, Signatory Name, Field 1 of 1, Field 2 of 1, Field 3 of 1.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_1",
+      "type": "text",
+      "label": "Field 1 of 1",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 1"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    },
+    {
+      "key": "field_3_of_1",
+      "type": "text",
+      "label": "Field 3 of 1",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 1"
+    },
+    {
+      "key": "field_4_of_1",
+      "type": "text",
+      "label": "Field 4 of 1",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "signatory_name",
+    "field_1_of_1",
+    "field_2_of_1",
+    "field_3_of_1",
+    "field_4_of_1"
+  ],
+  "description_hi": "Gift Gift Of Immovable Property — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,1 @@
+टेम्पलेट: Simple Money Bond। श्रेणी: Bond Drafts. आवश्यक फ़ील्ड: Address, Signatory Name। आवश्यक विवरण भरकर इस टेम्पलेट से दस्तावेज़ तुरंत तैयार करें।

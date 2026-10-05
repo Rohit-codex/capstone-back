@@ -1,0 +1,99 @@
+{
+  "title": "Will Form Of A Complicated Will",
+  "filename": "Will-Form-Of-A-Complicated-Will.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "A will form of a complicated will used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Witness Name (First Party), Witness Name (Second Party), Witness Name (Third Party), Place/City, Field 2 of 3.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "field_2_of_3",
+      "type": "text",
+      "label": "Field 2 of 3",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 3"
+    },
+    {
+      "key": "field_3_of_3",
+      "type": "text",
+      "label": "Field 3 of 3",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 3"
+    },
+    {
+      "key": "field_4_of_3",
+      "type": "text",
+      "label": "Field 4 of 3",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 3"
+    },
+    {
+      "key": "field_5_of_3",
+      "type": "text",
+      "label": "Field 5 of 3",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 3"
+    },
+    {
+      "key": "field_6_of_3",
+      "type": "text",
+      "label": "Field 6 of 3",
+      "required": true,
+      "placeholder": "Fill in field 6",
+      "description": "फील्ड 6 / 3"
+    },
+    {
+      "key": "field_7_of_3",
+      "type": "text",
+      "label": "Field 7 of 3",
+      "required": true,
+      "placeholder": "Fill in field 7",
+      "description": "फील्ड 7 / 3"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "witness_name_2",
+    "witness_name_3",
+    "placecity",
+    "field_2_of_3",
+    "field_3_of_3",
+    "field_4_of_3",
+    "field_5_of_3",
+    "field_6_of_3",
+    "field_7_of_3"
+  ],
+  "description_hi": "Will Form Of A Complicated Will — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 10 आवश्यक विवरण भरने होंगे।"
+}

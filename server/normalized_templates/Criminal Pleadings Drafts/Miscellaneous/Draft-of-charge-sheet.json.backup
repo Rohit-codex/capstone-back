@@ -1,0 +1,67 @@
+{
+  "title": "Draft Of Charge Sheet",
+  "filename": "Draft-of-charge-sheet.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "Legal template for draft of charge sheet",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation_2",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation_3",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "name_son_of",
+    "name_son_of_2",
+    "occupation",
+    "occupation_2",
+    "occupation_3",
+    "field_value"
+  ]
+}

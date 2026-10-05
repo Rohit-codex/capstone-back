@@ -1,0 +1,196 @@
+{
+  "title": "Report Of Transfer Of Ownership Of A Motor Vehicle",
+  "filename": "Report-of-transfer-of-ownership-of-a-motor-vehicle.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Other",
+  "description": "A report of transfer of ownership of a motor vehicle used for motor vehicle accident claims, compensation petitions, or insurance disputes. Suitable for accident victims, insurance companies, or motor accident claims tribunals. Key details required: Name (Daughter of) (First Party), Address (First Party), Address (Second Party), Date (First Party), Date (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (First Party)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (daughter of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Second Party)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (daughter of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_daughter_of",
+    "address",
+    "address_2",
+    "date",
+    "date_2",
+    "wife_name",
+    "name_daughter_of_2",
+    "address_3",
+    "address_4",
+    "date_3",
+    "date_4",
+    "date_5",
+    "party_name",
+    "party_name_2",
+    "field_value",
+    "party_name_3",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "date_10",
+    "date_11",
+    "signatory_name"
+  ],
+  "description_hi": "Report Of Transfer Of Ownership Of A Motor Vehicle — मोटर वाहन दुर्घटना दावे, मुआवज़ा याचिकाएं, या बीमा विवाद के लिए उपयोग किया जाने वाला कानूनी प्रारूप। दुर्घटना पीड़ित, बीमा कंपनियां, या मोटर दुर्घटना दावा अधिकरण के लिए उपयुक्त। 23 आवश्यक विवरण भरने होंगे।"
+}

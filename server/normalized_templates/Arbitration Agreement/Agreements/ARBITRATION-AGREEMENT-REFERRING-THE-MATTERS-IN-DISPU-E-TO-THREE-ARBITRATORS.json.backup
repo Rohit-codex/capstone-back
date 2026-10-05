@@ -1,0 +1,43 @@
+{
+  "title": "Arbitration Agreement Referring The Matters In Dispu E To Three Arbitrators",
+  "filename": "ARBITRATION-AGREEMENT-REFERRING-THE-MATTERS-IN-DISPU-E-TO-THREE-ARBITRATORS.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "Legal template for arbitration agreement referring the matters in dispu e to three arbitrators",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

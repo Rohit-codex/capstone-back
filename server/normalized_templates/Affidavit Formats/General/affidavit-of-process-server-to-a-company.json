@@ -1,0 +1,65 @@
+{
+  "title": "Affidavit Of Process Server To A Company",
+  "filename": "affidavit-of-process-server-to-a-company.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit of process server to a company used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Signatory Name, Field 1 of 0, Field 2 of 0, Field 3 of 0, Field 4 of 0.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    },
+    {
+      "key": "field_4_of_0",
+      "type": "text",
+      "label": "Field 4 of 0",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 0"
+    },
+    {
+      "key": "field_5_of_0",
+      "type": "text",
+      "label": "Field 5 of 0",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name",
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0",
+    "field_4_of_0",
+    "field_5_of_0"
+  ],
+  "description_hi": "Affidavit Of Process Server To A Company — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

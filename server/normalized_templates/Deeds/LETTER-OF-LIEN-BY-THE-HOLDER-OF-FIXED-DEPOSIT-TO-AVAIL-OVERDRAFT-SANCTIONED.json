@@ -1,0 +1,104 @@
+{
+  "title": "Letter Of Lien By The Holder Of Fixed Deposit To Avail Overdraft Sanctioned",
+  "filename": "LETTER-OF-LIEN-BY-THE-HOLDER-OF-FIXED-DEPOSIT-TO-AVAIL-OVERDRAFT-SANCTIONED.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A letter of lien by the holder of fixed deposit to avail overdraft sanctioned used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Age (in years) (First Party), Age (in years) (Second Party), Amount (Rs.) (First Party), Amount (Rs.) (Second Party), Date (First Party).",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "bank_branch_name",
+      "type": "text",
+      "label": "Bank & Branch Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party SBI, Connaught Place",
+      "description": "बैंक और शाखा का नाम"
+    },
+    {
+      "key": "bank_branch_name_2",
+      "type": "text",
+      "label": "Bank & Branch Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party SBI, Connaught Place",
+      "description": "बैंक और शाखा का नाम"
+    },
+    {
+      "key": "field_3_of_5",
+      "type": "text",
+      "label": "Field 3 of 5",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 5"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "age_2",
+    "amount",
+    "amount_2",
+    "date",
+    "date_2",
+    "signatory_name",
+    "bank_branch_name",
+    "bank_branch_name_2",
+    "field_3_of_5",
+    "placecity"
+  ],
+  "description_hi": "Letter Of Lien By The Holder Of Fixed Deposit To Avail Overdraft Sanctioned — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 11 आवश्यक विवरण भरने होंगे।"
+}

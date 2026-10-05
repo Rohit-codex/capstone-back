@@ -1,0 +1,156 @@
+{
+  "title": "Adoption With A Settlement Of Property Of Adopting Party",
+  "filename": "Adoption-With-A-Settlement-Of-Property-Of-Adopting-Party.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A adoption with a settlement of property of adopting party used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party), Name (Son of) (Fifth).",
+  "fields": [
+    {
+    "type": "textarea",
+    "label": "Agreement Place",
+    "key": "agreement_place",
+    "required": true,
+    "placeholder": "Enter place"
+  },
+  {
+    "type": "date",
+    "label": "Agreement Date",
+    "key": "agreement_date",
+    "required": true,
+    "placeholder": "Select date"
+  },
+  {
+    "type": "text",
+    "label": "Party No. 1 Name",
+    "key": "party1_name",
+    "required": true,
+    "placeholder": "Enter name"
+  },
+  {
+    "type": "text",
+    "label": "Party No. 1 Father's Name",
+    "key": "party1_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Party No. 1 Age",
+    "key": "party1_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Party No. 1 Address",
+    "key": "party1_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Party No. 2 Name",
+    "key": "party2_name",
+    "required": true,
+    "placeholder": "Enter name"
+  },
+  {
+    "type": "text",
+    "label": "Party No. 2 Father's Name",
+    "key": "party2_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Party No. 2 Age",
+    "key": "party2_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Party No. 2 Address",
+    "key": "party2_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "number",
+    "label": "Number of Sons of Party No. 1",
+    "key": "party1_sons_count",
+    "required": true,
+    "placeholder": "Enter number"
+  },
+  {
+    "type": "number",
+    "label": "Number of Daughters of Party No. 1",
+    "key": "party1_daughters_count",
+    "required": true,
+    "placeholder": "Enter number"
+  },
+  {
+    "type": "text",
+    "label": "Adopted Child Name",
+    "key": "adopted_child_name",
+    "required": true,
+    "placeholder": "Enter child name"
+  },
+  {
+    "type": "number",
+    "label": "Adopted Child Age",
+    "key": "adopted_child_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "text",
+    "label": "Witness 1 Name",
+    "key": "witness1_name",
+    "required": false,
+    "placeholder": "Enter witness name"
+  },
+  {
+    "type": "text",
+    "label": "Witness 2 Name",
+    "key": "witness2_name",
+    "required": false,
+    "placeholder": "Enter witness name"
+  },
+  {
+    "type": "text",
+    "label": "Signatory Name",
+    "key": "signatory_name",
+    "required": false,
+    "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+  "agreement_place",
+  "agreement_date",
+
+
+  "party1_name",
+  "party1_father_name",
+  "party1_age",
+  "party1_address",
+
+
+  "party2_name",
+  "party2_father_name",
+  "party2_age",
+  "party2_address",
+
+
+  "party1_sons_count",
+  "party1_daughters_count",
+  "adopted_child_name",
+  "adopted_child_age",
+
+  "adopted_child_name",
+
+  "witness1_name",
+  "witness2_name",
+  "signatory_name"
+]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Criminal Complaint U S 500   506 Read With Sec. 34 Of The Indian Penal Code",
+  "filename": "Criminal-Complaint-u-s-500-_-506-read-with-sec.-34-of-the-Indian-penal-code.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Complaints",
+  "description": "A criminal complaint u s 500   506 read with sec. 34 of the indian penal code used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name"
+  ],
+  "description_hi": "Criminal Complaint U S 500   506 Read With Sec. 34 Of The Indian Penal Code — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

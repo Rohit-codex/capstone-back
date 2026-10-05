@@ -1,0 +1,38 @@
+{
+  "title": "Withdrawal Of Prosecution By The Public Prosecutor Application For Under Section 321 Cr. P.C",
+  "filename": "Withdrawal-of-prosecution-by-the-Public-Prosecutor-Application-for-under-Section-321-Cr.-P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A withdrawal of prosecution by the public prosecutor application for under section 321 cr. p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name, Defendant/Accused Name, Field 2 of 1.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "defendantaccused_name",
+      "type": "text",
+      "label": "Defendant/Accused Name",
+      "required": true,
+      "placeholder": "e.g., Mohan Lal",
+      "description": "प्रतिवादी/अभियुक्त का नाम"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "defendantaccused_name",
+    "field_2_of_1"
+  ],
+  "description_hi": "Withdrawal Of Prosecution By The Public Prosecutor Application For Under Section 321 Cr. P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

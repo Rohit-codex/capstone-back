@@ -1,0 +1,51 @@
+{
+  "title": "Application For Anticipatory Bail Before High Court",
+  "filename": "Application-for-Anticipatory-Bail-before-High-Court.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "Legal template for application for anticipatory bail before high court",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "field_value",
+    "address",
+    "address_2"
+  ]
+}

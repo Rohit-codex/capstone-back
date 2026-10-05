@@ -1,0 +1,179 @@
+{
+  "title": "Warrant Of Arrest",
+  "filename": "WARRANT-OF-ARREST.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant of arrest used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Amount (Rs.) (First Party), Amount (Rs.) (Second Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "amount_4",
+      "type": "text",
+      "label": "Amount (₹) (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "amount_5",
+      "type": "text",
+      "label": "Amount (₹) (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_4",
+      "type": "text",
+      "label": "Place/City (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_5",
+      "type": "text",
+      "label": "Place/City (Fifth)",
+      "required": true,
+      "placeholder": "Enter Fifth New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "date_4",
+    "date_5",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "signatory_name",
+    "placecity",
+    "placecity_2",
+    "amount_4",
+    "amount_5",
+    "placecity_3",
+    "placecity_4",
+    "placecity_5"
+  ],
+  "description_hi": "Warrant Of Arrest — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 20 आवश्यक विवरण भरने होंगे।"
+}

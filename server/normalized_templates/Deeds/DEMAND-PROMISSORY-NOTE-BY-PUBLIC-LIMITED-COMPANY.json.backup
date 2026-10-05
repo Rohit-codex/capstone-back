@@ -1,0 +1,43 @@
+{
+  "title": "Demand Promissory Note By Public Limited Company",
+  "filename": "DEMAND-PROMISSORY-NOTE-BY-PUBLIC-LIMITED-COMPANY.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "Legal template for demand promissory note by public limited company",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "amount",
+    "field_value_2",
+    "field_value_3"
+  ]
+}

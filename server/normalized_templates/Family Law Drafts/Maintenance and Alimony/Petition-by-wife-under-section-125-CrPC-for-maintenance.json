@@ -1,0 +1,21 @@
+{
+  "title": "Petition By Wife Under Section 125 Crpc For Maintenance",
+  "filename": "Petition-by-wife-under-section-125-CrPC-for-maintenance.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A petition by wife under section 125 crpc for maintenance used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Field 1 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0"
+  ],
+  "description_hi": "Petition By Wife Under Section 125 Crpc For Maintenance — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

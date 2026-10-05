@@ -1,0 +1,66 @@
+{
+  "title": "Notice For Business Outstanding",
+  "filename": "Notice-for-Business-Outstanding.docx",
+  "category": "NI Drafts",
+  "subcategory": "Notices",
+  "description": "A notice for business outstanding used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. Key details required: Field 1 of 0, Field 2 of 0, Field 3 of 0, Field 4 of 0, Field 5 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    },
+    {
+      "key": "field_4_of_0",
+      "type": "text",
+      "label": "Field 4 of 0",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 0"
+    },
+    {
+      "key": "field_5_of_0",
+      "type": "text",
+      "label": "Field 5 of 0",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 0"
+    },
+    {
+      "key": "field_6_of_0",
+      "type": "text",
+      "label": "Field 6 of 0",
+      "required": true,
+      "placeholder": "Fill in field 6",
+      "description": "फील्ड 6 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0",
+    "field_4_of_0",
+    "field_5_of_0",
+    "field_6_of_0"
+  ],
+  "description_hi": "Notice For Business Outstanding — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

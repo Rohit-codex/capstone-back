@@ -1,0 +1,51 @@
+{
+  "title": "Bond W Ith Sureties For A Loan With Mortgage Of Property",
+  "filename": "BOND-W-ITH-SURETIES-FOR-A-LOAN-WITH-MORTGAGE-OF-PROPERTY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond w ith sureties for a loan with mortgage of property",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "date",
+    "amount",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

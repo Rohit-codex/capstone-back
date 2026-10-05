@@ -1,0 +1,27 @@
+{
+  "title": "Will Will In Favour Of Relations",
+  "filename": "Will-Will-In-Favour-Of-Relations.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "Legal template for will will in favour of relations",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

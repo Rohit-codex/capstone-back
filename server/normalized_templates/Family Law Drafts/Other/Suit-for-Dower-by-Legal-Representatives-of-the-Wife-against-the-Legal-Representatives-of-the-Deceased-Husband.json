@@ -1,0 +1,300 @@
+{
+  "title": "Suit For Dower By Legal Representatives Of The Wife Against The Legal Representatives Of The Deceased Husband",
+  "filename": "Suit-for-Dower-by-Legal-Representatives-of-the-Wife-against-the-Legal-Representatives-of-the-Deceased-Husband.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Other",
+  "description": "A suit for dower by legal representatives of the wife against the legal representatives of the deceased husband used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Court Name/Place (First Party), Court Name/Place (Second Party), Case Number, Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "e.g., CS/123/2025"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fifth)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter Fifth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Sixth)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter Sixth  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Seventh)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter Seventh  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "case_number",
+    "party_name",
+    "party_name_2",
+    "place",
+    "age",
+    "amount",
+    "amount_2",
+    "field_value",
+    "amount_3",
+    "amount_4",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "place_2",
+    "address",
+    "address_2",
+    "party_name_3",
+    "party_name_4",
+    "field_value_6",
+    "field_value_7",
+    "amount_5",
+    "amount_6",
+    "party_name_5",
+    "party_name_6",
+    "amount_7",
+    "place_3",
+    "place_4",
+    "field_value_8",
+    "field_value_9",
+    "date",
+    "date_2",
+    "party_name_7",
+    "party_name_8"
+  ],
+  "description_hi": "Suit For Dower By Legal Representatives Of The Wife Against The Legal Representatives Of The Deceased Husband — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 36 आवश्यक विवरण भरने होंगे।"
+}

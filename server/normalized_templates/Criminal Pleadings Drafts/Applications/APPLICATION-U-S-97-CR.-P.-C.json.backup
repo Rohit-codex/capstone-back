@@ -1,0 +1,67 @@
+{
+  "title": "Application U S 97 Cr. P. C",
+  "filename": "APPLICATION-U-S-97-CR.-P.-C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "Legal template for application u s 97 cr. p. c",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter case number"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "case_number",
+    "case_number_2",
+    "field_value",
+    "field_value_2",
+    "date",
+    "date_2"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Notice To Branch Manager Claiming Damages For Payment Of Cheque For Which Stop Payment Orders Was Issued 1",
+  "filename": "Notice-to-branch-manager-claiming-damages-for-payment-of-cheque-for-which-stop-payment-orders-was-issued-1.docx",
+  "category": "Legal Notice",
+  "subcategory": "Negotiable Instrument",
+  "description": "Legal template for notice to branch manager claiming damages for payment of cheque for which stop payment orders was issued 1",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "amount",
+    "date",
+    "field_value",
+    "address",
+    "address_2",
+    "date_2",
+    "field_value_2"
+  ]
+}

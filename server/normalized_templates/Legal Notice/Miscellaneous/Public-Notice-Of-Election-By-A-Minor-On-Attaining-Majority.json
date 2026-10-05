@@ -1,0 +1,129 @@
+{
+  "title": "Public Notice Of Election By A Minor On Attaining Majority",
+  "filename": "Public-Notice-Of-Election-By-A-Minor-On-Attaining-Majority.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A public notice of election by a minor on attaining majority used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Name (First Party), Name (Second Party), Name (Third Party), Name (Fourth Party), Age (in years).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_4",
+      "type": "text",
+      "label": "Place/City (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_5",
+      "type": "text",
+      "label": "Place/City (Fifth)",
+      "required": true,
+      "placeholder": "Enter Fifth New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "age",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name",
+    "placecity",
+    "placecity_2",
+    "placecity_3",
+    "placecity_4",
+    "placecity_5"
+  ],
+  "description_hi": "Public Notice Of Election By A Minor On Attaining Majority — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 14 आवश्यक विवरण भरने होंगे।"
+}

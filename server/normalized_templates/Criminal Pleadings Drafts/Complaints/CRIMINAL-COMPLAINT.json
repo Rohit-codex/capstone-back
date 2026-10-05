@@ -1,0 +1,78 @@
+{
+  "title": "Criminal Complaint",
+  "filename": "CRIMINAL-COMPLAINT.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Complaints",
+  "description": "A criminal complaint used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Court Name/Place, Police Station (First Party), Police Station (Second Party), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Police Station (First Party)",
+      "key": "police_station",
+      "required": true,
+      "placeholder": "Enter First Party  police station"
+    },
+    {
+      "type": "text",
+      "label": "Police Station (Second Party)",
+      "key": "police_station_2",
+      "required": true,
+      "placeholder": "Enter Second Party  police station"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name",
+      "required": true,
+      "placeholder": "e.g., District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "criminal_complaint_no",
+      "type": "text",
+      "label": "Criminal Complaint No",
+      "required": true,
+      "placeholder": "Enter criminal complaint no here",
+      "description": "Enter criminal complaint no"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "police_station",
+    "police_station_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "court_name",
+    "criminal_complaint_no"
+  ],
+  "description_hi": "Criminal Complaint — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

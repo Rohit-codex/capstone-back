@@ -1,0 +1,75 @@
+{
+  "title": "Bond Given To A Court By A Person Interested For Safe Custody Of Movable Properties Attached",
+  "filename": "BOND-GIVEN-TO-A-COURT-BY-A-PERSON-INTERESTED-FOR-SAFE-CUSTODY-OF-MOVABLE-PROPERTIES-ATTACHED.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond given to a court by a person interested for safe custody of movable properties attached",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "amount",
+    "field_value",
+    "field_value_2",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

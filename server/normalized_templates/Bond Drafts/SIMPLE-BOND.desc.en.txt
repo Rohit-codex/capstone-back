@@ -1,0 +1,1 @@
+Template: Simple Bond. Category: Bond Drafts. Required fields: Address, Address, Amount (Rs.), Date, Witness Name, Witness Name, +1 more. Use this template to quickly generate a formal legal document by filling the required details.

@@ -1,0 +1,54 @@
+{
+  "title": "General Power Of Attorney By A Woman Partner",
+  "filename": "General-Power-Of-Attorney-By-A-Woman-Partner.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "General POA",
+  "description": "A general power of attorney by a woman partner used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Name, Witness Name, Name (Son of), Amount (₹), Father's Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "amount",
+      "type": "text",
+      "label": "Amount (₹)",
+      "required": true,
+      "placeholder": "e.g., 50,000",
+      "description": "राशि (₹)"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "witness_name",
+    "name_son_of",
+    "amount",
+    "fathers_name"
+  ],
+  "description_hi": "General Power Of Attorney By A Woman Partner — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

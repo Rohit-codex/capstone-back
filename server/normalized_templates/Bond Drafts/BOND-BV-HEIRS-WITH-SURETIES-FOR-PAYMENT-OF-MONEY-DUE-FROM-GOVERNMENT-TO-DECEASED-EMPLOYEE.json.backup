@@ -1,0 +1,51 @@
+{
+  "title": "Bond Bv Heirs With Sureties For Payment Of Money Due From Government To Deceased Employee",
+  "filename": "BOND-BV-HEIRS-WITH-SURETIES-FOR-PAYMENT-OF-MONEY-DUE-FROM-GOVERNMENT-TO-DECEASED-EMPLOYEE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond bv heirs with sureties for payment of money due from government to deceased employee",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "address",
+    "field_value",
+    "field_value_2",
+    "signatory_name"
+  ]
+}

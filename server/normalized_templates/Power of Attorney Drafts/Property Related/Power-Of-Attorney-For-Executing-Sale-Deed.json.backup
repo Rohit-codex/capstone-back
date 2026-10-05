@@ -1,0 +1,27 @@
+{
+  "title": "Power Of Attorney For Executing Sale Deed",
+  "filename": "Power-Of-Attorney-For-Executing-Sale-Deed.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Property Related",
+  "description": "Legal template for power of attorney for executing sale deed",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "General Power Of Attorney By A Person Going Abroad To Authorise All Acts On His Behalf",
+  "filename": "General-Power-Of-Attorney-By-A-Person-Going-Abroad-To-Authorise-All-Acts-On-His-Behalf.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "General POA",
+  "description": "Legal template for general power of attorney by a person going abroad to authorise all acts on his behalf",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "name_son_of",
+    "party_name",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Detailed General Power Of Attorney To All To Whom These Presents Shall Come",
+  "filename": "Detailed-General-Power-Of-Attorney-To-All-To-Whom-These-Presents-Shall-Come.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "General POA",
+  "description": "A detailed general power of attorney to all to whom these presents shall come used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address (First Party), Address (Second Party), Address (Third Party), Address (Fourth Party), Place.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_2",
+      "type": "text",
+      "label": "Father's Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_3",
+      "type": "text",
+      "label": "Father's Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_4",
+      "type": "text",
+      "label": "Father's Name (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "address_3",
+    "address_4",
+    "place",
+    "name_son_of",
+    "name_son_of_2",
+    "party_name",
+    "fathers_name",
+    "fathers_name_2",
+    "fathers_name_3",
+    "fathers_name_4"
+  ],
+  "description_hi": "Detailed General Power Of Attorney To All To Whom These Presents Shall Come — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

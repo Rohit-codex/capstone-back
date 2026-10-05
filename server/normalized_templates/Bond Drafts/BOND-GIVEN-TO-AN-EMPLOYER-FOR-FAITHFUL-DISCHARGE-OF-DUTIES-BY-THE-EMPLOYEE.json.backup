@@ -1,0 +1,27 @@
+{
+  "title": "Bond Given To An Employer For Faithful Discharge Of Duties By The Employee",
+  "filename": "BOND-GIVEN-TO-AN-EMPLOYER-FOR-FAITHFUL-DISCHARGE-OF-DUTIES-BY-THE-EMPLOYEE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond given to an employer for faithful discharge of duties by the employee",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

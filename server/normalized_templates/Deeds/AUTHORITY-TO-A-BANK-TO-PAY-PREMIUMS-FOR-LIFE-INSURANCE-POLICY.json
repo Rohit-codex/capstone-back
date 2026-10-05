@@ -1,0 +1,45 @@
+{
+  "title": "Authority To A Bank To Pay Premiums For Life Insurance Policy",
+  "filename": "AUTHORITY-TO-A-BANK-TO-PAY-PREMIUMS-FOR-LIFE-INSURANCE-POLICY.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A authority to a bank to pay premiums for life insurance policy used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Date (First Party), Date (Second Party), Age (in years), Place/City.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "age",
+    "placecity"
+  ],
+  "description_hi": "Authority To A Bank To Pay Premiums For Life Insurance Policy — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

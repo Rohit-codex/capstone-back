@@ -1,0 +1,108 @@
+{
+  "title": "Affidavit For Extending Time To File The Income Tax Return",
+  "filename": "affidavit-for-extending-time-to-file-the-income-tax-return.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit for extending time to file the income tax return used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Place (First Party), Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Place (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fifth)",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter Fifth  place"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Place (Sixth)",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter Sixth  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "place_2",
+    "place_3",
+    "place_4",
+    "field_value",
+    "place_5",
+    "date",
+    "place_6",
+    "field_value_2"
+  ],
+  "description_hi": "Affidavit For Extending Time To File The Income Tax Return — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

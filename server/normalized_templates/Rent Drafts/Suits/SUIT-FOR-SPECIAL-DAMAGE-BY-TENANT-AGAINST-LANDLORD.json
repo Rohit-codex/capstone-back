@@ -1,0 +1,284 @@
+{
+  "title": "Suit For Special Damage By Tenant Against Landlord",
+  "filename": "SUIT-FOR-SPECIAL-DAMAGE-BY-TENANT-AGAINST-LANDLORD.docx",
+  "category": "Rent Drafts",
+  "subcategory": "Suits",
+  "description": "A suit for special damage by tenant against landlord used for rental agreements, lease disputes, tenant-landlord notices, or eviction matters. Suitable for landlords, tenants, or property managers in rental disputes. Key details required: Age (in years) (First Party), Court Name/Place, Case Number, Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "e.g., CS/123/2025"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (16)",
+      "key": "party_name_16",
+      "required": true,
+      "placeholder": "Enter 16  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (17)",
+      "key": "party_name_17",
+      "required": true,
+      "placeholder": "Enter 17  name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Name (18)",
+      "key": "party_name_18",
+      "required": true,
+      "placeholder": "Enter 18  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (19)",
+      "key": "party_name_19",
+      "required": true,
+      "placeholder": "Enter 19  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (20)",
+      "key": "party_name_20",
+      "required": true,
+      "placeholder": "Enter 20  name"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "court_place",
+    "case_number",
+    "party_name",
+    "party_name_2",
+    "date",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "date_2",
+    "date_3",
+    "amount",
+    "party_name_8",
+    "party_name_9",
+    "party_name_10",
+    "party_name_11",
+    "party_name_12",
+    "party_name_13",
+    "party_name_14",
+    "party_name_15",
+    "party_name_16",
+    "party_name_17",
+    "age_2",
+    "party_name_18",
+    "place",
+    "place_2",
+    "field_value",
+    "field_value_2",
+    "date_4",
+    "date_5",
+    "party_name_19",
+    "party_name_20"
+  ],
+  "description_hi": "Suit For Special Damage By Tenant Against Landlord — किराया समझौते, पट्टा विवाद, किरायेदार-मकान मालिक नोटिस, या बेदखली मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। किराया विवादों में मकान मालिक, किरायेदार, या संपत्ति प्रबंधक के लिए उपयुक्त। 34 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,226 @@
+{
+  "title": "Agreement To Adopt A Son Between A Widow Natural Father Of Son To Be Adopted And The Intended Son To Be Adopted",
+  "filename": "Agreement-To-Adopt-A-Son-Between-A-Widow-Natural-Father-Of-Son-To-Be-Adopted-And-The-Intended-Son-To-Be-Adopted.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A agreement to adopt a son between a widow natural father of son to be adopted and the intended son to be adopted used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Date (First Party), Date (Second Party), Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+    "type": "textarea",
+    "label": "Agreement Place",
+    "key": "agreement_place",
+    "required": true,
+    "placeholder": "Enter agreement place"
+  },
+  {
+    "type": "date",
+    "label": "Agreement Date",
+    "key": "agreement_date",
+    "required": true,
+    "placeholder": "Select agreement date"
+  },
+  {
+    "type": "text",
+    "label": "First Party Name (Adoptive Mother)",
+    "key": "first_party_name",
+    "required": true,
+    "placeholder": "Enter name of widow"
+  },
+  {
+    "type": "text",
+    "label": "First Party Husband Name (Late)",
+    "key": "first_party_late_husband",
+    "required": true,
+    "placeholder": "Enter name of deceased husband"
+  },
+  {
+    "type": "number",
+    "label": "Age Of First Party (Years)",
+    "key": "first_party_age",
+    "required": true,
+    "placeholder": "Enter age of adoptive mother"
+  },
+  {
+    "type": "textarea",
+    "label": "First Party Address",
+    "key": "first_party_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Second Party Name (Natural Father)",
+    "key": "second_party_name",
+    "required": true,
+    "placeholder": "Enter natural father name"
+  },
+  {
+    "type": "text",
+    "label": "Second Party Father Name",
+    "key": "second_party_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Age Of Second Party (Years)",
+    "key": "second_party_age",
+    "required": true,
+    "placeholder": "Enter age of natural father"
+  },
+  {
+    "type": "textarea",
+    "label": "Second Party Address",
+    "key": "second_party_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Third Party Name (Adopted Son)",
+    "key": "third_party_name",
+    "required": true,
+    "placeholder": "Enter adopted son name"
+  },
+   {
+    "type": "number",
+    "label": "Age Of Third Party (Years)",
+    "key": "third_party_age",
+    "required": true,
+    "placeholder": "Enter age of adopted son"
+  },
+  {
+    "type": "date",
+    "label": "Will Date of Deceased Husband",
+    "key": "will_date",
+    "required": true,
+    "placeholder": "Select will date"
+  },
+  {
+    "type": "number",
+    "label": "Age Difference (Years)",
+    "key": "age_difference_years",
+    "required": true,
+    "placeholder": "Enter age difference"
+  },
+  {
+    "type": "date",
+    "label": "Adoption Ceremony Date",
+    "key": "ceremony_date",
+    "required": true,
+    "placeholder": "Select ceremony date"
+  },
+  {
+    "type": "text",
+    "label": "Adoption Ceremony Time",
+    "key": "ceremony_time",
+    "required": true,
+    "placeholder": "Enter time (e.g., 10:00 AM)"
+  },
+  {
+    "type": "textarea",
+    "label": "Ceremony Place Address",
+    "key": "ceremony_place_address",
+    "required": true,
+    "placeholder": "Enter ceremony location"
+  },
+  {
+    "type": "signature",
+    "label": "First Party Signature (Adoptive Mother)",
+    "key": "first_party_signature",
+    "required": false,
+    "placeholder": "Sign here"
+  },
+  {
+    "type": "signature",
+    "label": "Second Party Signature (Natural Father)",
+    "key": "second_party_signature",
+    "required": false,
+    "placeholder": "Sign here"
+  },
+  {
+    "type": "signature",
+    "label": "Third Party Signature (Adopted Son)",
+    "key": "third_party_signature",
+    "required": false,
+    "placeholder": "Sign here"
+  },
+  {
+    "type": "text",
+    "label": "Witness 1 Name ",
+    "key": "witness1_name",
+    "required": false,
+    "placeholder": "Enter witness 1 name and signature"
+  },
+  {
+    "type": "text",
+    "label": "Witness 2 Name ",
+    "key": "witness2_name",
+    "required": false,
+    "placeholder": "Enter witness 2 name and signature"
+  },
+  {
+    "type": "signature",
+    "label": "Second Party Signature (Natural Father)",
+    "key": "second_party_signature",
+    "required": false,
+    "placeholder": "Enter second party signature"
+  }
+  ],
+  "placeholder_order": [
+  "agreement_place",
+  "agreement_date",
+
+
+  "first_party_name",
+  "first_party_late_husband",
+  "first_party_age",
+  "first_party_address",
+
+
+  "second_party_name",
+  "second_party_father_name",
+  "second_party_age",
+  "second_party_address",
+
+
+  "third_party_name",
+  "second_party_name",
+  "third_party_age",
+  "second_party_address",
+
+  "first_party_late_husband",
+
+  "will_date",
+  "first_party_name",
+  
+
+  "third_party_age",
+
+
+"first_party_late_husband",
+"third_party_name",
+
+
+  "age_difference_years",
+
+
+  "ceremony_date",
+  "ceremony_time",
+  "ceremony_place_address",
+
+
+
+  "first_party_signature",
+  "second_party_signature",
+  "third_party_signature",
+
+
+
+  "witness1_name",
+  "witness2_name",
+
+
+  "second_party_signature"
+]
+}

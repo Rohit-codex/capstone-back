@@ -1,0 +1,36 @@
+{
+  "title": "Gift Memorandum Of A Completed Gift Of Household Effects By A Husband To His Wife",
+  "filename": "Gift-Memorandum-Of-A-Completed-Gift-Of-Household-Effects-By-A-Husband-To-His-Wife.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift memorandum of a completed gift of household effects by a husband to his wife used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Date, Address, Signatory Name.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "address",
+    "signatory_name"
+  ],
+  "description_hi": "Gift Memorandum Of A Completed Gift Of Household Effects By A Husband To His Wife — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,11 @@
+{
+  "defaultDesignId": "india-formal-affidavit",
+  "designs": [
+    {
+      "id": "india-formal-affidavit",
+      "label": "India — formal counter affidavit",
+      "description": "Single court-style layout for all counters. Per–document-type designs can be added later via registry + new folders.",
+      "path": "india-formal-affidavit"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Bill Of Exchange Payable On Demand",
+  "filename": "BILL-OF-EXCHANGE-PAYABLE-ON-DEMAND.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "Legal template for bill of exchange payable on demand",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "field_value",
+    "signatory_name"
+  ]
+}

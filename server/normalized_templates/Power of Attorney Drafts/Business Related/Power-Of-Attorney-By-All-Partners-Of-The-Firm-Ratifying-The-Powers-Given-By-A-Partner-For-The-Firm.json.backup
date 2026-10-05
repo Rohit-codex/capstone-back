@@ -1,0 +1,51 @@
+{
+  "title": "Power Of Attorney By All Partners Of The Firm Ratifying The Powers Given By A Partner For The Firm",
+  "filename": "Power-Of-Attorney-By-All-Partners-Of-The-Firm-Ratifying-The-Powers-Given-By-A-Partner-For-The-Firm.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Business Related",
+  "description": "Legal template for power of attorney by all partners of the firm ratifying the powers given by a partner for the firm",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "witness_name",
+    "witness_name_2",
+    "signatory_name"
+  ]
+}

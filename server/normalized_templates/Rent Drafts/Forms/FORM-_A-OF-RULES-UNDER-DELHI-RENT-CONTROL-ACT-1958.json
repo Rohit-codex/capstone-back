@@ -1,0 +1,100 @@
+{
+  "title": "Form  A Of Rules Under Delhi Rent Control Act 1958",
+  "filename": "FORM-_A-OF-RULES-UNDER-DELHI-RENT-CONTROL-ACT-1958.docx",
+  "category": "Rent Drafts",
+  "subcategory": "Forms",
+  "description": "A form  a of rules under delhi rent control act 1958 used for rental agreements, lease disputes, tenant-landlord notices, or eviction matters. Suitable for landlords, tenants, or property managers in rental disputes. Key details required: Court Name/Place, Name (First Party), Name (Second Party), Place, Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "party_name",
+    "party_name_2",
+    "place",
+    "field_value",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name_3",
+    "party_name_4",
+    "signatory_name"
+  ],
+  "description_hi": "Form  A Of Rules Under Delhi Rent Control Act 1958 — किराया समझौते, पट्टा विवाद, किरायेदार-मकान मालिक नोटिस, या बेदखली मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। किराया विवादों में मकान मालिक, किरायेदार, या संपत्ति प्रबंधक के लिए उपयुक्त। 11 आवश्यक विवरण भरने होंगे।"
+}

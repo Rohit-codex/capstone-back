@@ -1,0 +1,71 @@
+{
+  "title": "Application Form For Licence To Commence Banking Business By A Company Incorporated In India",
+  "filename": "APPLICATION-FORM-FOR-LICENCE-TO-COMMENCE-BANKING-BUSINESS-BY-A-COMPANY-INCORPORATED-IN-INDIA.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A application form for licence to commence banking business by a company incorporated in india used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Address (First Party), Address (Second Party), Name, Signatory Name, Address (Third Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "address_3",
+      "type": "text",
+      "label": "Address (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party  address",
+      "description": "Enter address"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "party_name",
+    "signatory_name",
+    "address_3",
+    "placecity",
+    "placecity_2"
+  ],
+  "description_hi": "Application Form For Licence To Commence Banking Business By A Company Incorporated In India — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

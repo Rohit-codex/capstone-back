@@ -1,0 +1,108 @@
+{
+  "title": "Order Of Attachment To Compel The Appearance Of A Person Accused",
+  "filename": "ORDER-OF-ATTACHMENT-TO-COMPEL-THE-APPEARANCE-OF-A-PERSON-ACCUSED.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A order of attachment to compel the appearance of a person accused used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Section/Act (First Party), Section/Act (Second Party), Details (First Party), Details (Second Party), Property Address.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Section/Act (First Party)",
+      "key": "legal_section",
+      "required": true,
+      "placeholder": "Enter First Party  section/act"
+    },
+    {
+      "type": "text",
+      "label": "Section/Act (Second Party)",
+      "key": "legal_section_2",
+      "required": true,
+      "placeholder": "Enter Second Party  section/act"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "legal_section",
+    "legal_section_2",
+    "field_value",
+    "field_value_2",
+    "property_address",
+    "age",
+    "place",
+    "place_2",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ],
+  "description_hi": "Order Of Attachment To Compel The Appearance Of A Person Accused — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

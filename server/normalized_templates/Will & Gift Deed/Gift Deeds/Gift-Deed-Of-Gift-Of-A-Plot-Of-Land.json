@@ -1,0 +1,28 @@
+{
+  "title": "Gift Deed Of Gift Of A Plot Of Land",
+  "filename": "Gift-Deed-Of-Gift-Of-A-Plot-Of-Land.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift deed of gift of a plot of land used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Witness Name, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "signatory_name"
+  ],
+  "description_hi": "Gift Deed Of Gift Of A Plot Of Land — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 2 आवश्यक विवरण भरने होंगे।"
+}

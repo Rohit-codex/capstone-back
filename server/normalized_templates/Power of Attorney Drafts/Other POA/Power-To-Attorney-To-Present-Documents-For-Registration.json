@@ -1,0 +1,48 @@
+{
+  "title": "Power To Attorney To Present Documents For Registration",
+  "filename": "Power-To-Attorney-To-Present-Documents-For-Registration.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "A power to attorney to present documents for registration used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Field 1 of 0, Field 2 of 0, Field 3 of 0, Field 4 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    },
+    {
+      "key": "field_4_of_0",
+      "type": "text",
+      "label": "Field 4 of 0",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0",
+    "field_4_of_0"
+  ],
+  "description_hi": "Power To Attorney To Present Documents For Registration — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

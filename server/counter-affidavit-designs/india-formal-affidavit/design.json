@@ -1,0 +1,70 @@
+{
+  "id": "india-formal-affidavit",
+  "layout": {
+    "showVersusBlock": false,
+    "showCounterFiledSubheading": true,
+    "replySectionVariant": "reply_on_merits",
+    "firstPageCaption": {
+      "defaultJurisdictionLine": "(Miscellaneous Jurisdiction Case)",
+      "defaultScJurisdictionLine": "(Civil Appellate Jurisdiction)",
+      "defaultScCriminalJurisdictionLine": "(Criminal Appellate Jurisdiction)"
+    }
+  },
+  "labels": {
+    "en": {
+      "counterAffidavitMain": "COUNTER AFFIDAVIT",
+      "counterFiledSub": "COUNTER AFFIDAVIT FILED ON BEHALF OF THE RESPONDENT(S)",
+      "versus": "VERSUS",
+      "petitionerSuffix": ".... Petitioner",
+      "respondentSuffix": ".... Respondent",
+      "respondentSuffixPlural": ".... Respondents",
+      "respondentSuffixNo": ".... Respondent No.",
+      "statementOfFacts": "STATEMENT OF FACTS",
+      "defenceSection": "DEFENCE",
+      "preliminaryObjections": "PRELIMINARY OBJECTIONS",
+      "replyOnMerits": "REPLY ON MERITS",
+      "paraWiseReply": "PARA-WISE REPLY",
+      "prayer": "PRAYER",
+      "verification": "AFFIDAVIT VERIFICATION",
+      "paraLabel": "Para",
+      "deponentPlaceholder": "I, the deponent named below, do hereby solemnly affirm and state as follows:",
+      "verifiedAt": "Verified at ____________ on this ______ day of ____________,",
+      "deponentSignature": "Deponent",
+      "advocateBlock": "ADVOCATE FOR THE RESPONDENT(S):",
+      "courtFallback": "IN THE HIGH COURT OF JUDICATURE AT ____________",
+      "inTheMatterOf": "In the matter of:",
+      "captionCourtOf": "COURT OF JUDICATURE AT",
+      "captionInThe": "IN THE"
+    },
+    "hi": {
+      "counterAffidavitMain": "प्रति-शपथपत्र",
+      "counterFiledSub": "प्रतिवादी की ओर से दायर प्रति-शपथपत्र",
+      "versus": "बनाम",
+      "petitionerSuffix": ".... याचिकाकर्ता",
+      "respondentSuffix": ".... प्रतिवादी",
+      "respondentSuffixPlural": ".... प्रतिवादीगण",
+      "respondentSuffixNo": ".... प्रतिवादी क्र.",
+      "statementOfFacts": "तथ्यों का कथन",
+      "preliminaryObjections": "प्रारंभिक आपत्तियाँ",
+      "replyOnMerits": "तथ्यों पर उत्तर",
+      "paraWiseReply": "पैरावार उत्तर",
+      "prayer": "प्रार्थना",
+      "verification": "शपथपत्र सत्यापन",
+      "paraLabel": "पैरा",
+      "deponentPlaceholder": "मैं नीचे हस्ताक्षर करने वाला शपथ देने वाला, इस प्रकार शपथपूर्वक कहता/कहती हूँ कि:",
+      "verifiedAt": "दिनांक ____________ को ____________ पर सत्यापित।",
+      "deponentSignature": "शपथ देने वाला",
+      "advocateBlock": "प्रतिवादी की ओर से अधिवक्ता:",
+      "courtFallback": "माननीय उच्च न्यायालय, ____________",
+      "inTheMatterOf": "विषय में:",
+      "captionCourtOf": "COURT OF JUDICATURE AT",
+      "captionInThe": "IN THE"
+    }
+  },
+  "css": "body{font-family:'Times New Roman',Times,serif;max-width:720px;margin:0 auto;padding:48px 40px 56px;line-height:1.55;font-size:14px;color:#000;background:#fff}.page-first{margin-bottom:32px;padding-bottom:4px}.caption-line1{text-align:center;font-size:15px;line-height:1.5;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.04em;font-weight:600}.caption-line1 .thin{font-weight:600}.caption-line1 strong,.caption-line1 .emb{font-weight:700}.caption-jurisdiction{text-align:center;font-size:13px;margin:2px 0 10px;font-style:italic;font-weight:500}.caption-case-no{text-align:center;font-size:14px;margin:12px 0 22px;letter-spacing:0.03em;line-height:1.4}.caption-case-no strong{font-weight:700;text-transform:uppercase}.matter-line{text-align:center;font-size:14px;font-weight:700;margin:8px 0 16px;letter-spacing:0.02em}.parties-caption-block{width:100%;max-width:640px;margin:0 auto;padding:0 4px}.party-line{display:flex;align-items:flex-end;justify-content:flex-start;gap:0;width:100%;margin:12px 0;min-height:1.35em;font-size:14px}.party-name{text-align:left;flex:0 1 auto;max-width:78%;word-wrap:break-word;padding-right:4px}.party-dots{flex:1 1 24px;border-bottom:1px dotted #000;min-height:1.05em;margin-bottom:4px;margin-left:2px;margin-right:2px;min-width:32px}.party-role{flex:0 0 auto;white-space:nowrap;font-weight:700;text-align:right;font-size:13px;letter-spacing:0.01em}.versus-line{text-align:center;font-weight:700;margin:18px 0 16px;font-size:14px;letter-spacing:0.14em}.party-line.sub-respondent{padding-left:32px;margin-top:8px}.party-line.sub-respondent .party-name{max-width:74%}.subheading{text-align:center;font-size:13px;font-weight:700;margin:24px 0 14px;text-transform:uppercase;letter-spacing:0.02em}.main-title{text-align:center;font-size:16px;font-weight:700;margin:20px 0 10px;text-transform:uppercase;letter-spacing:0.04em}.deponent-intro{margin:14px 0;text-align:justify;text-indent:0}h2.section{font-size:13px;margin:22px 0 10px;font-weight:700;text-decoration:underline;text-transform:uppercase;letter-spacing:0.02em}.para{margin:10px 0;text-align:justify}ol.obj,ol.sof{margin:8px 0 8px 22px;padding:0}ol.obj li,ol.sof li{margin:8px 0;text-align:justify}.para-num{font-weight:700}.support-law{font-style:italic}.verification-block{margin-top:24px;text-align:justify}.place-date{margin-top:18px;text-align:justify}.sig-block{margin-top:36px;text-align:right;font-size:14px}.sig-line{margin-top:48px;border-top:1px solid #000;display:inline-block;min-width:200px;padding-top:6px;text-align:center}.advocate{margin-top:32px;font-size:13px}.footer-draft{margin-top:40px;padding-top:16px;border-top:1px solid #ccc;font-size:11px;color:#333;text-align:justify}@media print{body{padding:28px 32px 40px}.footer-draft{border-top:1px solid #999}}",
+  "footer": {
+    "mode": "draft_notice",
+    "enHtml": "<p><strong>Draft notice:</strong> This document is generated as a drafting aid for counsel. All names, dates, court headings, and verification must be checked and completed before filing. Remove this notice from any version filed in court.</p>",
+    "hiHtml": "<p><strong>मसौदा सूचना:</strong> यह दस्तावेज़ अधिवक्ता की सहायता के लिए है। नाम, दिनांक, न्यायालय शीर्षक और सत्यापन अवश्य जाँचें। न्यायालय में दाखिल करने से पूर्व इस सूचना को हटा दें।</p>"
+  }
+}

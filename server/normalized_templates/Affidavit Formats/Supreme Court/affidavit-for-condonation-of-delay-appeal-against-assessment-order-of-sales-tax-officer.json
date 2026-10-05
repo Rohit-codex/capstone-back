@@ -1,0 +1,117 @@
+{
+  "title": "Affidavit For Condonation Of Delay Appeal Against Assessment Order Of Sales Tax Officer",
+  "filename": "affidavit-for-condonation-of-delay-appeal-against-assessment-order-of-sales-tax-officer.rtf",
+  "category": "Affidavit Formats",
+  "subcategory": "Supreme Court",
+  "description": "Legal template for affidavit for condonation of delay appeal against assessment order of sales tax officer",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Details Tax Place",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "textarea",
+      "label": " Case Details",
+      "key": "case_details",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "number",
+      "label": "Assessment Year",
+      "key": "year",
+      "required": true,
+      "placeholder": "Enter year"
+    },
+    {
+      "type": "text",
+      "label": "Name (deponent)",
+      "key": "name_deponent",
+      "required": true,
+      "placeholder": "Enter name (deponent)"
+    },
+    {
+      "type": "number",
+      "label": "Age",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "date",
+      "label": "date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date of Illness",
+      "key": "date_of_illness",
+      "required": true,
+      "placeholder": "Enter date of illness"
+    },
+    {
+      "type": "text",
+      "label": "Dr. Name",
+      "key": "dr_name",
+      "required": true,
+      "placeholder": "Enter Dr. Name"
+    },
+    
+    {
+      "type": "date",
+      "label": "Date Up To",
+      "key": "date_up_to",
+      "required": true,
+      "placeholder": "Enter date up to"
+    },
+    {
+      "type": "date",
+      "label": "New date",
+      "key": "new_date",
+      "required": true,
+      "placeholder": "Enter new date"
+    },
+    {
+      "type": "number",
+      "label": "Number of Days",
+      "key": "number_of_days",
+      "required": true,
+      "placeholder": "Enter number of days"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+"case_details",
+"year",
+"name_deponent",
+"age",
+"name_son_of",
+"place",
+"date",
+"date_of_illness",
+"dr_name",
+"date_up_to",
+"new_date",
+"number_of_days",
+"name_deponent"
+  ]
+}

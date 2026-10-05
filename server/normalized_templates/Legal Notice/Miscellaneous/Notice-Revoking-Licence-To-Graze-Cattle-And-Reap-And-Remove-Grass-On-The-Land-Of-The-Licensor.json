@@ -1,0 +1,68 @@
+{
+  "title": "Notice Revoking Licence To Graze Cattle And Reap And Remove Grass On The Land Of The Licensor",
+  "filename": "Notice-Revoking-Licence-To-Graze-Cattle-And-Reap-And-Remove-Grass-On-The-Land-Of-The-Licensor.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A notice revoking licence to graze cattle and reap and remove grass on the land of the licensor used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Name (First Party), Name (Second Party), Name (Third Party), Date (First Party), Date (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "date",
+    "date_2",
+    "place",
+    "field_value"
+  ],
+  "description_hi": "Notice Revoking Licence To Graze Cattle And Reap And Remove Grass On The Land Of The Licensor — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

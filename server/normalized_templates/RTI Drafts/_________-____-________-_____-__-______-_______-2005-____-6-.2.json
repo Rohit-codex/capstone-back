@@ -1,0 +1,20 @@
+{
+  "title": "                                                2005      6 .2",
+  "filename": "_________-____-________-_____-__-______-_______-2005-____-6-.2.docx",
+  "category": "RTI Drafts",
+  "subcategory": null,
+  "description": "A                                                 2005      6 .2 used for applications under the Right to Information Act to obtain government information. Suitable for citizens seeking government information or transparency. Key details required: Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    }
+  ],
+  "placeholder_order": [
+    "field_value"
+  ],
+  "description_hi": "                                                2005      6 .2 — सरकारी जानकारी प्राप्त करने के लिए सूचना का अधिकार अधिनियम के तहत आवेदन के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सरकारी जानकारी या पारदर्शिता चाहने वाले नागरिक के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

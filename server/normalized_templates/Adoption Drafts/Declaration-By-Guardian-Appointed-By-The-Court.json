@@ -1,0 +1,76 @@
+{
+  "title": "Declaration By Guardian Appointed By The Court",
+  "filename": "Declaration-By-Guardian-Appointed-By-The-Court.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A declaration by guardian appointed by the court used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Address, Court Name/Place, Details (First Party), Details (Second Party), Date (First Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "court_place",
+    "field_value",
+    "field_value_2",
+    "date",
+    "date_2",
+    "name_son_of",
+    "witness_name"
+  ],
+  "description_hi": "Declaration By Guardian Appointed By The Court — बच्चे को गोद लेने, गोद लेने की सहमति या संबंधित पारिवारिक कार्यवाही के लिए उपयोग किया जाने वाला कानूनी प्रारूप। संभावित दत्तक माता-पिता, जैविक माता-पिता, या अभिभावकों के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

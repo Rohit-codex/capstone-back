@@ -1,0 +1,108 @@
+{
+  "title": "Application For An Order Of Reference Under Section 21 Of The Arbitration Act 1940",
+  "filename": "APPLICATION-FOR-AN-ORDER-OF-REFERENCE-UNDER-SECTION-21-OF-THE-ARBITRATION-ACT-1940.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "A application for an order of reference under section 21 of the arbitration act 1940 used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Case Number (First Party), Case Number (Second Party), Details (First Party), Case Number (Third Party), Case Number (Fourth Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "Enter First Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "key": "case_number_2",
+      "required": true,
+      "placeholder": "Enter Second Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Third Party)",
+      "key": "case_number_3",
+      "required": true,
+      "placeholder": "Enter Third Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Case Number (Fourth Party)",
+      "key": "case_number_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  case number"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    }
+  ],
+  "placeholder_order": [
+    "case_number",
+    "case_number_2",
+    "field_value",
+    "case_number_3",
+    "case_number_4",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "date",
+    "date_2",
+    "place",
+    "field_value_5"
+  ],
+  "description_hi": "Application For An Order Of Reference Under Section 21 Of The Arbitration Act 1940 — न्यायालय प्रणाली के बाहर मध्यस्थता द्वारा विवाद समाधान के लिए उपयोग किया जाने वाला कानूनी प्रारूप। मध्यस्थता खंड वाले वाणिज्यिक या नागरिक समझौतों में प्रवेश करने वाले पक्ष के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

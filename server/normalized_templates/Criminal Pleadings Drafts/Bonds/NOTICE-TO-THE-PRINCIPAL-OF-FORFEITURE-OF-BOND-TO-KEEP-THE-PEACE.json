@@ -1,0 +1,112 @@
+{
+  "title": "Notice To The Principal Of Forfeiture Of Bond To Keep The Peace",
+  "filename": "NOTICE-TO-THE-PRINCIPAL-OF-FORFEITURE-OF-BOND-TO-KEEP-THE-PEACE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bonds",
+  "description": "A notice to the principal of forfeiture of bond to keep the peace used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name, Date (First Party), Date (Second Party), Amount (Rs.), Date (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "date_6",
+      "type": "text",
+      "label": "Date (Sixth)",
+      "required": true,
+      "placeholder": "Enter Sixth 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_7",
+      "type": "text",
+      "label": "Date (Seventh)",
+      "required": true,
+      "placeholder": "Enter Seventh 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_8",
+      "type": "text",
+      "label": "Date (Eighth)",
+      "required": true,
+      "placeholder": "Enter Eighth 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "amount_2",
+      "type": "text",
+      "label": "Amount (₹)",
+      "required": true,
+      "placeholder": "e.g., 50,000",
+      "description": "राशि (₹)"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "date",
+    "date_2",
+    "amount",
+    "date_3",
+    "date_4",
+    "date_5",
+    "signatory_name",
+    "date_6",
+    "date_7",
+    "date_8",
+    "amount_2"
+  ],
+  "description_hi": "Notice To The Principal Of Forfeiture Of Bond To Keep The Peace — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 12 आवश्यक विवरण भरने होंगे।"
+}

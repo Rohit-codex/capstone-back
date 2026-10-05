@@ -1,0 +1,52 @@
+{
+  "title": "Bond By Sureties For Observance Of Obligations By A Partner Introduced In An Existing Partnership Firm",
+  "filename": "BOND-BY-SURETIES-FOR-OBSERVANCE-OF-OBLIGATIONS-BY-A-PARTNER-INTRODUCED-IN-AN-EXISTING-PARTNERSHIP-FIRM.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond by sureties for observance of obligations by a partner introduced in an existing partnership firm used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Address, Witness Name, Details, Name, Signatory Name.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_name",
+    "field_value",
+    "party_name",
+    "signatory_name"
+  ],
+  "description_hi": "Bond By Sureties For Observance Of Obligations By A Partner Introduced In An Existing Partnership Firm — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

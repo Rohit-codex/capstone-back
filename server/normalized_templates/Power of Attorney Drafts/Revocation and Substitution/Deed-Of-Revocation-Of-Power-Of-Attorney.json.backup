@@ -1,0 +1,35 @@
+{
+  "title": "Deed Of Revocation Of Power Of Attorney",
+  "filename": "Deed-Of-Revocation-Of-Power-Of-Attorney.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Revocation and Substitution",
+  "description": "Legal template for deed of revocation of power of attorney",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

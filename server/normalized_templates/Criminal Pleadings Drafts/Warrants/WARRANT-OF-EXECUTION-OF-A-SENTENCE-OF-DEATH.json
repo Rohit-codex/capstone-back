@@ -1,0 +1,153 @@
+{
+  "title": "Warrant Of Execution Of A Sentence Of Death",
+  "filename": "WARRANT-OF-EXECUTION-OF-A-SENTENCE-OF-DEATH.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant of execution of a sentence of death used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name, Place (First Party), Date (First Party), Date (Second Party), Date (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "case_number",
+      "type": "text",
+      "label": "Case Number (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "case_number_2",
+      "type": "text",
+      "label": "Case Number (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "case_number_3",
+      "type": "text",
+      "label": "Case Number (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party CS/123/2025",
+      "description": "मामला संख्या"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "place",
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "place_2",
+    "date_6",
+    "date_7",
+    "date_8",
+    "signatory_name",
+    "placecity",
+    "case_number",
+    "case_number_2",
+    "case_number_3",
+    "placecity_2"
+  ],
+  "description_hi": "Warrant Of Execution Of A Sentence Of Death — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 17 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Application For Anticipatory Bail Before Sessions Judge",
+  "filename": "APPLICATION-FOR-ANTICIPATORY-BAIL-BEFORE-SESSIONS-JUDGE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "A application for anticipatory bail before sessions judge used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Case Number, Details, Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Case Number",
+      "key": "case_number",
+      "required": true,
+      "placeholder": "e.g., CS/123/2025"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    }
+  ],
+  "placeholder_order": [
+    "case_number",
+    "field_value",
+    "party_name",
+    "party_name_2"
+  ],
+  "description_hi": "Application For Anticipatory Bail Before Sessions Judge — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

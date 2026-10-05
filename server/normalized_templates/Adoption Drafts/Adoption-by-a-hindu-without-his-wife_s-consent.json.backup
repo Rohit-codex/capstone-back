@@ -1,0 +1,84 @@
+{
+  "title": "Adoption By A Hindu Without His Wife's Consent",
+  "filename": "Adoption-by-a-hindu-without-his-wife_s-consent.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "Legal deed for adoption by a Hindu male whose wife has renounced the world",
+  "description_hi": "एक हिंदू पुरुष द्वारा गोद लेने की विलेख जिसकी पत्नी ने संसार त्याग दिया है",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Adoptive Father's Name",
+      "key": "adoptive_father_name",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Adoptive Father's Father Name (S/o)",
+      "key": "adoptive_father_father_name",
+      "required": true,
+      "placeholder": "e.g., Late Shri Mohan Lal"
+    },
+    {
+      "type": "text",
+      "label": "Natural Father's Name (Giving Child)",
+      "key": "natural_father_name",
+      "required": true,
+      "placeholder": "e.g., Suresh Sharma"
+    },
+    {
+      "type": "text",
+      "label": "Natural Father's Father Name (S/o)",
+      "key": "natural_father_father_name",
+      "required": true,
+      "placeholder": "e.g., Shri Gopal Sharma"
+    },
+    {
+      "type": "text",
+      "label": "Natural Father's Address",
+      "key": "natural_father_address",
+      "required": true,
+      "placeholder": "e.g., 456, Park Street, Mumbai"
+    },
+    {
+      "type": "text",
+      "label": "Child's Name (Being Adopted)",
+      "key": "child_name",
+      "required": true,
+      "placeholder": "e.g., Rahul"
+    },
+    {
+      "type": "date",
+      "label": "Date of Adoption",
+      "key": "adoption_date",
+      "required": true,
+      "placeholder": "Select date"
+    },
+    {
+      "type": "text",
+      "label": "Place of Adoption",
+      "key": "adoption_place",
+      "required": true,
+      "placeholder": "e.g., Delhi"
+    }
+  ],
+  "placeholder_order": [
+    "adoptive_father_name",
+    "adoptive_father_father_name",
+    "natural_father_name",
+    "natural_father_father_name",
+    "natural_father_address",
+    "natural_father_name",
+    "natural_father_name",
+    "child_name",
+    "natural_father_name",
+    "child_name",
+    "natural_father_name",
+    "child_name",
+    "adoption_date",
+    "adoption_place",
+    "child_name",
+    "adoptive_father_name"
+  ]
+}

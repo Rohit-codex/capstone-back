@@ -1,0 +1,185 @@
+{
+  "title": "Criminal Complaint Under Section 494 Read With Sec. 34 Of The Indian Penal Code",
+  "filename": "Criminal-complaint-under-section-494-read-with-sec.-34-of-the-Indian-penal-code.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Complaints",
+  "description": "A criminal complaint under section 494 read with sec. 34 of the indian penal code used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Age (in years) (First Party), Age (in years) (Second Party), Age (in years) (Third Party), Age (in years) (Fourth Party), Name (First Party).",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fourth Party)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "defendantaccused_name",
+      "type": "text",
+      "label": "Defendant/Accused Name",
+      "required": true,
+      "placeholder": "e.g., Mohan Lal",
+      "description": "प्रतिवादी/अभियुक्त का नाम"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    },
+    {
+      "key": "field_3_of_1",
+      "type": "text",
+      "label": "Field 3 of 1",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 1"
+    },
+    {
+      "key": "field_4_of_1",
+      "type": "text",
+      "label": "Field 4 of 1",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 1"
+    },
+    {
+      "key": "field_5_of_1",
+      "type": "text",
+      "label": "Field 5 of 1",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "age_2",
+    "age_3",
+    "age_4",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "address",
+    "address_2",
+    "place",
+    "signatory_name",
+    "defendantaccused_name",
+    "field_2_of_1",
+    "field_3_of_1",
+    "field_4_of_1",
+    "field_5_of_1"
+  ],
+  "description_hi": "Criminal Complaint Under Section 494 Read With Sec. 34 Of The Indian Penal Code — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 21 आवश्यक विवरण भरने होंगे।"
+}

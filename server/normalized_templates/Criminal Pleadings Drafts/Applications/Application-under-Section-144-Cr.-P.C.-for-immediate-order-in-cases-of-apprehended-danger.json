@@ -1,0 +1,44 @@
+{
+  "title": "Application Under Section 144 Cr. P.C. For Immediate Order In Cases Of Apprehended Danger",
+  "filename": "Application-under-Section-144-Cr.-P.C.-for-immediate-order-in-cases-of-apprehended-danger.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "A application under section 144 cr. p.c. for immediate order in cases of apprehended danger used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (Son of), Place.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "place",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Application Under Section 144 Cr. P.C. For Immediate Order In Cases Of Apprehended Danger — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 2 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

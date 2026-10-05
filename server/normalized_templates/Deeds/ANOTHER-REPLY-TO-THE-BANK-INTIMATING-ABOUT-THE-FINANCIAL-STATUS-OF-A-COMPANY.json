@@ -1,0 +1,44 @@
+{
+  "title": "Another Reply To The Bank Intimating About The Financial Status Of A Company",
+  "filename": "ANOTHER-REPLY-TO-THE-BANK-INTIMATING-ABOUT-THE-FINANCIAL-STATUS-OF-A-COMPANY.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A another reply to the bank intimating about the financial status of a company used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Name (First Party), Name (Second Party), Age (in years), Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "age",
+    "field_value"
+  ],
+  "description_hi": "Another Reply To The Bank Intimating About The Financial Status Of A Company — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

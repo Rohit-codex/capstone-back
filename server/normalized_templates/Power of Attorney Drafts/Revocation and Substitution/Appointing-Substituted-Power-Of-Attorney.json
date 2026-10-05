@@ -1,0 +1,45 @@
+{
+  "title": "Appointing Substituted Power Of Attorney",
+  "filename": "Appointing-Substituted-Power-Of-Attorney.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Revocation and Substitution",
+  "description": "A appointing substituted power of attorney used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Address, Witness Name, Signatory Name, Residential Address.",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "residential_address",
+      "type": "text",
+      "label": "Residential Address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi",
+      "description": "आवासीय पता"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "witness_name",
+    "signatory_name",
+    "residential_address"
+  ],
+  "description_hi": "Appointing Substituted Power Of Attorney — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

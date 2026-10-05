@@ -1,0 +1,82 @@
+{
+  "title": "Gift Renunciation Of Gift By Donee",
+  "filename": "Gift-Renunciation-Of-Gift-By-Donee.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift renunciation of gift by donee used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Name (Son of), Date, Father's Name, Place/City, Field 3 of 2.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "field_3_of_2",
+      "type": "text",
+      "label": "Field 3 of 2",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 2"
+    },
+    {
+      "key": "field_4_of_2",
+      "type": "text",
+      "label": "Field 4 of 2",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 2"
+    },
+    {
+      "key": "field_5_of_2",
+      "type": "text",
+      "label": "Field 5 of 2",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 2"
+    },
+    {
+      "key": "field_6_of_2",
+      "type": "text",
+      "label": "Field 6 of 2",
+      "required": true,
+      "placeholder": "Fill in field 6",
+      "description": "फील्ड 6 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "date",
+    "fathers_name",
+    "placecity",
+    "field_3_of_2",
+    "field_4_of_2",
+    "field_5_of_2",
+    "field_6_of_2"
+  ],
+  "description_hi": "Gift Renunciation Of Gift By Donee — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

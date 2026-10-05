@@ -1,0 +1,47 @@
+{
+  "title": "Application For Drawing Up Proceedings Under Section 110 Cr. P.C",
+  "filename": "Application-for-Drawing-up-proceedings-under-Section-110-Cr.-P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A application for drawing up proceedings under section 110 cr. p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name, Petitioner Name, Field 2 of 1, Field 3 of 1.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "petitioner_name",
+      "type": "text",
+      "label": "Petitioner Name",
+      "required": true,
+      "placeholder": "e.g., Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    },
+    {
+      "key": "field_3_of_1",
+      "type": "text",
+      "label": "Field 3 of 1",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "petitioner_name",
+    "field_2_of_1",
+    "field_3_of_1"
+  ],
+  "description_hi": "Application For Drawing Up Proceedings Under Section 110 Cr. P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

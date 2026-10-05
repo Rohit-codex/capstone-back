@@ -1,0 +1,68 @@
+{
+  "title": "Notice To Branch Manager Claiming Damages For Payment Of Cheque For Which Stop Payment Orders Was Issued",
+  "filename": "Notice-to-branch-manager-claiming-damages-for-payment-of-cheque-for-which-stop-payment-orders-was-issued.docx",
+  "category": "NI Drafts",
+  "subcategory": "Notices",
+  "description": "A notice to branch manager claiming damages for payment of cheque for which stop payment orders was issued used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. Key details required: Amount (Rs.), Date (First Party), Details (First Party), Address (First Party), Address (Second Party).",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    }
+  ],
+  "placeholder_order": [
+    "amount",
+    "date",
+    "field_value",
+    "address",
+    "address_2",
+    "date_2",
+    "field_value_2"
+  ],
+  "description_hi": "Notice To Branch Manager Claiming Damages For Payment Of Cheque For Which Stop Payment Orders Was Issued — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Bond Given To An Employer For Faithful Discharge Of Duties By The Employee",
+  "filename": "BOND-GIVEN-TO-AN-EMPLOYER-FOR-FAITHFUL-DISCHARGE-OF-DUTIES-BY-THE-EMPLOYEE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond given to an employer for faithful discharge of duties by the employee used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. ",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Bond Given To An Employer For Faithful Discharge Of Duties By The Employee — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 0 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

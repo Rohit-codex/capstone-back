@@ -1,0 +1,43 @@
+{
+  "title": "Promissory Note Payable On Demand",
+  "filename": "PROMISSORY-NOTE-PAYABLE-ON-DEMAND.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "Legal template for promissory note payable on demand",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter address"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "party_name",
+    "address",
+    "signatory_name"
+  ]
+}

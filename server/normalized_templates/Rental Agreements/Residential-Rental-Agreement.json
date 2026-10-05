@@ -1,0 +1,148 @@
+{
+  "title": "Residential Rental Agreement",
+  "filename": "Residential-Rental-Agreement.docx",
+  "category": "Property & Rental Agreements",
+  "subcategory": null,
+  "description": "Standard residential rental agreement between landlord and tenant under Indian law",
+  "description_hi": "भारतीय कानून के अंतर्गत मकान मालिक और किरायेदार के बीच आवासीय किराया समझौता",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Landlord Name",
+      "key": "landlord_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Sharma"
+    },
+    {
+      "type": "text",
+      "label": "Landlord Father Name (S/o)",
+      "key": "landlord_father_name",
+      "required": true,
+      "placeholder": "e.g., Late Mohan Sharma"
+    },
+    {
+      "type": "number",
+      "label": "Landlord Age",
+      "key": "landlord_age",
+      "required": true,
+      "placeholder": "e.g., 52"
+    },
+    {
+      "type": "text",
+      "label": "Landlord Address",
+      "key": "landlord_address",
+      "required": true,
+      "placeholder": "e.g., 12 Green Park, Delhi"
+    },
+    {
+      "type": "text",
+      "label": "Tenant Name",
+      "key": "tenant_name",
+      "required": true,
+      "placeholder": "e.g., Amit Verma"
+    },
+    {
+      "type": "text",
+      "label": "Tenant Father Name (S/o)",
+      "key": "tenant_father_name",
+      "required": true,
+      "placeholder": "e.g., Suresh Verma"
+    },
+    {
+      "type": "number",
+      "label": "Tenant Age",
+      "key": "tenant_age",
+      "required": true,
+      "placeholder": "e.g., 30"
+    },
+    {
+      "type": "text",
+      "label": "Tenant Address",
+      "key": "tenant_address",
+      "required": true,
+      "placeholder": "e.g., 45 MG Road, Delhi"
+    },
+    {
+      "type": "text",
+      "label": "Rented Property Address",
+      "key": "rented_property_address",
+      "required": true,
+      "placeholder": "e.g., Flat No. 101, ABC Apartments, Delhi"
+    },
+    {
+      "type": "text",
+      "label": "Rental Period",
+      "key": "rental_period",
+      "required": true,
+      "placeholder": "e.g., 11 months"
+    },
+    {
+      "type": "date",
+      "label": "Agreement Start Date",
+      "key": "agreement_start_date",
+      "required": true,
+      "placeholder": "Select date"
+    },
+    {
+      "type": "number",
+      "label": "Monthly Rent",
+      "key": "monthly_rent",
+      "required": true,
+      "placeholder": "e.g., 15000"
+    },
+    {
+      "type": "text",
+      "label": "Monthly Rent (In Words)",
+      "key": "monthly_rent_words",
+      "required": true,
+      "placeholder": "e.g., Fifteen Thousand"
+    },
+    {
+      "type": "number",
+      "label": "Security Deposit",
+      "key": "security_deposit",
+      "required": true,
+      "placeholder": "e.g., 30000"
+    },
+    {
+      "type": "text",
+      "label": "Security Deposit (In Words)",
+      "key": "security_deposit_words",
+      "required": true,
+      "placeholder": "e.g., Thirty Thousand"
+    },
+    {
+      "type": "number",
+      "label": "Rent Due Day",
+      "key": "rent_due_day",
+      "required": true,
+      "placeholder": "e.g., 5"
+    },
+    {
+      "type": "text",
+      "label": "Notice Period",
+      "key": "notice_period",
+      "required": true,
+      "placeholder": "e.g., 1 month"
+    }
+  ],
+  "placeholder_order": [
+    "landlord_name",
+    "landlord_father_name",
+    "landlord_age",
+    "landlord_address",
+    "tenant_name",
+    "tenant_father_name",
+    "tenant_age",
+    "tenant_address",
+    "rented_property_address",
+    "rental_period",
+    "agreement_start_date",
+    "monthly_rent",
+    "monthly_rent_words",
+    "security_deposit",
+    "security_deposit_words",
+    "rent_due_day",
+    "notice_period"
+  ]
+}

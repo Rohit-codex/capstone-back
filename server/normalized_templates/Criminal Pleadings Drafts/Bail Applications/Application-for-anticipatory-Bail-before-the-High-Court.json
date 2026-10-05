@@ -1,0 +1,20 @@
+{
+  "title": "Application For Anticipatory Bail Before The High Court",
+  "filename": "Application-for-anticipatory-Bail-before-the-High-Court.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "A application for anticipatory bail before the high court used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Signatory Name.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name"
+  ],
+  "description_hi": "Application For Anticipatory Bail Before The High Court — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

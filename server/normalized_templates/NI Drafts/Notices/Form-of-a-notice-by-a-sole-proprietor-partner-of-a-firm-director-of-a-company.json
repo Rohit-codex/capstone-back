@@ -1,0 +1,21 @@
+{
+  "title": "Form Of A Notice By A Sole Proprietor Partner Of A Firm Director Of A Company",
+  "filename": "Form-of-a-notice-by-a-sole-proprietor-partner-of-a-firm-director-of-a-company.docx",
+  "category": "NI Drafts",
+  "subcategory": "Notices",
+  "description": "A form of a notice by a sole proprietor partner of a firm director of a company used for dishonour of cheques or complaints under the Negotiable Instruments Act. Suitable for payees of dishonoured cheques, drawers, or their legal counsel. Key details required: Field 1 of 0.",
+  "fields": [
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "field_1_of_0"
+  ],
+  "description_hi": "Form Of A Notice By A Sole Proprietor Partner Of A Firm Director Of A Company — चेक अनादर या परक्राम्य लिखत अधिनियम के तहत शिकायतें के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अनादरित चेकों के आदाता, लेखक, या उनके कानूनी सलाहकार के लिए उपयुक्त। 1 आवश्यक विवरण भरने होंगे।"
+}

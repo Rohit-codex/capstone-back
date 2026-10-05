@@ -1,0 +1,45 @@
+{
+  "title": "Criminal Complaint Under Section 498A Read With Sec. 34 Of The Indian Penal Code",
+  "filename": "Criminal-complaint-under-section-498a-read-with-sec.-34-of-the-Indian-Penal-code.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Complaints",
+  "description": "A criminal complaint under section 498a read with sec. 34 of the indian penal code used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Name (Second Party), Signatory Name, Field 1 of 0.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "signatory_name",
+    "field_1_of_0"
+  ],
+  "description_hi": "Criminal Complaint Under Section 498A Read With Sec. 34 Of The Indian Penal Code — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

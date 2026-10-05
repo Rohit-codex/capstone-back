@@ -1,0 +1,37 @@
+{
+  "title": "Advice Of Non Acceptance Of Bill",
+  "filename": "ADVICE-OF-NON-ACCEPTANCE-OF-BILL.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A advice of non acceptance of bill used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Amount (Rs.), Name, Field 1 of 2.",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_2",
+      "type": "text",
+      "label": "Field 1 of 2",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "amount",
+    "party_name",
+    "field_1_of_2"
+  ],
+  "description_hi": "Advice Of Non Acceptance Of Bill — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

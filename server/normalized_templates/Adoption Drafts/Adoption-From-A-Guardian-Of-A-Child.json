@@ -1,0 +1,223 @@
+{
+  "title": "Adoption From A Guardian Of A Child",
+  "filename": "Adoption-From-A-Guardian-Of-A-Child.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A adoption from a guardian of a child used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Place (First Party), Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party).",
+  "fields": [
+  {
+    "type": "textarea",
+    "label": "Place of Deed",
+    "key": "deed_place",
+    "required": true,
+    "placeholder": "Enter place"
+  },
+  {
+    "type": "date",
+    "label": "Deed Date",
+    "key": "deed_date",
+    "required": true,
+    "placeholder": "Select date"
+  },
+  {
+    "type": "text",
+    "label": "First Party Name",
+    "key": "first_party_name",
+    "required": true,
+    "placeholder": "Enter first party name"
+  },
+  {
+    "type": "text",
+    "label": "First Party Father's Name",
+    "key": "first_party_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "First Party Age",
+    "key": "first_party_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "First Party Address",
+    "key": "first_party_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Second Party Name",
+    "key": "second_party_name",
+    "required": true,
+    "placeholder": "Enter second party name"
+  },
+  {
+    "type": "text",
+    "label": "Second Party Father's Name",
+    "key": "second_party_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Second Party Age",
+    "key": "second_party_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Second Party Address",
+    "key": "second_party_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Adoptee Name",
+    "key": "adoptee_name",
+    "required": true,
+    "placeholder": "Enter adoptee name"
+  },
+  {
+    "type": "text",
+    "label": "Adoptee Father's Name",
+    "key": "adoptee_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Adoptee Age",
+    "key": "adoptee_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "District Court Place",
+    "key": "district_court_place",
+    "required": true,
+    "placeholder": "Enter court place"
+  },
+  {
+    "type": "text",
+    "label": "District Court Name",
+    "key": "district_court_name",
+    "required": true,
+    "placeholder": "Enter court name"
+  },
+  {
+    "type": "date",
+    "label": "Court Order Date",
+    "key": "court_order_date",
+    "required": true,
+    "placeholder": "Select order date"
+  },
+  {
+    "type": "date",
+    "label": "Adoption Ceremony Date",
+    "key": "adoption_ceremony_date",
+    "required": true,
+    "placeholder": "Select ceremony date"
+  },
+  {
+    "type": "textarea",
+    "label": "Ceremony Place",
+    "key": "ceremony_place",
+    "required": true,
+    "placeholder": "Enter place"
+  },
+  {
+    "type": "text",
+    "label": "Witness 1 Name",
+    "key": "witness1_name",
+    "required": true,
+    "placeholder": "Enter witness name"
+  },
+  {
+    "type": "Signature",
+    "label": "Witness 1 Signature",
+    "key": "witness1_signature",
+    "required": false,
+    "placeholder": "Enter witness signature"
+  },
+  {
+    "type": "text",
+    "label": "Witness 2 Name",
+    "key": "witness2_name",
+    "required": true,
+    "placeholder": "Enter witness name"
+  },
+  {
+    "type": "Signature",
+    "label": "Witness 2 Signature",
+    "key": "witness2_signature",
+    "required": false,
+    "placeholder": "Enter witness signature"
+  },
+  {
+    "type": "Signature",
+    "label": "First Party Signature Name",
+    "key": "first_party_signature",
+    "required": false,
+    "placeholder": "Enter name"
+  },
+  {
+    "type": "Signature",
+    "label": "Second Party Signature Name",
+    "key": "second_party_signature",
+    "required": false,
+    "placeholder": "Enter name"
+  }
+  ],
+  "placeholder_order": [
+"deed_place",
+"deed_date",
+"first_party_name",
+"first_party_father_name",
+"first_party_age",
+"first_party_address",
+
+
+"second_party_name",
+"second_party_father_name",
+"second_party_age",
+"second_party_address",
+
+
+"adoptee_name",
+"adoptee_father_name",
+"adoptee_age",
+
+
+"district_court_place",
+
+
+"district_court_name",
+"court_order_date",
+"first_party_name",
+
+
+"adoption_ceremony_date",
+
+
+"adoption_ceremony_date",
+"ceremony_place",
+
+
+"witness1_name",
+"witness1_signature",
+
+
+"witness2_name",
+"witness2_signature",
+
+
+"first_party_signature",
+"second_party_signature"
+  ]
+}

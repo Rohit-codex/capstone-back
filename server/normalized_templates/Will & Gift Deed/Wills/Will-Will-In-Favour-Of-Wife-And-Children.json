@@ -1,0 +1,44 @@
+{
+  "title": "Will Will In Favour Of Wife And Children",
+  "filename": "Will-Will-In-Favour-Of-Wife-And-Children.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "A will will in favour of wife and children used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Details (First Party), Details (Second Party), Witness Name, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "witness_name",
+    "signatory_name"
+  ],
+  "description_hi": "Will Will In Favour Of Wife And Children — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

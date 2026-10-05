@@ -1,0 +1,51 @@
+{
+  "title": "Notice For Giving Consent For The Appointment Of An Arbitrator",
+  "filename": "NOTICE-FOR-GIVING-CONSENT-FOR-THE-APPOINTMENT-OF-AN-ARBITRATOR.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Other",
+  "description": "Legal template for notice for giving consent for the appointment of an arbitrator",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "date",
+    "field_value",
+    "date_2",
+    "signatory_name"
+  ]
+}

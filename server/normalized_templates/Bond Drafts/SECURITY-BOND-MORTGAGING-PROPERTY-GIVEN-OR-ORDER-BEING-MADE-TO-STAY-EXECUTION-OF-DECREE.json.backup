@@ -1,0 +1,35 @@
+{
+  "title": "Security Bond Mortgaging Property Given Or Order Being Made To Stay Execution Of Decree",
+  "filename": "SECURITY-BOND-MORTGAGING-PROPERTY-GIVEN-OR-ORDER-BEING-MADE-TO-STAY-EXECUTION-OF-DECREE.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security bond mortgaging property given or order being made to stay execution of decree",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

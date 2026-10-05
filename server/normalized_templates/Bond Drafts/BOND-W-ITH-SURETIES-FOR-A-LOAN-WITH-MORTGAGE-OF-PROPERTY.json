@@ -1,0 +1,52 @@
+{
+  "title": "Bond W Ith Sureties For A Loan With Mortgage Of Property",
+  "filename": "BOND-W-ITH-SURETIES-FOR-A-LOAN-WITH-MORTGAGE-OF-PROPERTY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond w ith sureties for a loan with mortgage of property used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Name (Son of), Date, Amount (Rs.).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "date",
+    "amount",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Bond W Ith Sureties For A Loan With Mortgage Of Property — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 3 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

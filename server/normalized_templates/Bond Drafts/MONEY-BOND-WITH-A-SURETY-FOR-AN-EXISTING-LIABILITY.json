@@ -1,0 +1,44 @@
+{
+  "title": "Money Bond With A Surety For An Existing Liability",
+  "filename": "MONEY-BOND-WITH-A-SURETY-FOR-AN-EXISTING-LIABILITY.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A money bond with a surety for an existing liability used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Name (Son of), Date.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "date",
+    "witness_1_name",
+    "witness_2_name"
+  ],
+  "description_hi": "Money Bond With A Surety For An Existing Liability — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 2 आवश्यक और 2 वैकल्पिक विवरण भरने होंगे।"
+}

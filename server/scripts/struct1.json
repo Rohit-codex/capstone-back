@@ -1,0 +1,65 @@
+{
+  "paragraphs": [],
+  "tableParagraphs": [],
+  "bodyElements": [],
+  "plainText": "",
+  "namedStyles": {
+    "Normal": {
+      "name": "Normal",
+      "basedOn": null,
+      "rPr": "<w:rFonts w:asciiTheme=\"minorHAnsi\" w:eastAsiaTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\" w:cstheme=\"minorBidi\"/><w:sz w:val=\"22\"/><w:lang w:val=\"en-IN\" w:eastAsia=\"en-US\" w:bidi=\"hi-IN\"/>",
+      "pPr": "<w:spacing w:after=\"160\" w:line=\"259\" w:lineRule=\"auto\"/>"
+    },
+    "DefaultParagraphFont": {
+      "name": "Default Paragraph Font",
+      "basedOn": null,
+      "rPr": "",
+      "pPr": ""
+    },
+    "TableNormal": {
+      "name": "Normal Table",
+      "basedOn": null,
+      "rPr": "",
+      "pPr": ""
+    },
+    "NoList": {
+      "name": "No List",
+      "basedOn": null,
+      "rPr": "",
+      "pPr": ""
+    },
+    "ListParagraph": {
+      "name": "List Paragraph",
+      "basedOn": "Normal",
+      "rPr": "",
+      "pPr": "<w:ind w:left=\"720\"/><w:contextualSpacing/>"
+    },
+    "Strong": {
+      "name": "Strong",
+      "basedOn": "DefaultParagraphFont",
+      "rPr": "<w:b/><w:bCs/>",
+      "pPr": ""
+    },
+    "NormalWeb": {
+      "name": "Normal (Web)",
+      "basedOn": "Normal",
+      "rPr": "<w:rFonts w:ascii=\"Calibri\" w:eastAsiaTheme=\"minorEastAsia\" w:hAnsi=\"Calibri\" w:cs=\"Calibri\"/><w:lang w:eastAsia=\"en-IN\" w:bidi=\"hi-IN\"/>",
+      "pPr": "<w:spacing w:before=\"100\" w:beforeAutospacing=\"1\" w:after=\"100\" w:afterAutospacing=\"1\" w:line=\"240\" w:lineRule=\"auto\"/>"
+    }
+  },
+  "numTypeMap": {
+    "1": "ordered",
+    "2": "ordered",
+    "3": "ordered",
+    "4": "ordered",
+    "5": "ordered",
+    "6": "ordered",
+    "7": "ordered",
+    "8": "ordered"
+  },
+  "metadata": {
+    "paragraphCount": 0,
+    "tableParagraphCount": 0,
+    "extractedAt": "2026-03-12T06:38:33.732Z"
+  }
+}

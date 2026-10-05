@@ -1,0 +1,43 @@
+{
+  "title": "Will Another Form Of Will By A Lady In Favour Of Husband",
+  "filename": "Will-Another-Form-Of-Will-By-A-Lady-In-Favour-Of-Husband.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Wills",
+  "description": "Legal template for will another form of will by a lady in favour of husband",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Husband's Name",
+      "key": "husband_name",
+      "required": true,
+      "placeholder": "Enter husband's name"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "husband_name",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

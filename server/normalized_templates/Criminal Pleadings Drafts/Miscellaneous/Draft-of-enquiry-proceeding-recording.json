@@ -1,0 +1,140 @@
+{
+  "title": "Draft Of Enquiry Proceeding Recording",
+  "filename": "Draft-of-enquiry-proceeding-recording.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A draft of enquiry proceeding recording used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Father's Name (First Party), Father's Name (Second Party), Date (First Party), Date (Second Party), Date (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Father's Name (First Party)",
+      "key": "father_name",
+      "required": true,
+      "placeholder": "Enter First Party  father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name (Second Party)",
+      "key": "father_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  father's name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name (Third Party)",
+      "key": "father_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  father's name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Third Party)",
+      "key": "witness_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Fourth Party)",
+      "key": "witness_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "father_name",
+    "father_name_2",
+    "date",
+    "date_2",
+    "date_3",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "father_name_3",
+    "witness_name",
+    "field_value",
+    "field_value_2",
+    "witness_name_2",
+    "witness_name_3",
+    "witness_name_4",
+    "signatory_name"
+  ],
+  "description_hi": "Draft Of Enquiry Proceeding Recording — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 16 आवश्यक विवरण भरने होंगे।"
+}

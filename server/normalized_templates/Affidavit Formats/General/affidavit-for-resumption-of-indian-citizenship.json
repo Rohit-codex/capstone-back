@@ -1,0 +1,44 @@
+{
+  "title": "Affidavit For Resumption Of Indian Citizenship",
+  "filename": "affidavit-for-resumption-of-indian-citizenship.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit for resumption of indian citizenship used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name, Father's Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "party_name",
+    "father_name"
+  ],
+  "description_hi": "Affidavit For Resumption Of Indian Citizenship — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

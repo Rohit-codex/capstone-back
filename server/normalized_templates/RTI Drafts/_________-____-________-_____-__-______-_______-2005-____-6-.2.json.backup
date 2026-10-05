@@ -1,0 +1,19 @@
+{
+  "title": "                                                2005      6 .2",
+  "filename": "_________-____-________-_____-__-______-_______-2005-____-6-.2.docx",
+  "category": "RTI Drafts",
+  "subcategory": null,
+  "description": "Legal template for _________ ____ ________ _____ __ ______ _______ 2005 ____ 6 .2",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value"
+  ]
+}

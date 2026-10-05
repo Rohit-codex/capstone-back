@@ -1,0 +1,37 @@
+{
+  "title": "Gift Gift Of Books For Education Of Daughter",
+  "filename": "Gift-Gift-Of-Books-For-Education-Of-Daughter.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift gift of books for education of daughter used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Place (First Party), Place (Second Party), Field 1 of 1.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "key": "field_1_of_1",
+      "type": "text",
+      "label": "Field 1 of 1",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "place_2",
+    "field_1_of_1"
+  ],
+  "description_hi": "Gift Gift Of Books For Education Of Daughter — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 3 आवश्यक विवरण भरने होंगे।"
+}

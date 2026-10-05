@@ -1,0 +1,53 @@
+{
+  "title": "Application For Grant Of Permit In Respect Of Tourist Vehicle",
+  "filename": "Application-for-grant-of-permit-in-respect-of-Tourist-Vehicle.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Applications",
+  "description": "A application for grant of permit in respect of tourist vehicle used for motor vehicle accident claims, compensation petitions, or insurance disputes. Suitable for accident victims, insurance companies, or motor accident claims tribunals. Key details required: Name (First Party), Date, Name (Second Party), Signatory Name, State.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "state",
+      "type": "text",
+      "label": "State",
+      "required": true,
+      "placeholder": "e.g., Delhi",
+      "description": "राज्य"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "date",
+    "party_name_2",
+    "signatory_name",
+    "state"
+  ],
+  "description_hi": "Application For Grant Of Permit In Respect Of Tourist Vehicle — मोटर वाहन दुर्घटना दावे, मुआवज़ा याचिकाएं, या बीमा विवाद के लिए उपयोग किया जाने वाला कानूनी प्रारूप। दुर्घटना पीड़ित, बीमा कंपनियां, या मोटर दुर्घटना दावा अधिकरण के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

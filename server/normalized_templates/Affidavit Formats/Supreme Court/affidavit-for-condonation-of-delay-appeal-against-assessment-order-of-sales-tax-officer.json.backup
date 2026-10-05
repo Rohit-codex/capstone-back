@@ -1,0 +1,83 @@
+{
+  "title": "Affidavit For Condonation Of Delay Appeal Against Assessment Order Of Sales Tax Officer",
+  "filename": "affidavit-for-condonation-of-delay-appeal-against-assessment-order-of-sales-tax-officer.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "Supreme Court",
+  "description": "Legal template for affidavit for condonation of delay appeal against assessment order of sales tax officer",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter place"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "place",
+    "place_2",
+    "place_3",
+    "place_4",
+    "place_5"
+  ]
+}

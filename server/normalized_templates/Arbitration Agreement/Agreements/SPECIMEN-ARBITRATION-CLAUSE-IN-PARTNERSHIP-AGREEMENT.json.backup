@@ -1,0 +1,19 @@
+{
+  "title": "Specimen Arbitration Clause In Partnership Agreement",
+  "filename": "SPECIMEN-ARBITRATION-CLAUSE-IN-PARTNERSHIP-AGREEMENT.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "Legal template for specimen arbitration clause in partnership agreement",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value"
+  ]
+}

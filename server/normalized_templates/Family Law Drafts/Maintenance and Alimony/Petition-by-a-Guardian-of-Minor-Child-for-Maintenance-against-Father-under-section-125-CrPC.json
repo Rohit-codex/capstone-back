@@ -1,0 +1,64 @@
+{
+  "title": "Petition By A Guardian Of Minor Child For Maintenance Against Father Under Section 125 Crpc",
+  "filename": "Petition-by-a-Guardian-of-Minor-Child-for-Maintenance-against-Father-under-section-125-CrPC.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A petition by a guardian of minor child for maintenance against father under section 125 crpc used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Age (in years), Signatory Name, Father's Name, Field 2 of 1, Field 3 of 1.",
+  "fields": [
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "field_2_of_1",
+      "type": "text",
+      "label": "Field 2 of 1",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 1"
+    },
+    {
+      "key": "field_3_of_1",
+      "type": "text",
+      "label": "Field 3 of 1",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 1"
+    },
+    {
+      "key": "field_4_of_1",
+      "type": "text",
+      "label": "Field 4 of 1",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 1"
+    }
+  ],
+  "placeholder_order": [
+    "age",
+    "signatory_name",
+    "fathers_name",
+    "field_2_of_1",
+    "field_3_of_1",
+    "field_4_of_1"
+  ],
+  "description_hi": "Petition By A Guardian Of Minor Child For Maintenance Against Father Under Section 125 Crpc — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

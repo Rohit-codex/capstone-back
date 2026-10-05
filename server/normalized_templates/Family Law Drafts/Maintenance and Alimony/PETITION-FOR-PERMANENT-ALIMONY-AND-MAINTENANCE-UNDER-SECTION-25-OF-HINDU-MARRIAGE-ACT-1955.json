@@ -1,0 +1,268 @@
+{
+  "title": "Petition For Permanent Alimony And Maintenance Under Section 25 Of Hindu Marriage Act 1955",
+  "filename": "PETITION-FOR-PERMANENT-ALIMONY-AND-MAINTENANCE-UNDER-SECTION-25-OF-HINDU-MARRIAGE-ACT-1955.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Maintenance and Alimony",
+  "description": "A petition for permanent alimony and maintenance under section 25 of hindu marriage act 1955 used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Court Name/Place (First Party), Court Name/Place (Second Party), Amount (Rs.) (First Party), Amount (Rs.) (Second Party), Name (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place (First Party)",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter First Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Second Party)",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  court name/place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "text",
+      "label": "Husband's Name",
+      "key": "husband_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Third Party)",
+      "key": "court_place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place (Fourth Party)",
+      "key": "court_place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fifth)",
+      "key": "place_5",
+      "required": true,
+      "placeholder": "Enter Fifth  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Sixth)",
+      "key": "place_6",
+      "required": true,
+      "placeholder": "Enter Sixth  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "amount",
+    "amount_2",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "age",
+    "husband_name",
+    "party_name_4",
+    "party_name_5",
+    "place",
+    "place_2",
+    "place_3",
+    "place_4",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "amount_3",
+    "court_place_3",
+    "court_place_4",
+    "party_name_9",
+    "party_name_10",
+    "place_5",
+    "field_value",
+    "place_6",
+    "field_value_2",
+    "party_name_11",
+    "party_name_12",
+    "party_name_13",
+    "party_name_14",
+    "signatory_name"
+  ],
+  "description_hi": "Petition For Permanent Alimony And Maintenance Under Section 25 Of Hindu Marriage Act 1955 — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 32 आवश्यक विवरण भरने होंगे।"
+}

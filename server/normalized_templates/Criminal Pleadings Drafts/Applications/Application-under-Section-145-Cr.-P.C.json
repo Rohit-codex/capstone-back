@@ -1,0 +1,80 @@
+{
+  "title": "Application Under Section 145 Cr. P.C",
+  "filename": "Application-under-Section-145-Cr.-P.C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "A application under section 145 cr. p.c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (Son of), Name (Daughter of), Address, Name, Petitioner Name (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "petitioner_name",
+      "type": "text",
+      "label": "Petitioner Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    },
+    {
+      "key": "respondent_name",
+      "type": "text",
+      "label": "Respondent Name",
+      "required": true,
+      "placeholder": "e.g., State of Delhi",
+      "description": "प्रतिवादी का नाम"
+    },
+    {
+      "key": "petitioner_name_2",
+      "type": "text",
+      "label": "Petitioner Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    },
+    {
+      "key": "petitioner_name_3",
+      "type": "text",
+      "label": "Petitioner Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Suresh Kumar",
+      "description": "याचिकाकर्ता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_daughter_of",
+    "address",
+    "party_name",
+    "petitioner_name",
+    "respondent_name",
+    "petitioner_name_2",
+    "petitioner_name_3"
+  ],
+  "description_hi": "Application Under Section 145 Cr. P.C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

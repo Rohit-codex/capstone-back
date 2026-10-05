@@ -1,0 +1,228 @@
+{
+  "title": "Format Of Affidavit To Be Filed With Application For Registration Of Marriage Under Hindu Marriage Act",
+  "filename": "Format-of-Affidavit-to-be-filed-with-application-for-registration-of-Marriage-under-Hindu-Marriage-Act.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Marriage Registration and Settlement",
+  "description": "A format of affidavit to be filed with application for registration of marriage under hindu marriage act used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Age (in years) (First Party), Age (in years) (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (First Party)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter First Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Second Party)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter Second Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Third Party)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter Third Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fourth Party)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (First Party)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Second Party)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of) (Third Party)",
+      "key": "name_daughter_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (daughter of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Fifth)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter Fifth  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Sixth)",
+      "key": "age_6",
+      "required": true,
+      "placeholder": "Enter Sixth  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Seventh)",
+      "key": "age_7",
+      "required": true,
+      "placeholder": "Enter Seventh  age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (Eighth)",
+      "key": "age_8",
+      "required": true,
+      "placeholder": "Enter Eighth  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "e.g., Businessman"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (9)",
+      "key": "age_9",
+      "required": true,
+      "placeholder": "Enter 9  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name (First Party)",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "Enter First Party  wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name (Second Party)",
+      "key": "wife_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name (Third Party)",
+      "key": "wife_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  wife's name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years) (10)",
+      "key": "age_10",
+      "required": true,
+      "placeholder": "Enter 10  age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "age",
+    "age_2",
+    "age_3",
+    "age_4",
+    "amount",
+    "name_daughter_of",
+    "name_daughter_of_2",
+    "name_daughter_of_3",
+    "age_5",
+    "age_6",
+    "age_7",
+    "age_8",
+    "occupation",
+    "age_9",
+    "wife_name",
+    "wife_name_2",
+    "wife_name_3",
+    "age_10",
+    "place",
+    "field_value",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ],
+  "description_hi": "Format Of Affidavit To Be Filed With Application For Registration Of Marriage Under Hindu Marriage Act — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 27 आवश्यक विवरण भरने होंगे।"
+}

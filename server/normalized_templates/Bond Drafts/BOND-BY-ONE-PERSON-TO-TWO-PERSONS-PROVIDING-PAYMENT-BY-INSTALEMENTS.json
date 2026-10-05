@@ -1,0 +1,65 @@
+{
+  "title": "Bond By One Person To Two Persons Providing Payment By Instalements",
+  "filename": "BOND-BY-ONE-PERSON-TO-TWO-PERSONS-PROVIDING-PAYMENT-BY-INSTALEMENTS.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond by one person to two persons providing payment by instalements used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Signatory Name, Field 1 of 0, Field 2 of 0, Field 3 of 0, Field 4 of 0.",
+  "fields": [
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_0",
+      "type": "text",
+      "label": "Field 1 of 0",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 0"
+    },
+    {
+      "key": "field_2_of_0",
+      "type": "text",
+      "label": "Field 2 of 0",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 0"
+    },
+    {
+      "key": "field_3_of_0",
+      "type": "text",
+      "label": "Field 3 of 0",
+      "required": true,
+      "placeholder": "Fill in field 3",
+      "description": "फील्ड 3 / 0"
+    },
+    {
+      "key": "field_4_of_0",
+      "type": "text",
+      "label": "Field 4 of 0",
+      "required": true,
+      "placeholder": "Fill in field 4",
+      "description": "फील्ड 4 / 0"
+    },
+    {
+      "key": "field_5_of_0",
+      "type": "text",
+      "label": "Field 5 of 0",
+      "required": true,
+      "placeholder": "Fill in field 5",
+      "description": "फील्ड 5 / 0"
+    }
+  ],
+  "placeholder_order": [
+    "signatory_name",
+    "field_1_of_0",
+    "field_2_of_0",
+    "field_3_of_0",
+    "field_4_of_0",
+    "field_5_of_0"
+  ],
+  "description_hi": "Bond By One Person To Two Persons Providing Payment By Instalements — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 6 आवश्यक विवरण भरने होंगे।"
+}

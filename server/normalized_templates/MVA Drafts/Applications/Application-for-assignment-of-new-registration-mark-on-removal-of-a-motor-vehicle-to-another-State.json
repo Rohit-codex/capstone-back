@@ -1,0 +1,156 @@
+{
+  "title": "Application For Assignment Of New Registration Mark On Removal Of A Motor Vehicle To Another State",
+  "filename": "Application-for-assignment-of-new-registration-mark-on-removal-of-a-motor-vehicle-to-another-State.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Applications",
+  "description": "A application for assignment of new registration mark on removal of a motor vehicle to another state used for motor vehicle accident claims, compensation petitions, or insurance disputes. Suitable for accident victims, insurance companies, or motor accident claims tribunals. Key details required: Details (First Party), Document Details, Details (Second Party), Details (Third Party), Place (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details here"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "document_details",
+    "field_value_2",
+    "field_value_3",
+    "place",
+    "place_2",
+    "date",
+    "date_2",
+    "place_3",
+    "field_value_4",
+    "party_name",
+    "date_3",
+    "date_4",
+    "date_5",
+    "place_4",
+    "date_6",
+    "date_7",
+    "signatory_name"
+  ],
+  "description_hi": "Application For Assignment Of New Registration Mark On Removal Of A Motor Vehicle To Another State — मोटर वाहन दुर्घटना दावे, मुआवज़ा याचिकाएं, या बीमा विवाद के लिए उपयोग किया जाने वाला कानूनी प्रारूप। दुर्घटना पीड़ित, बीमा कंपनियां, या मोटर दुर्घटना दावा अधिकरण के लिए उपयुक्त। 18 आवश्यक विवरण भरने होंगे।"
+}

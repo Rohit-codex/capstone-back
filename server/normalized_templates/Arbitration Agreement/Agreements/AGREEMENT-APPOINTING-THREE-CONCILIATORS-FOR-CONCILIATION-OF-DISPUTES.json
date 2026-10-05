@@ -1,0 +1,226 @@
+{
+  "title": "Agreement Appointing Three Conciliators For Conciliation Of Disputes",
+  "filename": "AGREEMENT-APPOINTING-THREE-CONCILIATORS-FOR-CONCILIATION-OF-DISPUTES.docx",
+  "category": "Arbitration Agreement",
+  "subcategory": "Agreements",
+  "description": "A agreement appointing three conciliators for conciliation of disputes used for dispute resolution through arbitration outside the court system. Suitable for parties entering commercial or civil agreements with arbitration clauses. Key details required: Address (First Party), Address (Second Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place of Agreement",
+      "key": "agreement_place",
+      "required": true,
+      "placeholder": "Enter Place of Agreement"
+    },
+    {
+      "type": "date",
+      "label": "Date of Agreement",
+      "key": "agreement_date",
+      "required": true
+    },
+    {
+      "type": "text",
+      "label": "First Party Name",
+      "key": "first_party_name",
+      "required": true,
+      "placeholder": "Enter First Party Name"
+    },
+    {
+      "type": "text",
+      "label": "First Party Father's Name",
+      "key": "first_party_father_name",
+      "required": true,
+      "placeholder": "Enter Father's Name"
+    },
+    {
+      "type": "number",
+      "label": "First Party Age",
+      "key": "first_party_age",
+      "required": true,
+      "placeholder": "Enter Age"
+    },
+    {
+      "type": "textarea",
+      "label": "First Party Address",
+      "key": "first_party_address",
+      "required": true,
+      "placeholder": "Enter Address"
+    },
+    {
+      "type": "text",
+      "label": "Second Party Name",
+      "key": "second_party_name",
+      "required": true,
+      "placeholder": "Enter Second Party Name"
+    },
+    {
+      "type": "number",
+      "label": "Second Party Age",
+      "key": "second_party_age",
+      "required": true,
+      "placeholder": "Enter Age"
+    },
+    {
+      "type": "textarea",
+      "label": "Second Party Address",
+      "key": "second_party_address",
+      "required": true,
+      "placeholder": "Enter Address"
+    },
+
+    {
+      "type": "text",
+      "label": "Third Party Name",
+      "key": "third_party_name",
+      "required": true,
+      "placeholder": "Enter Third Party Name"
+    },
+    {
+      "type": "number",
+      "label": "Third Party Age",
+      "key": "third_party_age",
+      "required": true,
+      "placeholder": "Enter Age"
+    },
+    {
+      "type": "textarea",
+      "label": "Third Party Address",
+      "key": "third_party_address",
+      "required": true,
+      "placeholder": "Enter Address"
+    },
+    {
+      "type": "text",
+      "label": "Name of Deceased",
+      "key": "deceased_name",
+      "required": true,
+      "placeholder": "Enter Name of Deceased"
+    },
+    {
+      "type": "date",
+      "label": "Date of Death",
+      "key": "date_of_death",
+      "required": true
+    },
+
+    {
+      "type": "text",
+      "label": "Conciliator 1 Name",
+      "key": "conciliator_1",
+      "required": true,
+      "placeholder": "Enter First Conciliator Name"
+    },
+    {
+      "type": "text",
+      "label": "Conciliator 2 Name",
+      "key": "conciliator_2",
+      "required": true,
+      "placeholder": "Enter Second Conciliator Name"
+    },
+    {
+      "type": "text",
+      "label": "Conciliator 3 Name",
+      "key": "conciliator_3",
+      "required": true,
+      "placeholder": "Enter Third Conciliator Name"
+    },
+    {
+      "type": "text",
+      "label": "Presiding Conciliator Name",
+      "key": "presiding_conciliator",
+      "required": true,
+      "placeholder": "Enter Presiding Conciliator Name"
+    },
+
+    {
+      "type": "date",
+      "label": "Conciliation Commencement Date",
+      "key": "conciliation_start_date",
+      "required": true,
+      "placeholder": "Enter Commencement Date"
+    },
+
+    {
+      "type": "text",
+      "label": "Signature of First Party",
+      "key": "first_party_signature",
+      "required": true,
+      "placeholder": "Enter Name"
+    },
+    {
+      "type": "text",
+      "label": "Signature of Second Party",
+      "key": "second_party_signature",
+      "required": true,
+      "placeholder": "Enter second party"
+    },
+    {
+      "type": "text",
+      "label": "Signature of Third Party",
+      "key": "third_party_signature",
+      "required": true,
+      "placeholder": "Enter Name"
+    },
+
+    {
+      "type": "text",
+      "label": "Witness 1 Name",
+      "key": "witness_1_name",
+      "required": false,
+      "placeholder": "Enter First Witness Name"
+    },
+    {
+      "type": "text",
+      "label": "Witness 2 Name",
+      "key": "witness_2_name",
+      "required": false,
+      "placeholder": "Enter Second Witness Name"
+    }
+  ],
+  "placeholder_order":[
+  
+"agreement_place",
+"agreement_date",
+"first_party_name",
+"first_party_father_name",
+"first_party_age",
+"first_party_address",
+
+
+"second_party_name",
+"second_party_father_name",
+"second_party_age",
+"second_party_address",
+
+
+"third_party_name",
+"third_party_father_name",
+"third_party_age",
+"third_party_address",
+
+
+
+"deceased_name",
+"date_of_death",
+
+
+
+"conciliator_1",
+"conciliator_2",
+"conciliator_3",
+
+"first_party_father_name",
+
+"conciliation_start_date",
+"presiding_conciliator",
+
+
+"first_party_signature",
+"second_party_signature",
+"third_party_signature",
+
+
+"witness_1_name",
+"witness_2_name"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "title": "Adoption Deed By A Hindu Widow",
+  "filename": "Adoption-deed-by-a-hindu-widow.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A adoption deed by a hindu widow used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Date (First Party), Name (First Party), Name (Second Party), Name (Third Party), Husband's Name.",
+  "fields": [
+    {
+    "type": "date",
+    "label": "Date of Execution",
+    "key": "execution_date",
+    "required": true,
+    "placeholder": "Enter execution date"
+  },
+  {
+    "type": "textarea",
+    "label": "Place of Execution",
+    "key": "place_of_execution",
+    "required": true,
+    "placeholder": "Enter place"
+  },
+  {
+    "type": "text",
+    "label": "Widow Name",
+    "key": "widow_name",
+    "required": true,
+    "placeholder": "Enter widow name"
+  },
+  {
+    "type": "text",
+    "label": "Late Husband Name",
+    "key": "late_husband_name",
+    "required": true,
+    "placeholder": "Enter late husband name"
+  },
+  {
+    "type": "number",
+    "label": "Widow Age",
+    "key": "widow_age",
+    "required": true,
+    "placeholder": "Enter age"
+  },
+  {
+    "type": "textarea",
+    "label": "Widow Address",
+    "key": "widow_address",
+    "required": true,
+    "placeholder": "Enter widow address"
+  },
+  {
+    "type": "date",
+    "label": "Husband Death Date",
+    "key": "husband_death_date",
+    "required": true,
+    "placeholder": "Enter death date"
+  },
+  {
+    "type": "date",
+    "label": "Authority Deed Date",
+    "key": "authority_deed_date",
+    "required": true,
+    "placeholder": "Enter deed date"
+  },
+  {
+    "type": "number",
+    "label": "Registration Number",
+    "key": "registration_number",
+    "required": true,
+    "placeholder": "Enter registration number"
+  },
+  {
+    "type": "textarea",
+    "label": "Sub Registrar Office",
+    "key": "sub_registrar_office",
+    "required": true,
+    "placeholder": "Enter office name"
+  },
+  {
+    "type": "text",
+    "label": "Adopted Child Name",
+    "key": "child_name",
+    "required": true,
+    "placeholder": "Enter child name"
+  },
+  {
+    "type": "text",
+    "label": "Natural Father Name",
+    "key": "natural_father_name",
+    "required": true,
+    "placeholder": "Enter father name"
+  },
+  {
+    "type": "number",
+    "label": "Child Age",
+    "key": "child_age",
+    "required": true,
+    "placeholder": "Enter child age"
+  },
+  {
+    "type": "textarea",
+    "label": "Child Address",
+    "key": "child_address",
+    "required": true,
+    "placeholder": "Enter child address"
+  },
+  {
+    "type": "date",
+    "label": "Adoption Completion Date",
+    "key": "adoption_date",
+    "required": true,
+    "placeholder": "Enter adoption date"
+  },
+  {
+      "type": "text",
+      "label": "Name of Witnesses 1",
+      "key": "witnesses_1",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar, Suresh Sharma"
+  },
+  {
+      "type": "signature",
+      "label": "Witness Signature 1",
+      "key": "witness_signature_1",
+      "required": false,
+      "placeholder": "Signature of Witness"
+  },
+  {
+      "type": "text",
+      "label": "Name of Witnesses 2",
+      "key": "witnesses_2",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar, Suresh Sharma"
+  },
+  {
+      "type": "signature",
+      "label": "Witness Signature 2",
+      "key": "witness_signature_2",
+      "required": false,
+      "placeholder": "Signature of Witness"
+  },
+  {
+      "type": "signature",
+      "label": "Widow Signature",
+      "key": "widow_signature",
+      "required": false,
+      "placeholder": "Signature of Widow"
+  }
+  ],
+  "placeholder_order": [
+"execution_date",
+"place_of_execution",
+"widow_name",
+"late_husband_name",
+"widow_age",
+"widow_address",
+
+"late_husband_name",
+"husband_death_date",
+
+"late_husband_name",
+"authority_deed_date",
+"registration_number",
+"sub_registrar_office",
+
+
+"child_name",
+"natural_father_name",
+"child_age",
+"child_address",
+"child_name",
+
+"child_name",
+"adoption_date",
+
+
+"widow_name",
+"child_name",
+"child_name",
+"late_husband_name",
+
+"witnesses_1",
+"witness_signature_1",
+"witnesses_2",
+"witness_signature_2",
+
+"widow_signature"
+  ]
+}

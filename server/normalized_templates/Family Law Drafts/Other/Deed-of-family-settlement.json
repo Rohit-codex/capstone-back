@@ -1,0 +1,400 @@
+{
+  "title": "Deed Of Family Settlement",
+  "filename": "Deed-of-family-settlement.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Other",
+  "description": "A deed of family settlement used for matters related to marriage, divorce, custody, maintenance, or domestic relations. Suitable for spouses, parents, family members, or their legal counsel. Key details required: Date (First Party), Name (First Party), Address (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (First Party)",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter First Party  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Second Party)",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Third Party)",
+      "key": "property_address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fourth Party)",
+      "key": "property_address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fifth)",
+      "key": "property_address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Sixth)",
+      "key": "property_address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Seventh)",
+      "key": "property_address_7",
+      "required": true,
+      "placeholder": "Enter Seventh  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (16)",
+      "key": "party_name_16",
+      "required": true,
+      "placeholder": "Enter 16  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (17)",
+      "key": "party_name_17",
+      "required": true,
+      "placeholder": "Enter 17  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (18)",
+      "key": "party_name_18",
+      "required": true,
+      "placeholder": "Enter 18  name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "date_2",
+      "type": "text",
+      "label": "Date (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_3",
+      "type": "text",
+      "label": "Date (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_3",
+      "type": "text",
+      "label": "Place/City (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_4",
+      "type": "text",
+      "label": "Place/City (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_5",
+      "type": "text",
+      "label": "Place/City (Fifth)",
+      "required": true,
+      "placeholder": "Enter Fifth New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_6",
+      "type": "text",
+      "label": "Place/City (Sixth)",
+      "required": true,
+      "placeholder": "Enter Sixth New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_7",
+      "type": "text",
+      "label": "Place/City (Seventh)",
+      "required": true,
+      "placeholder": "Enter Seventh New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_8",
+      "type": "text",
+      "label": "Place/City (Eighth)",
+      "required": true,
+      "placeholder": "Enter Eighth New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_9",
+      "type": "text",
+      "label": "Place/City (9)",
+      "required": true,
+      "placeholder": "Enter 9 New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_10",
+      "type": "text",
+      "label": "Place/City (10)",
+      "required": true,
+      "placeholder": "Enter 10 New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "party_name",
+    "address",
+    "party_name_2",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "party_name_6",
+    "party_name_7",
+    "place",
+    "property_address",
+    "property_address_2",
+    "party_name_8",
+    "party_name_9",
+    "property_address_3",
+    "place_2",
+    "party_name_10",
+    "property_address_4",
+    "party_name_11",
+    "address_2",
+    "property_address_5",
+    "property_address_6",
+    "property_address_7",
+    "party_name_12",
+    "place_3",
+    "amount",
+    "amount_2",
+    "witness_name",
+    "party_name_13",
+    "party_name_14",
+    "party_name_15",
+    "party_name_16",
+    "party_name_17",
+    "party_name_18",
+    "signatory_name",
+    "date_2",
+    "date_3",
+    "placecity",
+    "placecity_2",
+    "placecity_3",
+    "placecity_4",
+    "placecity_5",
+    "placecity_6",
+    "placecity_7",
+    "placecity_8",
+    "placecity_9",
+    "placecity_10"
+  ],
+  "description_hi": "Deed Of Family Settlement — विवाह, तलाक, अभिरक्षा, भरण-पोषण, या पारिवारिक संबंधों से संबंधित मामले के लिए उपयोग किया जाने वाला कानूनी प्रारूप। पति-पत्नी, माता-पिता, परिवार के सदस्य, या उनके कानूनी सलाहकार के लिए उपयुक्त। 47 आवश्यक विवरण भरने होंगे।"
+}

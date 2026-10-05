@@ -1,0 +1,70 @@
+{
+  "title": "Bond By An Allottee With Surety Of House Built By The Government",
+  "filename": "BOND-BY-AN-ALLOTTEE-WITH-SURETY-OF-HOUSE-BUILT-BY-THE-GOVERNMENT.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond by an allottee with surety of house built by the government used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Name (Son of), Name, Witness Name, Place, Address.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "date",
+      "type": "text",
+      "label": "Date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026",
+      "description": "तारीख"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "party_name",
+    "witness_name",
+    "place",
+    "address",
+    "fathers_name",
+    "date"
+  ],
+  "description_hi": "Bond By An Allottee With Surety Of House Built By The Government — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

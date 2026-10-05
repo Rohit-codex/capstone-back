@@ -1,0 +1,116 @@
+{
+  "title": "Affidavit Before Sales Tax Tribunal",
+  "filename": "affidavit-before-sales-tax-tribunal.docx",
+  "category": "Affidavit Formats",
+  "subcategory": "General",
+  "description": "A affidavit before sales tax tribunal used for sworn statements, declarations, or attestations for legal proceedings. Suitable for individuals filing affidavits before courts, notaries, or government offices. Key details required: Place, Details, Name (Son of) (First Party), Name (Son of) (Second Party), Amount (Rs.) (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fifth)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter Fifth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Sixth)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter Sixth  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Seventh)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter Seventh  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "place",
+    "field_value",
+    "name_son_of",
+    "name_son_of_2",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "amount_4",
+    "amount_5",
+    "amount_6",
+    "date",
+    "amount_7",
+    "party_name"
+  ],
+  "description_hi": "Affidavit Before Sales Tax Tribunal — कानूनी कार्यवाही के लिए शपथ पत्र, घोषणाएं या प्रमाणीकरण के लिए उपयोग किया जाने वाला कानूनी प्रारूप। अदालतों, नोटरी या सरकारी कार्यालयों के समक्ष शपथ पत्र दाखिल करने वाले व्यक्तियों के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

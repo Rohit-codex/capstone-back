@@ -1,0 +1,80 @@
+{
+  "title": "Gift Record Of A Gift Of Moveables",
+  "filename": "Gift-Record-Of-A-Gift-Of-Moveables.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift record of a gift of moveables used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Address (First Party), Address (Second Party), Date (First Party), Date (Second Party), Residential Address (First Party).",
+  "fields": [
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "key": "residential_address",
+      "type": "text",
+      "label": "Residential Address (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party 45, MG Road, New Delhi",
+      "description": "आवासीय पता"
+    },
+    {
+      "key": "residential_address_2",
+      "type": "text",
+      "label": "Residential Address (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party 45, MG Road, New Delhi",
+      "description": "आवासीय पता"
+    },
+    {
+      "key": "residential_address_3",
+      "type": "text",
+      "label": "Residential Address (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party 45, MG Road, New Delhi",
+      "description": "आवासीय पता"
+    },
+    {
+      "key": "residential_address_4",
+      "type": "text",
+      "label": "Residential Address (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party 45, MG Road, New Delhi",
+      "description": "आवासीय पता"
+    }
+  ],
+  "placeholder_order": [
+    "address",
+    "address_2",
+    "date",
+    "date_2",
+    "residential_address",
+    "residential_address_2",
+    "residential_address_3",
+    "residential_address_4"
+  ],
+  "description_hi": "Gift Record Of A Gift Of Moveables — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 8 आवश्यक विवरण भरने होंगे।"
+}

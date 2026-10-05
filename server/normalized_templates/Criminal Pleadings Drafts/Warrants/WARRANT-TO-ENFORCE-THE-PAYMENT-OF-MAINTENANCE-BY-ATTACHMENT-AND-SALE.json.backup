@@ -1,0 +1,75 @@
+{
+  "title": "Warrant To Enforce The Payment Of Maintenance By Attachment And Sale",
+  "filename": "WARRANT-TO-ENFORCE-THE-PAYMENT-OF-MAINTENANCE-BY-ATTACHMENT-AND-SALE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "Legal template for warrant to enforce the payment of maintenance by attachment and sale",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Mother's Name",
+      "key": "mother_name",
+      "required": true,
+      "placeholder": "Enter mother's name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "mother_name",
+    "amount",
+    "field_value",
+    "party_name",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ]
+}

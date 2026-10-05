@@ -1,0 +1,44 @@
+{
+  "title": "Bond To Keep The Peace 1",
+  "filename": "BOND-TO-KEEP-THE-PEACE-1.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "A bond to keep the peace 1 used for bonds, guarantees, suretyships, or indemnity documents. Suitable for parties entering into bond agreements, sureties, or financial guarantors. Key details required: Details (First Party), Date, Details (Second Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "field_value_2",
+    "signatory_name"
+  ],
+  "description_hi": "Bond To Keep The Peace 1 — बांड, गारंटी, जमानत, या क्षतिपूर्ति दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। बांड समझौतों में प्रवेश करने वाले पक्ष, ज़मानतदार, या वित्तीय गारंटर के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Petition Under Section 107 Cr. P. C",
+  "filename": "PETITION-UNDER-SECTION-107-Cr.-P.-C.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "A petition under section 107 cr. p. c used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Court Name/Place, Date, Name (First Party), Name (Second Party), Name (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "key": "the_court_of_sh",
+      "type": "text",
+      "label": "The Court Of Sh",
+      "required": true,
+      "placeholder": "e.g., District Court, Delhi",
+      "description": "Enter the court of sh"
+    },
+    {
+      "key": "case_number",
+      "type": "text",
+      "label": "Case Number",
+      "required": true,
+      "placeholder": "e.g., CS/123/2025",
+      "description": "मामला संख्या"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "date",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "the_court_of_sh",
+    "case_number"
+  ],
+  "description_hi": "Petition Under Section 107 Cr. P. C — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Security Bond For Costs Of Appeal Wherein Property Is Mortgaged",
+  "filename": "SECURITY-BOND-FOR-COSTS-OF-APPEAL-WHEREIN-PROPERTY-IS-MORTGAGED.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security bond for costs of appeal wherein property is mortgaged",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

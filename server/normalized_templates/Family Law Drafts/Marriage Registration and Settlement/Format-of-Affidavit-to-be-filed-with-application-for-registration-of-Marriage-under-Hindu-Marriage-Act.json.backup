@@ -1,0 +1,227 @@
+{
+  "title": "Format Of Affidavit To Be Filed With Application For Registration Of Marriage Under Hindu Marriage Act",
+  "filename": "Format-of-Affidavit-to-be-filed-with-application-for-registration-of-Marriage-under-Hindu-Marriage-Act.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Marriage Registration and Settlement",
+  "description": "Legal template for format of affidavit to be filed with application for registration of marriage under hindu marriage act",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_3",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_4",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of",
+      "required": true,
+      "placeholder": "Enter name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of_2",
+      "required": true,
+      "placeholder": "Enter name (daughter of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Daughter of)",
+      "key": "name_daughter_of_3",
+      "required": true,
+      "placeholder": "Enter name (daughter of)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_5",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_6",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_7",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_8",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Occupation",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter occupation"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_9",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "Enter wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name_2",
+      "required": true,
+      "placeholder": "Enter wife's name"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name_3",
+      "required": true,
+      "placeholder": "Enter wife's name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_10",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "age",
+    "age_2",
+    "age_3",
+    "age_4",
+    "amount",
+    "name_daughter_of",
+    "name_daughter_of_2",
+    "name_daughter_of_3",
+    "age_5",
+    "age_6",
+    "age_7",
+    "age_8",
+    "occupation",
+    "age_9",
+    "wife_name",
+    "wife_name_2",
+    "wife_name_3",
+    "age_10",
+    "place",
+    "field_value",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name"
+  ]
+}

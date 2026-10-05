@@ -1,0 +1,120 @@
+{
+  "title": "Gift Gift Of Land For Building A Temple",
+  "filename": "Gift-Gift-Of-Land-For-Building-A-Temple.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "A gift gift of land for building a temple used for testamentary documents (wills) or gift deeds for transfer of property. Suitable for testators making wills, donors gifting property, or their legal advisors. Key details required: Date, Name (Son of) (First Party), Name (Son of) (Second Party), Name (Son of) (Third Party), Name (Son of) (Fourth Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Third Party)",
+      "key": "name_son_of_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fourth Party)",
+      "key": "name_son_of_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Fifth)",
+      "key": "name_son_of_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Sixth)",
+      "key": "name_son_of_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "fathers_name",
+      "type": "text",
+      "label": "Father's Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_2",
+      "type": "text",
+      "label": "Father's Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_3",
+      "type": "text",
+      "label": "Father's Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    },
+    {
+      "key": "fathers_name_4",
+      "type": "text",
+      "label": "Father's Name (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party Rajesh Kumar",
+      "description": "पिता का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "name_son_of",
+    "name_son_of_2",
+    "name_son_of_3",
+    "name_son_of_4",
+    "name_son_of_5",
+    "name_son_of_6",
+    "witness_name",
+    "signatory_name",
+    "fathers_name",
+    "fathers_name_2",
+    "fathers_name_3",
+    "fathers_name_4"
+  ],
+  "description_hi": "Gift Gift Of Land For Building A Temple — वसीयतनामा (वसीयत) या संपत्ति हस्तांतरण के लिए उपहार विलेख के लिए उपयोग किया जाने वाला कानूनी प्रारूप। वसीयत बनाने वाले वसीयतकर्ता, संपत्ति उपहार देने वाले दाता, या उनके कानूनी सलाहकार के लिए उपयुक्त। 13 आवश्यक विवरण भरने होंगे।"
+}

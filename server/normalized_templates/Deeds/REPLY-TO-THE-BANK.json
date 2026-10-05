@@ -1,0 +1,53 @@
+{
+  "title": "Reply To The Bank",
+  "filename": "REPLY-TO-THE-BANK.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A reply to the bank used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Name (First Party), Name (Second Party), Date (First Party), Date (Second Party), Shri.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "key": "shri",
+      "type": "text",
+      "label": "Shri",
+      "required": true,
+      "placeholder": "Enter shri here",
+      "description": "Enter shri"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "date",
+    "date_2",
+    "shri"
+  ],
+  "description_hi": "Reply To The Bank — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

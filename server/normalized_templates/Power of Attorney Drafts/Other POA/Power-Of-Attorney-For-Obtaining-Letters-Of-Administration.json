@@ -1,0 +1,28 @@
+{
+  "title": "Power Of Attorney For Obtaining Letters Of Administration",
+  "filename": "Power-Of-Attorney-For-Obtaining-Letters-Of-Administration.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Other POA",
+  "description": "A power of attorney for obtaining letters of administration used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Witness Name, Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "signatory_name"
+  ],
+  "description_hi": "Power Of Attorney For Obtaining Letters Of Administration — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 2 आवश्यक विवरण भरने होंगे।"
+}

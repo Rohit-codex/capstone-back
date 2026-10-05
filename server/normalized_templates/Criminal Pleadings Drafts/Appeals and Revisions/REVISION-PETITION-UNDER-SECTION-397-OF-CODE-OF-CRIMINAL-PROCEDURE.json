@@ -1,0 +1,596 @@
+{
+  "title": "Revision Petition Under Section 397 Of Code Of Criminal Procedure",
+  "filename": "REVISION-PETITION-UNDER-SECTION-397-OF-CODE-OF-CRIMINAL-PROCEDURE.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Appeals and Revisions",
+  "description": "A revision petition under section 397 of code of criminal procedure used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Police Station (First Party), Police Station (Second Party), Date (First Party), Date (Second Party), Name (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Police Station (First Party)",
+      "key": "police_station",
+      "required": true,
+      "placeholder": "Enter First Party  police station"
+    },
+    {
+      "type": "text",
+      "label": "Police Station (Second Party)",
+      "key": "police_station_2",
+      "required": true,
+      "placeholder": "Enter Second Party  police station"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fifth)",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter Fifth  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (First Party)",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "Enter First Party  property address"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Second Party)",
+      "key": "property_address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (Sixth)",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter Sixth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Seventh)",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter Seventh  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Eighth)",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter Eighth  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (9)",
+      "key": "party_name_9",
+      "required": true,
+      "placeholder": "Enter 9  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (10)",
+      "key": "party_name_10",
+      "required": true,
+      "placeholder": "Enter 10  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (11)",
+      "key": "party_name_11",
+      "required": true,
+      "placeholder": "Enter 11  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (12)",
+      "key": "party_name_12",
+      "required": true,
+      "placeholder": "Enter 12  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (13)",
+      "key": "party_name_13",
+      "required": true,
+      "placeholder": "Enter 13  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Third Party)",
+      "key": "property_address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (14)",
+      "key": "party_name_14",
+      "required": true,
+      "placeholder": "Enter 14  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (15)",
+      "key": "party_name_15",
+      "required": true,
+      "placeholder": "Enter 15  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (16)",
+      "key": "party_name_16",
+      "required": true,
+      "placeholder": "Enter 16  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fourth Party)",
+      "key": "property_address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  property address"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fifth)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter Fifth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Sixth)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter Sixth  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Name (17)",
+      "key": "party_name_17",
+      "required": true,
+      "placeholder": "Enter 17  name"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Seventh)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter Seventh  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (18)",
+      "key": "party_name_18",
+      "required": true,
+      "placeholder": "Enter 18  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (19)",
+      "key": "party_name_19",
+      "required": true,
+      "placeholder": "Enter 19  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Fifth)",
+      "key": "property_address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (20)",
+      "key": "party_name_20",
+      "required": true,
+      "placeholder": "Enter 20  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (21)",
+      "key": "party_name_21",
+      "required": true,
+      "placeholder": "Enter 21  name"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address (Sixth)",
+      "key": "property_address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  property address"
+    },
+    {
+      "type": "text",
+      "label": "Name (22)",
+      "key": "party_name_22",
+      "required": true,
+      "placeholder": "Enter 22  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (15)",
+      "key": "date_15",
+      "required": true,
+      "placeholder": "Enter 15  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (16)",
+      "key": "date_16",
+      "required": true,
+      "placeholder": "Enter 16  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (23)",
+      "key": "party_name_23",
+      "required": true,
+      "placeholder": "Enter 23  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (17)",
+      "key": "date_17",
+      "required": true,
+      "placeholder": "Enter 17  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (18)",
+      "key": "date_18",
+      "required": true,
+      "placeholder": "Enter 18  date"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (19)",
+      "key": "date_19",
+      "required": true,
+      "placeholder": "Enter 19  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "police_station",
+    "police_station_2",
+    "date",
+    "date_2",
+    "party_name",
+    "party_name_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "field_value",
+    "party_name_3",
+    "party_name_4",
+    "party_name_5",
+    "property_address",
+    "property_address_2",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "party_name_9",
+    "party_name_10",
+    "party_name_11",
+    "party_name_12",
+    "party_name_13",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "property_address_3",
+    "party_name_14",
+    "party_name_15",
+    "party_name_16",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "amount_4",
+    "date_10",
+    "date_11",
+    "date_12",
+    "property_address_4",
+    "field_value_2",
+    "amount_5",
+    "amount_6",
+    "party_name_17",
+    "amount_7",
+    "date_13",
+    "date_14",
+    "party_name_18",
+    "party_name_19",
+    "property_address_5",
+    "party_name_20",
+    "party_name_21",
+    "field_value_3",
+    "field_value_4",
+    "property_address_6",
+    "party_name_22",
+    "date_15",
+    "date_16",
+    "party_name_23",
+    "address",
+    "address_2",
+    "address_3",
+    "place",
+    "address_4",
+    "date_17",
+    "place_2",
+    "place_3",
+    "field_value_5",
+    "field_value_6",
+    "place_4",
+    "date_18",
+    "court_place",
+    "date_19",
+    "signatory_name"
+  ],
+  "description_hi": "Revision Petition Under Section 397 Of Code Of Criminal Procedure — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 73 आवश्यक विवरण भरने होंगे।"
+}

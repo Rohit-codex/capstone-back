@@ -1,0 +1,227 @@
+{
+  "title": "Petition Under Section 9 Of Hindu Marriage Act 1955 For Restitution Of Conjugal Rights",
+  "filename": "PETITION-UNDER-SECTION-9-OF-HINDU-MARRIAGE-ACT-1955-FOR-RESTITUTION-OF-CONJUGAL-RIGHTS.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Restitution of Conjugal Rights",
+  "description": "Legal template for petition under section 9 of hindu marriage act 1955 for restitution of conjugal rights",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place_2",
+      "required": true,
+      "placeholder": "Enter court name/place"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_2",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_3",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_4",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_5",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age_2",
+      "required": true,
+      "placeholder": "Enter age (in years)"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_6",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Father's Name",
+      "key": "father_name_7",
+      "required": true,
+      "placeholder": "Enter father's name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_5",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_6",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_7",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name_8",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "court_place",
+    "court_place_2",
+    "place",
+    "field_value",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "age",
+    "father_name",
+    "father_name_2",
+    "father_name_3",
+    "father_name_4",
+    "father_name_5",
+    "age_2",
+    "party_name_4",
+    "father_name_6",
+    "father_name_7",
+    "party_name_5",
+    "place_2",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "date",
+    "party_name_6",
+    "party_name_7",
+    "party_name_8",
+    "signatory_name"
+  ]
+}

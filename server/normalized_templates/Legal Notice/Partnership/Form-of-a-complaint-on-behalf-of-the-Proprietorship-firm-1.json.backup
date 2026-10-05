@@ -1,0 +1,35 @@
+{
+  "title": "Form Of A Complaint On Behalf Of The Proprietorship Firm 1",
+  "filename": "Form-of-a-complaint-on-behalf-of-the-Proprietorship-firm-1.docx",
+  "category": "Legal Notice",
+  "subcategory": "Partnership",
+  "description": "Legal template for form of a complaint on behalf of the proprietorship firm 1",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

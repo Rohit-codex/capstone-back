@@ -1,0 +1,308 @@
+{
+  "title": "Notice By Purchaser For Specific Performance Of An Agreement",
+  "filename": "Notice-By-Purchaser-For-Specific-Performance-Of-An-Agreement.docx",
+  "category": "Legal Notice",
+  "subcategory": "Miscellaneous",
+  "description": "A notice by purchaser for specific performance of an agreement used for formal legal notices demanding compliance, payment, or action. Suitable for individuals or entities sending or responding to legal demands. Key details required: Document Details (First Party), Date (First Party), Date (Second Party), Date (Third Party), Date (Fourth Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Document Details (First Party)",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter First Party  document details"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Third Party)",
+      "key": "address_3",
+      "required": true,
+      "placeholder": "Enter Third Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fourth Party)",
+      "key": "address_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Fifth)",
+      "key": "address_5",
+      "required": true,
+      "placeholder": "Enter Fifth  address"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Document Details (Second Party)",
+      "key": "document_details_2",
+      "required": true,
+      "placeholder": "Enter Second Party  document details"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "number",
+      "label": "Age (in years)",
+      "key": "age",
+      "required": true,
+      "placeholder": "e.g., 35"
+    },
+    {
+      "type": "textarea",
+      "label": "Property Address",
+      "key": "property_address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Sixth)",
+      "key": "address_6",
+      "required": true,
+      "placeholder": "Enter Sixth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Seventh)",
+      "key": "address_7",
+      "required": true,
+      "placeholder": "Enter Seventh  address"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Eighth)",
+      "key": "address_8",
+      "required": true,
+      "placeholder": "Enter Eighth  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (9)",
+      "key": "address_9",
+      "required": true,
+      "placeholder": "Enter 9  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (10)",
+      "key": "address_10",
+      "required": true,
+      "placeholder": "Enter 10  address"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "document_details",
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "field_value",
+    "address",
+    "address_2",
+    "address_3",
+    "address_4",
+    "address_5",
+    "date_5",
+    "document_details_2",
+    "date_6",
+    "place",
+    "date_7",
+    "age",
+    "property_address",
+    "date_8",
+    "date_9",
+    "date_10",
+    "date_11",
+    "field_value_2",
+    "address_6",
+    "address_7",
+    "party_name",
+    "party_name_2",
+    "address_8",
+    "address_9",
+    "address_10",
+    "amount",
+    "amount_2",
+    "date_12",
+    "date_13",
+    "date_14",
+    "field_value_3",
+    "signatory_name"
+  ],
+  "description_hi": "Notice By Purchaser For Specific Performance Of An Agreement — अनुपालन, भुगतान, या कार्रवाई की मांग करने वाली औपचारिक कानूनी नोटिस के लिए उपयोग किया जाने वाला कानूनी प्रारूप। कानूनी मांगों को भेजने या प्रतिक्रिया देने वाले व्यक्ति के लिए उपयुक्त। 37 आवश्यक विवरण भरने होंगे।"
+}

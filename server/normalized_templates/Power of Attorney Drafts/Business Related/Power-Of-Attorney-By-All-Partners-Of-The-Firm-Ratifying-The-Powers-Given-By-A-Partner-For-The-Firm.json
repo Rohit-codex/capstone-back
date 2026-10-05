@@ -1,0 +1,52 @@
+{
+  "title": "Power Of Attorney By All Partners Of The Firm Ratifying The Powers Given By A Partner For The Firm",
+  "filename": "Power-Of-Attorney-By-All-Partners-Of-The-Firm-Ratifying-The-Powers-Given-By-A-Partner-For-The-Firm.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Business Related",
+  "description": "A power of attorney by all partners of the firm ratifying the powers given by a partner for the firm used for authorization documents granting legal authority to act on behalf of another. Suitable for principals granting power, or attorneys receiving authority to act. Key details required: Details, Date, Witness Name (First Party), Witness Name (Second Party), Signatory Name.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "e.g., 12th February 2026"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "date",
+    "witness_name",
+    "witness_name_2",
+    "signatory_name"
+  ],
+  "description_hi": "Power Of Attorney By All Partners Of The Firm Ratifying The Powers Given By A Partner For The Firm — दूसरे की ओर से कार्य करने का कानूनी अधिकार देने वाले प्राधिकरण दस्तावेज के लिए उपयोग किया जाने वाला कानूनी प्रारूप। शक्ति प्रदान करने वाले प्रधान, या कार्य करने का अधिकार प्राप्त करने वाले अधिवक्ता के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

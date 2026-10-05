@@ -1,0 +1,53 @@
+{
+  "title": "Joint Promissory Note",
+  "filename": "JOINT-PROMISSORY-NOTE.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A joint promissory note used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Date (First Party), Date (Second Party), Name, Signatory Name, Field 1 of 2.",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_2",
+      "type": "text",
+      "label": "Field 1 of 2",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 2"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "party_name",
+    "signatory_name",
+    "field_1_of_2"
+  ],
+  "description_hi": "Joint Promissory Note — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 5 आवश्यक विवरण भरने होंगे।"
+}

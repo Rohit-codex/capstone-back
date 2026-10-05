@@ -1,0 +1,35 @@
+{
+  "title": "Gift Memorandum Of A Completed Gift Made By A Mohammedan To His Son",
+  "filename": "Gift-Memorandum-Of-A-Completed-Gift-Made-By-A-Mohammedan-To-His-Son.docx",
+  "category": "Will & Gift Deed",
+  "subcategory": "Gift Deeds",
+  "description": "Legal template for gift memorandum of a completed gift made by a mohammedan to his son",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter witness name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "witness_name",
+    "field_value"
+  ]
+}

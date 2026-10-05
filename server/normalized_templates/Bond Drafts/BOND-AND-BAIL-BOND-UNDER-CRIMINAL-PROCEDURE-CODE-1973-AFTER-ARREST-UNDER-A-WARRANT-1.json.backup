@@ -1,0 +1,67 @@
+{
+  "title": "Bond And Bail Bond Under Criminal Procedure Code 1973 After Arrest Under A Warrant 1",
+  "filename": "BOND-AND-BAIL-BOND-UNDER-CRIMINAL-PROCEDURE-CODE-1973-AFTER-ARREST-UNDER-A-WARRANT-1.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for bond and bail bond under criminal procedure code 1973 after arrest under a warrant 1",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "field_value",
+    "party_name",
+    "date_3",
+    "field_value_2",
+    "signatory_name"
+  ]
+}

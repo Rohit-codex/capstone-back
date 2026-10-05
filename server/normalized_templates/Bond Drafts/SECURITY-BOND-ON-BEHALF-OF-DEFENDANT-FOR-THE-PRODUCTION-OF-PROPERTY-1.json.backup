@@ -1,0 +1,27 @@
+{
+  "title": "Security Bond On Behalf Of Defendant For The Production Of Property 1",
+  "filename": "SECURITY-BOND-ON-BEHALF-OF-DEFENDANT-FOR-THE-PRODUCTION-OF-PROPERTY-1.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security bond on behalf of defendant for the production of property 1",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

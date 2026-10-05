@@ -1,0 +1,35 @@
+{
+  "title": "Security Bond To Be Given During The Pendency Of Appeal Wherin Property Is Mortgated",
+  "filename": "SECURITY-BOND-TO-BE-GIVEN-DURING-THE-PENDENCY-OF-APPEAL-WHERIN-PROPERTY-IS-MORTGATED.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security bond to be given during the pendency of appeal wherin property is mortgated",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Consent By Wife To Adopt A Son",
+  "filename": "Consent-By-Wife-To-Adopt-A-Son.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A consent by wife to adopt a son used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Name (Wife of) (First Party), Name (Wife of) (Second Party), Name (Wife of) (Third Party), Name (Son of) (First Party), Name (Son of) (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name Of Wife ",
+      "key": "name_of_wife",
+      "required": true,
+      "placeholder": " Name Of wife"
+    },
+  {
+      "type": "text",
+      "label": "Husband's Name",
+      "key": "husband_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+  {
+      "type": "number",
+      "label": "Age Of Wife",
+      "key": "age_of_wife",
+      "required": true,
+      "placeholder": "e.g., 30"
+    },
+    {
+      "type": "textarea",
+      "label": "Residence Of Wife",
+      "key": "residence_of_wife",
+      "required": true,
+      "placeholder": "Enter residence of wife"
+    },
+    {
+      "type": "text",
+      "label": "Name Of Adopted Son",
+      "key": "name_of_adopted_son",
+      "required": true,
+      "placeholder": "Enter name of adopted son"
+    },
+    {
+      "type": "text",
+      "label": "Name Of Natural Father",
+      "key": "name_of_natural_father",
+      "required": true,
+      "placeholder": "Enter name of natural father"
+    },
+    {
+      "type": "number",
+      "label": "Age Of Adopted Son",
+      "key": "age_of_adopted_son",
+      "required": true,
+      "placeholder": "Enter age of adopted son"
+    },
+    {
+      "type": "date",
+      "label": "Date Of Consent",
+      "key": "date_of_consent",
+      "required": true,
+      "placeholder": "Enter date of consent"
+    },
+    {
+      "type": "text",
+      "label": "Place Of Consent",
+      "key": "place_of_consent",
+      "required": true,
+      "placeholder": "Enter place of consent"
+    },
+    {
+      "type": "text",
+      "label": "Witness 1 Name ",
+      "key": "witness 1",
+      "required": false,
+      "placeholder": "Enter first witness name and signature"
+    },
+    {
+      "type": "text",
+      "label": "Witness 2 Name",
+      "key": "witness 2",
+      "required": false,
+      "placeholder": "Enter second witness name and signature"
+    },
+    {
+      "type": "text",
+      "label": "Signature of Wife ",
+      "key": "signature_of_wife",
+      "required": false,
+      "placeholder": "e.g., sita devi"
+    }
+  ],
+  "placeholder_order": [
+"name_of_wife",
+"husband_name",
+"age_of_wife",
+"residence_of_wife",
+
+
+"name_of_adopted_son",
+"name_of_natural_father",
+"age_of_adopted_son",
+"husband_name",
+
+"date_of_consent",
+"place_of_consent",
+
+
+"witness 1",
+"witness 2",
+
+
+"signature_of_wife"
+  
+  ]
+}

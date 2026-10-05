@@ -1,0 +1,148 @@
+{
+  "title": "Adoption By A Hindu Without His Wife's Consent",
+  "filename": "Adoption-by-a-hindu-without-his-wife_s-consent.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "Legal deed for adoption by a Hindu male whose wife has renounced the world",
+  "description_hi": "एक हिंदू पुरुष द्वारा गोद लेने की विलेख जिसकी पत्नी ने संसार त्याग दिया है",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Adoptive Father's Name",
+      "key": "adoptive_father_name",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Adoptive Father's Father Name (S/o)",
+      "key": "adoptive_father_father_name",
+      "required": true,
+      "placeholder": "e.g., Late Shri Mohan Lal"
+    },
+    {
+      "type": "textarea",
+      "label": "Adoptive Father's Address",
+      "key": "adoptive_father_address",
+      "required": true,
+      "placeholder": "e.g., 456, Park Street, Mumbai"
+    },
+    {
+      "type": "text",
+      "label": "Natural Father's Name (Giving Child)",
+      "key": "natural_father_name",
+      "required": true,
+      "placeholder": "e.g., Suresh Sharma"
+    },
+    {
+      "type": "text",
+      "label": "Natural Father's Father Name (S/o)",
+      "key": "natural_father_father_name",
+      "required": true,
+      "placeholder": "e.g., Shri Gopal Sharma"
+    },
+    {
+      "type": "textarea",
+      "label": "Natural Father's Address",
+      "key": "natural_father_address",
+      "required": true,
+      "placeholder": "e.g., 456, Park Street, Mumbai"
+    },
+    {
+      "type": "text",
+      "label": "Child's Name (Being Adopted)",
+      "key": "child_name",
+      "required": true,
+      "placeholder": "e.g., Rahul"
+    },
+    {
+      "type": "number",
+      "label": "Child's Age (Being Adopted)",
+      "key": "child_age",
+      "required": true,
+      "placeholder": "e.g., 2"
+    },
+    {
+      "type": "date",
+      "label": "Date of Adoption",
+      "key": "adoption_date",
+      "required": true,
+      "placeholder": "Select date"
+    },
+{
+      "type": "textarea",
+      "label": "Place of Adoption",
+      "key": "adoption_place",
+      "required": true,
+      "placeholder": "e.g., Delhi"
+    },
+
+
+	{
+      "type": "text",
+      "label": "Name of Witnesses 1",
+      "key": "witnesses_1",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar, Suresh Sharma"
+    },
+    {
+      "type": "signature",
+      "label": "Witness Signature 1",
+      "key": "witness_signature_1",
+      "required": false,
+      "placeholder": "Signature of Witness"
+    },
+    {
+      "type": "text",
+      "label": "Name of Witnesses 2",
+      "key": "witnesses_2",
+      "required": true,
+      "placeholder": "e.g., Ramesh Kumar, Suresh Sharma"
+    },
+    {
+      "type": "signature",
+      "label": "Witness Signature 2",
+      "key": "witness_signature_2",
+      "required": false,
+      "placeholder": "Signature of Witness"
+    },
+    {
+      "type": "signature",
+      "label": "Adoptive father Signature",
+      "key": "adoptive_father_signature",
+      "required": false,
+      "placeholder": "Signature of Adoptive Father"
+    }
+  ],
+  "placeholder_order": [
+"adoptive_father_name",
+"adoptive_father_father_name",
+"adoptive_father_address",
+
+
+"natural_father_name",
+"natural_father_father_name",
+"natural_father_address",
+"child_name",
+"child_age",
+"child_name",
+
+"natural_father_name",
+"child_name",
+
+"natural_father_name",
+"child_name",
+"adoption_date",
+"adoption_place",
+
+"child_name",
+
+
+"witnesses_1",
+"witness_signature_1",
+"witnesses_2",
+"witness_signature_2",
+
+"adoptive_father_signature"
+  ]
+}

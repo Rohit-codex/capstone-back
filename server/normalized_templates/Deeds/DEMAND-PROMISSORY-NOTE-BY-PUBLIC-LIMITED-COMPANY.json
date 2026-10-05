@@ -1,0 +1,44 @@
+{
+  "title": "Demand Promissory Note By Public Limited Company",
+  "filename": "DEMAND-PROMISSORY-NOTE-BY-PUBLIC-LIMITED-COMPANY.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A demand promissory note by public limited company used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Details (First Party), Amount (Rs.), Details (Second Party), Details (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "amount",
+    "field_value_2",
+    "field_value_3"
+  ],
+  "description_hi": "Demand Promissory Note By Public Limited Company — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 4 आवश्यक विवरण भरने होंगे।"
+}

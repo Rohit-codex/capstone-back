@@ -1,0 +1,27 @@
+{
+  "title": "Security Bond In Injunction Suit Requiring Defendant Not To Do Or Repeat The Wrongful Act Complained Of",
+  "filename": "SECURITY-BOND-IN-INJUNCTION-SUIT-REQUIRING-DEFENDANT-NOT-TO-DO-OR-REPEAT-THE-WRONGFUL-ACT-COMPLAINED-OF.docx",
+  "category": "Bond Drafts",
+  "subcategory": null,
+  "description": "Legal template for security bond in injunction suit requiring defendant not to do or repeat the wrongful act complained of",
+  "fields": [
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

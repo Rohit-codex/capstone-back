@@ -1,0 +1,68 @@
+{
+  "title": "Draft Of Charge Sheet",
+  "filename": "Draft-of-charge-sheet.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A draft of charge sheet used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name, Name (Son of) (First Party), Name (Son of) (Second Party), Occupation (First Party), Occupation (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (First Party)",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter First Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (Second Party)",
+      "key": "occupation_2",
+      "required": true,
+      "placeholder": "Enter Second Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (Third Party)",
+      "key": "occupation_3",
+      "required": true,
+      "placeholder": "Enter Third Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "name_son_of",
+    "name_son_of_2",
+    "occupation",
+    "occupation_2",
+    "occupation_3",
+    "field_value"
+  ],
+  "description_hi": "Draft Of Charge Sheet — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,289 @@
+{
+  "title": "Bond And Bail Bond After Arrest Under A Warrant",
+  "filename": "BOND-AND-BAIL-BOND-AFTER-ARREST-UNDER-A-WARRANT.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bail Applications",
+  "description": "A bond and bail bond after arrest under a warrant used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Name (First Party), Place, Court Name/Place, Date (First Party), Date (Second Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place here"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "district",
+      "type": "text",
+      "label": "District (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party South Delhi",
+      "description": "जिला"
+    },
+    {
+      "key": "district_2",
+      "type": "text",
+      "label": "District (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party South Delhi",
+      "description": "जिला"
+    },
+    {
+      "key": "court_name",
+      "type": "text",
+      "label": "Court Name (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_2",
+      "type": "text",
+      "label": "Court Name (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_3",
+      "type": "text",
+      "label": "Court Name (Third Party)",
+      "required": true,
+      "placeholder": "Enter Third Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_4",
+      "type": "text",
+      "label": "Court Name (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City (First Party)",
+      "required": true,
+      "placeholder": "Enter First Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "placecity_2",
+      "type": "text",
+      "label": "Place/City (Second Party)",
+      "required": true,
+      "placeholder": "Enter Second Party New Delhi",
+      "description": "स्थान/शहर"
+    },
+    {
+      "key": "court_name_5",
+      "type": "text",
+      "label": "Court Name (Fifth)",
+      "required": true,
+      "placeholder": "Enter Fifth District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_6",
+      "type": "text",
+      "label": "Court Name (Sixth)",
+      "required": true,
+      "placeholder": "Enter Sixth District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_7",
+      "type": "text",
+      "label": "Court Name (Seventh)",
+      "required": true,
+      "placeholder": "Enter Seventh District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_8",
+      "type": "text",
+      "label": "Court Name (Eighth)",
+      "required": true,
+      "placeholder": "Enter Eighth District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    },
+    {
+      "key": "court_name_9",
+      "type": "text",
+      "label": "Court Name (9)",
+      "required": true,
+      "placeholder": "Enter 9 District Court, Delhi",
+      "description": "न्यायालय का नाम"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "place",
+    "court_place",
+    "date",
+    "date_2",
+    "date_3",
+    "date_4",
+    "date_5",
+    "date_6",
+    "party_name_2",
+    "party_name_3",
+    "date_7",
+    "date_8",
+    "date_9",
+    "date_10",
+    "date_11",
+    "date_12",
+    "date_13",
+    "date_14",
+    "signatory_name",
+    "district",
+    "district_2",
+    "court_name",
+    "court_name_2",
+    "court_name_3",
+    "court_name_4",
+    "placecity",
+    "placecity_2",
+    "court_name_5",
+    "court_name_6",
+    "court_name_7",
+    "court_name_8",
+    "court_name_9"
+  ],
+  "description_hi": "Bond And Bail Bond After Arrest Under A Warrant — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 33 आवश्यक विवरण भरने होंगे।"
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Notice To Surety On Breach Of A Bond",
+  "filename": "NOTICE-TO-SURETY-ON-BREACH-OF-A-BOND.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Bonds",
+  "description": "A notice to surety on breach of a bond used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Name (First Party), Name (Second Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "field_1_of_9",
+      "type": "text",
+      "label": "Field 1 of 9",
+      "required": true,
+      "placeholder": "Fill in field 1",
+      "description": "फील्ड 1 / 9"
+    },
+    {
+      "key": "field_2_of_9",
+      "type": "text",
+      "label": "Field 2 of 9",
+      "required": true,
+      "placeholder": "Fill in field 2",
+      "description": "फील्ड 2 / 9"
+    },
+    {
+      "key": "date_8",
+      "type": "text",
+      "label": "Date (Eighth)",
+      "required": true,
+      "placeholder": "Enter Eighth 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "party_name",
+    "party_name_2",
+    "party_name_3",
+    "date_4",
+    "date_5",
+    "date_6",
+    "date_7",
+    "signatory_name",
+    "field_1_of_9",
+    "field_2_of_9",
+    "date_8",
+    "placecity"
+  ],
+  "description_hi": "Notice To Surety On Breach Of A Bond — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 15 आवश्यक विवरण भरने होंगे।"
+}

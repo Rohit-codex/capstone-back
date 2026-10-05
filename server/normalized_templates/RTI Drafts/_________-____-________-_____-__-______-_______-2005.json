@@ -1,0 +1,308 @@
+{
+  "title": "                                                2005",
+  "filename": "_________-____-________-_____-__-______-_______-2005.docx",
+  "category": "RTI Drafts",
+  "subcategory": null,
+  "description": "A                                                 2005 used for applications under the Right to Information Act to obtain government information. Suitable for citizens seeking government information or transparency. Key details required: Details (First Party), Details (Second Party), Details (Third Party), Details (Fourth Party), Details (Fifth).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (11)",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter 11  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (12)",
+      "key": "field_value_12",
+      "required": true,
+      "placeholder": "Enter 12  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (13)",
+      "key": "field_value_13",
+      "required": true,
+      "placeholder": "Enter 13  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (14)",
+      "key": "field_value_14",
+      "required": true,
+      "placeholder": "Enter 14  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (15)",
+      "key": "field_value_15",
+      "required": true,
+      "placeholder": "Enter 15  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (16)",
+      "key": "field_value_16",
+      "required": true,
+      "placeholder": "Enter 16  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (17)",
+      "key": "field_value_17",
+      "required": true,
+      "placeholder": "Enter 17  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (18)",
+      "key": "field_value_18",
+      "required": true,
+      "placeholder": "Enter 18  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (19)",
+      "key": "field_value_19",
+      "required": true,
+      "placeholder": "Enter 19  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (20)",
+      "key": "field_value_20",
+      "required": true,
+      "placeholder": "Enter 20  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (21)",
+      "key": "field_value_21",
+      "required": true,
+      "placeholder": "Enter 21  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (22)",
+      "key": "field_value_22",
+      "required": true,
+      "placeholder": "Enter 22  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (23)",
+      "key": "field_value_23",
+      "required": true,
+      "placeholder": "Enter 23  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (24)",
+      "key": "field_value_24",
+      "required": true,
+      "placeholder": "Enter 24  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (25)",
+      "key": "field_value_25",
+      "required": true,
+      "placeholder": "Enter 25  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (26)",
+      "key": "field_value_26",
+      "required": true,
+      "placeholder": "Enter 26  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (27)",
+      "key": "field_value_27",
+      "required": true,
+      "placeholder": "Enter 27  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (28)",
+      "key": "field_value_28",
+      "required": true,
+      "placeholder": "Enter 28  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (29)",
+      "key": "field_value_29",
+      "required": true,
+      "placeholder": "Enter 29  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (30)",
+      "key": "field_value_30",
+      "required": true,
+      "placeholder": "Enter 30  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (31)",
+      "key": "field_value_31",
+      "required": true,
+      "placeholder": "Enter 31  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (32)",
+      "key": "field_value_32",
+      "required": true,
+      "placeholder": "Enter 32  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (33)",
+      "key": "field_value_33",
+      "required": true,
+      "placeholder": "Enter 33  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (34)",
+      "key": "field_value_34",
+      "required": true,
+      "placeholder": "Enter 34  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (35)",
+      "key": "field_value_35",
+      "required": true,
+      "placeholder": "Enter 35  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (36)",
+      "key": "field_value_36",
+      "required": true,
+      "placeholder": "Enter 36  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (37)",
+      "key": "field_value_37",
+      "required": true,
+      "placeholder": "Enter 37  details"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "field_value_8",
+    "field_value_9",
+    "field_value_10",
+    "field_value_11",
+    "field_value_12",
+    "field_value_13",
+    "field_value_14",
+    "field_value_15",
+    "field_value_16",
+    "field_value_17",
+    "field_value_18",
+    "field_value_19",
+    "field_value_20",
+    "field_value_21",
+    "field_value_22",
+    "field_value_23",
+    "field_value_24",
+    "field_value_25",
+    "field_value_26",
+    "field_value_27",
+    "field_value_28",
+    "field_value_29",
+    "field_value_30",
+    "field_value_31",
+    "field_value_32",
+    "field_value_33",
+    "field_value_34",
+    "field_value_35",
+    "field_value_36",
+    "field_value_37"
+  ],
+  "description_hi": "                                                2005 — सरकारी जानकारी प्राप्त करने के लिए सूचना का अधिकार अधिनियम के तहत आवेदन के लिए उपयोग किया जाने वाला कानूनी प्रारूप। सरकारी जानकारी या पारदर्शिता चाहने वाले नागरिक के लिए उपयुक्त। 37 आवश्यक विवरण भरने होंगे।"
+}

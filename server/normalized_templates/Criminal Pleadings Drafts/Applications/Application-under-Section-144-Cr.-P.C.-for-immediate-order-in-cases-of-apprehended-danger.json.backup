@@ -1,0 +1,43 @@
+{
+  "title": "Application Under Section 144 Cr. P.C. For Immediate Order In Cases Of Apprehended Danger",
+  "filename": "Application-under-Section-144-Cr.-P.C.-for-immediate-order-in-cases-of-apprehended-danger.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Applications",
+  "description": "Legal template for application under section 144 cr. p.c. for immediate order in cases of apprehended danger",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Place",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter place"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "place",
+    "witness_1_name",
+    "witness_2_name"
+  ]
+}

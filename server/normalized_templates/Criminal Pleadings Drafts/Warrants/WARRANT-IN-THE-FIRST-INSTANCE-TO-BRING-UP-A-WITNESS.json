@@ -1,0 +1,87 @@
+{
+  "title": "Warrant In The First Instance To Bring Up A Witness",
+  "filename": "WARRANT-IN-THE-FIRST-INSTANCE-TO-BRING-UP-A-WITNESS.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Warrants",
+  "description": "A warrant in the first instance to bring up a witness used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Witness Name (First Party), Witness Name (Second Party), Date (First Party), Date (Second Party), Date (Third Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Witness Name (First Party)",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "Enter First Party  witness name"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name (Second Party)",
+      "key": "witness_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  witness name"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "date_4",
+      "type": "text",
+      "label": "Date (Fourth Party)",
+      "required": true,
+      "placeholder": "Enter Fourth Party 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "date_5",
+      "type": "text",
+      "label": "Date (Fifth)",
+      "required": true,
+      "placeholder": "Enter Fifth 12th February 2026",
+      "description": "तारीख"
+    },
+    {
+      "key": "placecity",
+      "type": "text",
+      "label": "Place/City",
+      "required": true,
+      "placeholder": "e.g., New Delhi",
+      "description": "स्थान/शहर"
+    }
+  ],
+  "placeholder_order": [
+    "witness_name",
+    "witness_name_2",
+    "date",
+    "date_2",
+    "date_3",
+    "signatory_name",
+    "date_4",
+    "date_5",
+    "placecity"
+  ],
+  "description_hi": "Warrant In The First Instance To Bring Up A Witness — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 9 आवश्यक विवरण भरने होंगे।"
+}

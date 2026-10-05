@@ -1,0 +1,68 @@
+{
+  "title": "Consent Of Natural Father To Give His Son In Adoption",
+  "filename": "Consent-Of-Natural-Father-To-Give-His-Son-In-Adoption.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A consent of natural father to give his son in adoption used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Name (Son of) (First Party), Name (Son of) (Second Party), Address (First Party), Address (Second Party), Details.",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (Son of) (First Party)",
+      "key": "name_son_of",
+      "required": true,
+      "placeholder": "Enter First Party  name (son of)"
+    },
+    {
+      "type": "text",
+      "label": "Name (Son of) (Second Party)",
+      "key": "name_son_of_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name (son of)"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (First Party)",
+      "key": "address",
+      "required": true,
+      "placeholder": "Enter First Party  address"
+    },
+    {
+      "type": "textarea",
+      "label": "Address (Second Party)",
+      "key": "address_2",
+      "required": true,
+      "placeholder": "Enter Second Party  address"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Wife's Name",
+      "key": "wife_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "type": "text",
+      "label": "Witness Name",
+      "key": "witness_name",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "name_son_of",
+    "name_son_of_2",
+    "address",
+    "address_2",
+    "field_value",
+    "wife_name",
+    "witness_name"
+  ],
+  "description_hi": "Consent Of Natural Father To Give His Son In Adoption — बच्चे को गोद लेने, गोद लेने की सहमति या संबंधित पारिवारिक कार्यवाही के लिए उपयोग किया जाने वाला कानूनी प्रारूप। संभावित दत्तक माता-पिता, जैविक माता-पिता, या अभिभावकों के लिए उपयुक्त। 7 आवश्यक विवरण भरने होंगे।"
+}

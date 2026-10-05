@@ -1,0 +1,204 @@
+{
+  "title": "Application Form For Licence By A Co Operative Society To Commence Banking Business As A State Co Operative Bank",
+  "filename": "APPLICATION-FORM-FOR-LICENCE-BY-A-CO-OPERATIVE-SOCIETY-TO-COMMENCE-BANKING-BUSINESS-AS-A-STATE-CO-OPERATIVE-BANK.docx",
+  "category": "Deeds",
+  "subcategory": null,
+  "description": "A application form for licence by a co operative society to commence banking business as a state co operative bank used for conveyance, transfer, or agreements related to property and assets. Suitable for buyers, sellers, donors, donees, or parties to property transactions. Key details required: Details (First Party), Occupation (First Party), Occupation (Second Party), Occupation (Third Party), Amount (Rs.) (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details (First Party)",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter First Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (First Party)",
+      "key": "occupation",
+      "required": true,
+      "placeholder": "Enter First Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (Second Party)",
+      "key": "occupation_2",
+      "required": true,
+      "placeholder": "Enter Second Party  occupation"
+    },
+    {
+      "type": "text",
+      "label": "Occupation (Third Party)",
+      "key": "occupation_3",
+      "required": true,
+      "placeholder": "Enter Third Party  occupation"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (First Party)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "Enter First Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Second Party)",
+      "key": "amount_2",
+      "required": true,
+      "placeholder": "Enter Second Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Third Party)",
+      "key": "amount_3",
+      "required": true,
+      "placeholder": "Enter Third Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fourth Party)",
+      "key": "amount_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Fifth)",
+      "key": "amount_5",
+      "required": true,
+      "placeholder": "Enter Fifth  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Second Party)",
+      "key": "field_value_2",
+      "required": true,
+      "placeholder": "Enter Second Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Third Party)",
+      "key": "field_value_3",
+      "required": true,
+      "placeholder": "Enter Third Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fourth Party)",
+      "key": "field_value_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Fifth)",
+      "key": "field_value_5",
+      "required": true,
+      "placeholder": "Enter Fifth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Sixth)",
+      "key": "field_value_6",
+      "required": true,
+      "placeholder": "Enter Sixth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (Seventh)",
+      "key": "field_value_7",
+      "required": true,
+      "placeholder": "Enter Seventh  details"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Sixth)",
+      "key": "amount_6",
+      "required": true,
+      "placeholder": "Enter Sixth  amount (rs.)"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.) (Seventh)",
+      "key": "amount_7",
+      "required": true,
+      "placeholder": "Enter Seventh  amount (rs.)"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Details (Eighth)",
+      "key": "field_value_8",
+      "required": true,
+      "placeholder": "Enter Eighth  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (9)",
+      "key": "field_value_9",
+      "required": true,
+      "placeholder": "Enter 9  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (10)",
+      "key": "field_value_10",
+      "required": true,
+      "placeholder": "Enter 10  details"
+    },
+    {
+      "type": "text",
+      "label": "Details (11)",
+      "key": "field_value_11",
+      "required": true,
+      "placeholder": "Enter 11  details"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "occupation",
+    "occupation_2",
+    "occupation_3",
+    "amount",
+    "amount_2",
+    "amount_3",
+    "amount_4",
+    "amount_5",
+    "place",
+    "field_value_2",
+    "field_value_3",
+    "field_value_4",
+    "field_value_5",
+    "field_value_6",
+    "field_value_7",
+    "amount_6",
+    "amount_7",
+    "place_2",
+    "field_value_8",
+    "field_value_9",
+    "field_value_10",
+    "field_value_11",
+    "signatory_name"
+  ],
+  "description_hi": "Application Form For Licence By A Co Operative Society To Commence Banking Business As A State Co Operative Bank — संपत्ति और परिसंपत्तियों से संबंधित हस्तांतरण या समझौते के लिए उपयोग किया जाने वाला कानूनी प्रारूप। खरीदार, विक्रेता, दानकर्ता, प्रतिग्रहीता, या संपत्ति लेनदेन के पक्ष के लिए उपयुक्त। 24 आवश्यक विवरण भरने होंगे।"
+}

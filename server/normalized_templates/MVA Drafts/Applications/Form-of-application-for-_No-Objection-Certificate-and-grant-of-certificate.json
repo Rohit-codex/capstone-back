@@ -1,0 +1,148 @@
+{
+  "title": "Form Of Application For  No Objection Certificate And Grant Of Certificate",
+  "filename": "Form-of-application-for-_No-Objection-Certificate-and-grant-of-certificate.docx",
+  "category": "MVA Drafts",
+  "subcategory": "Applications",
+  "description": "A form of application for  no objection certificate and grant of certificate used for motor vehicle accident claims, compensation petitions, or insurance disputes. Suitable for accident victims, insurance companies, or motor accident claims tribunals. Key details required: Name (First Party), Name (Second Party), Place (First Party), Place (Second Party), Date (First Party).",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address",
+      "required": true,
+      "placeholder": "e.g., 45, MG Road, New Delhi - 110001"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "text",
+      "label": "Name (Third Party)",
+      "key": "party_name_3",
+      "required": true,
+      "placeholder": "Enter Third Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Fourth Party)",
+      "key": "party_name_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "text",
+      "label": "Document Details",
+      "key": "document_details",
+      "required": true,
+      "placeholder": "Enter document details here"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "party_name",
+    "party_name_2",
+    "place",
+    "place_2",
+    "date",
+    "date_2",
+    "address",
+    "date_3",
+    "date_4",
+    "date_5",
+    "party_name_3",
+    "party_name_4",
+    "field_value",
+    "date_6",
+    "date_7",
+    "document_details",
+    "signatory_name"
+  ],
+  "description_hi": "Form Of Application For  No Objection Certificate And Grant Of Certificate — मोटर वाहन दुर्घटना दावे, मुआवज़ा याचिकाएं, या बीमा विवाद के लिए उपयोग किया जाने वाला कानूनी प्रारूप। दुर्घटना पीड़ित, बीमा कंपनियां, या मोटर दुर्घटना दावा अधिकरण के लिए उपयुक्त। 17 आवश्यक विवरण भरने होंगे।"
+}

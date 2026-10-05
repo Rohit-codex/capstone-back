@@ -1,0 +1,189 @@
+{
+  "title": "Certificate By The Superintendent Of Orphanage",
+  "filename": "Certificate-By-The-Superintendent-Of-Orphanage.docx",
+  "category": "Adoption Drafts",
+  "subcategory": null,
+  "description": "A certificate by the superintendent of orphanage used for adoption of a child, consent for adoption, or related family proceedings. Suitable for prospective adoptive parents, biological parents, or guardians. Key details required: Name (Son of), Address, Age (in years), Details (First Party), Details (Second Party).",
+  "fields": [
+    {
+    "type": "text",
+    "label": "Adoptive Parent Name",
+    "key": "adoptive_parent_name",
+    "required": true,
+    "placeholder": "Enter Mr./Mrs. name"
+  },
+  {
+    "type": "text",
+    "label": "Adoptive Parent Father Name",
+    "key": "adoptive_parent_father_name",
+    "required": true,
+    "placeholder": "Enter father's name"
+  },
+  {
+    "type": "number",
+    "label": "Adoptive Parent Age",
+    "key": "adoptive_parent_age",
+    "required": true,
+    "placeholder": "Enter age in years"
+  },
+  {
+    "type": "textarea",
+    "label": "Adoptive Parent Address",
+    "key": "adoptive_parent_address",
+    "required": true,
+    "placeholder": "Enter full address"
+  },
+  {
+    "type": "text",
+    "label": "Orphanage Name",
+    "key": "orphanage_name",
+    "required": true,
+    "placeholder": "Enter orphanage name"
+  },
+  {
+    "type": "date",
+    "label": "Orphanage Visit Date",
+    "key": "visit_date",
+    "required": true,
+    "placeholder": "Select visit date"
+  },
+  {
+    "type": "text",
+    "label": "Selected Child Name",
+    "key": "selected_child_name",
+    "required": true,
+    "placeholder": "Enter child's name"
+  },
+  {
+    "type": "number",
+    "label": "Age of Selected Child",
+    "key": "selected_child_age",
+    "required": true,
+    "placeholder": "Enter child's age in years"
+  },
+  {
+    "type": "text",
+    "label": "Identification Mark 1",
+    "key": "id_mark_1",
+    "required": true,
+    "placeholder": "Enter identification mark"
+  },
+  {
+    "type": "text",
+    "label": "Identification Mark 2",
+    "key": "id_mark_2",
+    "required": false,
+    "placeholder": "Enter identification mark"
+  },
+  {
+    "type": "text",
+    "label": "Permission Court Name",
+    "key": "court_name",
+    "required": true,
+    "placeholder": "Enter court name"
+  },
+  {
+    "type": "date",
+    "label": "Court Order Date",
+    "key": "court_order_date",
+    "required": true,
+    "placeholder": "Select order date"
+  },
+  {
+    "type": "date",
+    "label": "Adoption Ceremony Date",
+    "key": "adoption_date",
+    "required": true,
+    "placeholder": "Select adoption date"
+  },
+{
+    "type": "text",
+    "label": "Certificate Place",
+    "key": "certificate_place",
+    "required": true,
+    "placeholder": "Select place"
+  },
+  {
+    "type": "date",
+    "label": "Certificate Date",
+    "key": "certificate_date",
+    "required": true,
+    "placeholder": "Select date"
+  },
+  {
+    "type": "text",
+    "label": "Witness 1 Name & Signature",
+    "key": "witness_1_name_&_signature",
+    "required": false,
+    "placeholder": "Sign here"
+  },
+  {
+    "type": "text",
+    "label": "Witness 2 Name & Signature",
+    "key": "witness_2_name_&_signature",
+    "required": false,
+    "placeholder": "Sign here"
+  },
+  {
+    "type": "text",
+    "label": "Superintendent Signature",
+    "key": "superintendent_signature",
+    "required": false,
+    "placeholder": "Enter superintendent signature"
+  },
+  {
+    "type": "text",
+    "label": "Superintendent Name",
+    "key": "superintendent_name",
+    "required": true,
+    "placeholder": "Enter superintendent name"
+  }
+  ],
+  "placeholder_order": [
+"adoptive_parent_name",
+"adoptive_parent_father_name",
+"adoptive_parent_age",
+"adoptive_parent_address",
+"orphanage_name",
+"visit_date",
+
+
+"adoptive_parent_name",
+"selected_child_name",
+"selected_child_age",
+
+
+"id_mark_1",
+"id_mark_2",
+
+
+"adoptive_parent_name",
+"adoptive_parent_name",
+
+"court_name",
+"court_name",
+"court_order_date",
+"selected_child_name",
+
+"selected_child_name",
+"adoptive_parent_name",
+"adoption_date",
+
+"selected_child_name",
+
+
+
+"certificate_place",
+"certificate_date",
+
+
+"witness_1_name_&_signature",
+"witness_2_name_&_signature",
+
+
+"superintendent_signature",
+"superintendent_name",
+
+"orphanage_name"
+  ]
+}

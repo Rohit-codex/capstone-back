@@ -1,0 +1,43 @@
+{
+  "title": "Replacement Of Attorney",
+  "filename": "Replacement-Of-Attorney.docx",
+  "category": "Power of Attorney Drafts",
+  "subcategory": "Revocation and Substitution",
+  "description": "Legal template for replacement of attorney",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter date"
+    },
+    {
+      "key": "witness_1_name",
+      "label": "Witness 1 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter first witness name"
+    },
+    {
+      "key": "witness_2_name",
+      "label": "Witness 2 Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter second witness name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "witness_1_name",
+    "witness_2_name",
+    "signatory_name"
+  ]
+}

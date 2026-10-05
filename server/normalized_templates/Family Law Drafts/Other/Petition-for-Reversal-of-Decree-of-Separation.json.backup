@@ -1,0 +1,35 @@
+{
+  "title": "Petition For Reversal Of Decree Of Separation",
+  "filename": "Petition-for-Reversal-of-Decree-of-Separation.docx",
+  "category": "Family Law Drafts",
+  "subcategory": "Other",
+  "description": "Legal template for petition for reversal of decree of separation",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details"
+    },
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter name"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter signatory name"
+    }
+  ],
+  "placeholder_order": [
+    "field_value",
+    "party_name",
+    "signatory_name"
+  ]
+}

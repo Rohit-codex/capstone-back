@@ -1,0 +1,436 @@
+{
+  "title": "Charges",
+  "filename": "CHARGES.docx",
+  "category": "Criminal Pleadings Drafts",
+  "subcategory": "Miscellaneous",
+  "description": "A charges used for criminal complaints, bail applications, or petitions in criminal proceedings. Suitable for accused persons, complainants, or their legal representatives in criminal matters. Key details required: Date (First Party), Date (Second Party), Date (Third Party), Amount (Rs.), Date (Fourth Party).",
+  "fields": [
+    {
+      "type": "date",
+      "label": "Date (First Party)",
+      "key": "date",
+      "required": true,
+      "placeholder": "Enter First Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Second Party)",
+      "key": "date_2",
+      "required": true,
+      "placeholder": "Enter Second Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Third Party)",
+      "key": "date_3",
+      "required": true,
+      "placeholder": "Enter Third Party  date"
+    },
+    {
+      "type": "number",
+      "label": "Amount (Rs.)",
+      "key": "amount",
+      "required": true,
+      "placeholder": "e.g., 50,000"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fourth Party)",
+      "key": "date_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Fifth)",
+      "key": "date_5",
+      "required": true,
+      "placeholder": "Enter Fifth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Sixth)",
+      "key": "date_6",
+      "required": true,
+      "placeholder": "Enter Sixth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Seventh)",
+      "key": "date_7",
+      "required": true,
+      "placeholder": "Enter Seventh  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (Eighth)",
+      "key": "date_8",
+      "required": true,
+      "placeholder": "Enter Eighth  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (9)",
+      "key": "date_9",
+      "required": true,
+      "placeholder": "Enter 9  date"
+    },
+    {
+      "type": "text",
+      "label": "Details",
+      "key": "field_value",
+      "required": true,
+      "placeholder": "Enter details here"
+    },
+    {
+      "type": "text",
+      "label": "Name (First Party)",
+      "key": "party_name",
+      "required": true,
+      "placeholder": "Enter First Party  name"
+    },
+    {
+      "type": "text",
+      "label": "Name (Second Party)",
+      "key": "party_name_2",
+      "required": true,
+      "placeholder": "Enter Second Party  name"
+    },
+    {
+      "type": "date",
+      "label": "Date (10)",
+      "key": "date_10",
+      "required": true,
+      "placeholder": "Enter 10  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (11)",
+      "key": "date_11",
+      "required": true,
+      "placeholder": "Enter 11  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (12)",
+      "key": "date_12",
+      "required": true,
+      "placeholder": "Enter 12  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (13)",
+      "key": "date_13",
+      "required": true,
+      "placeholder": "Enter 13  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (14)",
+      "key": "date_14",
+      "required": true,
+      "placeholder": "Enter 14  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (15)",
+      "key": "date_15",
+      "required": true,
+      "placeholder": "Enter 15  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (16)",
+      "key": "date_16",
+      "required": true,
+      "placeholder": "Enter 16  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (17)",
+      "key": "date_17",
+      "required": true,
+      "placeholder": "Enter 17  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (18)",
+      "key": "date_18",
+      "required": true,
+      "placeholder": "Enter 18  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (19)",
+      "key": "date_19",
+      "required": true,
+      "placeholder": "Enter 19  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (20)",
+      "key": "date_20",
+      "required": true,
+      "placeholder": "Enter 20  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (21)",
+      "key": "date_21",
+      "required": true,
+      "placeholder": "Enter 21  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (22)",
+      "key": "date_22",
+      "required": true,
+      "placeholder": "Enter 22  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (23)",
+      "key": "date_23",
+      "required": true,
+      "placeholder": "Enter 23  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (24)",
+      "key": "date_24",
+      "required": true,
+      "placeholder": "Enter 24  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (25)",
+      "key": "date_25",
+      "required": true,
+      "placeholder": "Enter 25  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (26)",
+      "key": "date_26",
+      "required": true,
+      "placeholder": "Enter 26  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (27)",
+      "key": "date_27",
+      "required": true,
+      "placeholder": "Enter 27  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (28)",
+      "key": "date_28",
+      "required": true,
+      "placeholder": "Enter 28  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (29)",
+      "key": "date_29",
+      "required": true,
+      "placeholder": "Enter 29  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (30)",
+      "key": "date_30",
+      "required": true,
+      "placeholder": "Enter 30  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (31)",
+      "key": "date_31",
+      "required": true,
+      "placeholder": "Enter 31  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (32)",
+      "key": "date_32",
+      "required": true,
+      "placeholder": "Enter 32  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (33)",
+      "key": "date_33",
+      "required": true,
+      "placeholder": "Enter 33  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (34)",
+      "key": "date_34",
+      "required": true,
+      "placeholder": "Enter 34  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (35)",
+      "key": "date_35",
+      "required": true,
+      "placeholder": "Enter 35  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (First Party)",
+      "key": "place",
+      "required": true,
+      "placeholder": "Enter First Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (36)",
+      "key": "date_36",
+      "required": true,
+      "placeholder": "Enter 36  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (37)",
+      "key": "date_37",
+      "required": true,
+      "placeholder": "Enter 37  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (38)",
+      "key": "date_38",
+      "required": true,
+      "placeholder": "Enter 38  date"
+    },
+    {
+      "type": "text",
+      "label": "Place (Second Party)",
+      "key": "place_2",
+      "required": true,
+      "placeholder": "Enter Second Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Third Party)",
+      "key": "place_3",
+      "required": true,
+      "placeholder": "Enter Third Party  place"
+    },
+    {
+      "type": "text",
+      "label": "Place (Fourth Party)",
+      "key": "place_4",
+      "required": true,
+      "placeholder": "Enter Fourth Party  place"
+    },
+    {
+      "type": "date",
+      "label": "Date (39)",
+      "key": "date_39",
+      "required": true,
+      "placeholder": "Enter 39  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (40)",
+      "key": "date_40",
+      "required": true,
+      "placeholder": "Enter 40  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (41)",
+      "key": "date_41",
+      "required": true,
+      "placeholder": "Enter 41  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (42)",
+      "key": "date_42",
+      "required": true,
+      "placeholder": "Enter 42  date"
+    },
+    {
+      "type": "date",
+      "label": "Date (43)",
+      "key": "date_43",
+      "required": true,
+      "placeholder": "Enter 43  date"
+    },
+    {
+      "type": "text",
+      "label": "Court Name/Place",
+      "key": "court_place",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    },
+    {
+      "key": "signatory_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Rajesh Kumar"
+    }
+  ],
+  "placeholder_order": [
+    "date",
+    "date_2",
+    "date_3",
+    "amount",
+    "date_4",
+    "date_5",
+    "date_6",
+    "date_7",
+    "date_8",
+    "date_9",
+    "field_value",
+    "party_name",
+    "party_name_2",
+    "date_10",
+    "date_11",
+    "date_12",
+    "date_13",
+    "date_14",
+    "date_15",
+    "date_16",
+    "date_17",
+    "date_18",
+    "date_19",
+    "date_20",
+    "date_21",
+    "date_22",
+    "date_23",
+    "date_24",
+    "date_25",
+    "date_26",
+    "date_27",
+    "date_28",
+    "date_29",
+    "date_30",
+    "date_31",
+    "date_32",
+    "date_33",
+    "date_34",
+    "date_35",
+    "place",
+    "date_36",
+    "date_37",
+    "date_38",
+    "place_2",
+    "place_3",
+    "place_4",
+    "date_39",
+    "date_40",
+    "date_41",
+    "date_42",
+    "date_43",
+    "court_place",
+    "signatory_name"
+  ],
+  "description_hi": "Charges — आपराधिक शिकायतें, जमानत आवेदन, या आपराधिक कार्यवाही में याचिकाएं के लिए उपयोग किया जाने वाला कानूनी प्रारूप। आपराधिक मामलों में अभियुक्त, शिकायतकर्ता, या उनके कानूनी प्रतिनिधि के लिए उपयुक्त। 53 आवश्यक विवरण भरने होंगे।"
+}
